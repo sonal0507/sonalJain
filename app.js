@@ -508,7 +508,8 @@ const professionalDatabase = {
             email: "priya.architect@example.com",
             verified: true,
             portfolio: ["Modern Villa", "Traditional Bungalow", "Eco-friendly Apartment"],
-            expertise: ["Kitchen Design", "Bathroom Planning", "Living Room Layout", "Bedroom Design"]
+            expertise: ["Kitchen Design", "Bathroom Planning", "Living Room Layout", "Bedroom Design"],
+            about: "With over 8 years of experience in residential architecture, I specialize in creating homes that perfectly balance functionality with aesthetic appeal. My designs incorporate sustainable practices and respect for Indian building traditions."
         },
         {
             id: 'arch_002',
@@ -526,7 +527,8 @@ const professionalDatabase = {
             email: "rajesh.architect@example.com",
             verified: true,
             portfolio: ["Green Building", "Office Complex", "Home Renovation"],
-            expertise: ["Energy Efficiency", "Natural Lighting", "Space Optimization", "Green Materials"]
+            expertise: ["Energy Efficiency", "Natural Lighting", "Space Optimization", "Green Materials"],
+            about: "I'm passionate about creating eco-friendly buildings that reduce environmental impact while maximizing comfort and functionality. My approach combines traditional wisdom with modern sustainable technologies."
         },
         {
             id: 'arch_003',
@@ -544,7 +546,8 @@ const professionalDatabase = {
             email: "ananya.architect@example.com",
             verified: true,
             portfolio: ["Luxury Villa", "Smart Home", "Garden Villa"],
-            expertise: ["Smart Home Integration", "Luxury Finishes", "Landscape Design", "Pool Design"]
+            expertise: ["Smart Home Integration", "Luxury Finishes", "Landscape Design", "Pool Design"],
+            about: "Specializing in luxury residential projects, I create homes that embody sophistication and cutting-edge technology. Each project is a unique masterpiece tailored to the client's lifestyle and preferences."
         }
     ],
     carpenters: [
@@ -557,1462 +560,710 @@ const professionalDatabase = {
             rating: 4.6,
             reviews: 25,
             experience: "12+ years",
-            specializations: ["Custom Furniture", "Kitchen Cabinets", "Wardrobes", "Wooden Flooring"],
-            styles: ["Modern", "Traditional", "Custom"],
-            budget: "20k-80k",
-            phone: "+91 98765 43213",
+            specializations: ["Custom Furniture", "Kitchen Cabinets", "Wardrobes", "Doors & Windows"],
+            services: ["Furniture Making", "Repair Work", "Installation", "Polish & Finishing"],
+            budget: "5k-50k",
+            phone: "+91 98765 43220",
             email: "suresh.carpenter@example.com",
             verified: true,
-            portfolio: ["Modular Kitchen", "Walk-in Wardrobe", "Study Table"],
-            expertise: ["Cupboard Design", "Kitchen Cabinets", "Bedroom Furniture", "Living Room Furniture", "Custom Storage"]
+            portfolio: ["Modern Kitchen", "Wooden Wardrobe", "Study Table"],
+            expertise: ["Teak Wood", "Plywood Work", "Laminate Finishing", "Hardware Installation"]
         },
         {
             id: 'carp_002',
-            name: "Ramesh Singh",
-            profession: "Carpenter",
-            location: "Pune, India",
-            distance: "2.1 km", 
-            rating: 4.5,
-            reviews: 18,
-            experience: "8 years",
-            specializations: ["Modular Furniture", "Office Furniture", "Repair Work", "Installation"],
-            styles: ["Modular", "Contemporary", "Office"],
-            budget: "15k-50k",
-            phone: "+91 98765 43214",
-            email: "ramesh.carpenter@example.com",
-            verified: true,
-            portfolio: ["Office Desk", "Modular Shelves", "Repair Work"],
-            expertise: ["Modular Cupboards", "Office Furniture", "Furniture Repair", "Installation Services"]
-        },
-        {
-            id: 'carp_003',
-            name: "Vikram Joshi",
+            name: "Ravi Gupta",
             profession: "Carpenter",
             location: "Delhi, India",
-            distance: "5.2 km",
-            rating: 4.8,
-            reviews: 30,
-            experience: "15+ years",
-            specializations: ["Luxury Furniture", "Antique Restoration", "Custom Designs", "Wooden Interiors"],
-            styles: ["Luxury", "Antique", "Custom", "Traditional"],
-            budget: "40k-120k",
-            phone: "+91 98765 43215",
-            email: "vikram.carpenter@example.com",
+            distance: "2.3 km",
+            rating: 4.5,
+            reviews: 18,
+            experience: "9 years",
+            specializations: ["Interior Carpentry", "Modular Kitchen", "Ceiling Work", "Partition Work"],
+            services: ["Design Consultation", "Material Supply", "Installation", "Maintenance"],
+            budget: "8k-80k",
+            phone: "+91 98765 43221",
+            email: "ravi.carpenter@example.com",
             verified: true,
-            portfolio: ["Luxury Bedroom Set", "Antique Cabinet", "Custom Dining Table"],
-            expertise: ["Luxury Cupboards", "Antique Restoration", "Custom Woodwork", "Traditional Designs"]
+            portfolio: ["Modular Kitchen", "False Ceiling", "Room Divider"],
+            expertise: ["Modular Design", "Space Saving Solutions", "Multi-functional Furniture", "Quick Installation"]
         }
     ],
     plumbers: [
         {
             id: 'plumb_001',
-            name: "Anil Kumar",
+            name: "Ramesh Singh",
             profession: "Plumber",
             location: "Mumbai, India",
             distance: "1.5 km",
-            rating: 4.4,
-            reviews: 22,
-            experience: "10 years",
-            specializations: ["Bathroom Fitting", "Kitchen Plumbing", "Water Heater Installation", "Pipe Repair"],
-            styles: ["Modern", "Standard"],
-            budget: "5k-25k",
-            phone: "+91 98765 43216",
-            email: "anil.plumber@example.com",
-            verified: true,
-            portfolio: ["Bathroom Renovation", "Kitchen Plumbing", "Water System"],
-            expertise: ["Bathroom Plumbing", "Kitchen Sinks", "Water Heaters", "Drainage Systems", "Pipe Installation"]
-        },
-        {
-            id: 'plumb_002',
-            name: "Mahesh Gupta",
-            profession: "Plumber",
-            location: "Pune, India",
-            distance: "2.8 km",
-            rating: 4.3,
-            reviews: 16,
-            experience: "7 years",
-            specializations: ["Drainage Systems", "Water Supply", "Leak Repair", "Fixture Installation"],
-            styles: ["Standard", "Emergency"],
-            budget: "3k-15k",
-            phone: "+91 98765 43217",
-            email: "mahesh.plumber@example.com",
-            verified: true,
-            portfolio: ["Drainage Work", "Water Supply", "Leak Fixing"],
-            expertise: ["Emergency Repairs", "Drainage Solutions", "Water Supply Systems", "Leak Detection"]
-        },
-        {
-            id: 'plumb_003',
-            name: "Deepak Sharma",
-            profession: "Plumber",
-            location: "Bangalore, India",
-            distance: "4.1 km",
             rating: 4.7,
-            reviews: 28,
-            experience: "12+ years",
-            specializations: ["Luxury Bathroom", "Smart Plumbing", "Solar Water Systems", "Swimming Pool"],
-            styles: ["Luxury", "Smart", "Eco-friendly"],
-            budget: "15k-60k",
-            phone: "+91 98765 43218",
-            email: "deepak.plumber@example.com",
+            reviews: 30,
+            experience: "15+ years",
+            specializations: ["Bathroom Plumbing", "Kitchen Plumbing", "Drainage Systems", "Water Heater Installation"],
+            services: ["New Installation", "Repair & Maintenance", "Leak Detection", "Pipe Replacement"],
+            budget: "500-5k",
+            phone: "+91 98765 43230",
+            email: "ramesh.plumber@example.com",
             verified: true,
-            portfolio: ["Luxury Bathroom", "Smart Home Plumbing", "Solar System"],
-            expertise: ["Luxury Fixtures", "Smart Water Systems", "Solar Installations", "Pool Plumbing"]
+            portfolio: ["Complete Bathroom Setup", "Kitchen Pipeline", "Drainage System"],
+            expertise: ["CPVC Pipes", "Copper Fitting", "Sanitaryware Installation", "Water Pressure Systems"]
         }
     ],
     painters: [
         {
             id: 'paint_001',
-            name: "Ravi Verma",
-            profession: "Painter",
-            location: "Mumbai, India",
-            distance: "2.2 km",
-            rating: 4.5,
-            reviews: 20,
-            experience: "9 years",
-            specializations: ["Interior Painting", "Exterior Painting", "Texture Work", "Wallpaper"],
-            styles: ["Modern", "Traditional", "Textured"],
-            budget: "8k-30k",
-            phone: "+91 98765 43219",
-            email: "ravi.painter@example.com",
-            verified: true,
-            portfolio: ["Living Room Paint", "Exterior House", "Textured Wall"],
-            expertise: ["Wall Painting", "Ceiling Paint", "Texture Designs", "Color Consultation", "Wallpaper Installation"]
-        },
-        {
-            id: 'paint_002',
-            name: "Santosh Patil",
+            name: "Arjun Mehta",
             profession: "Painter",
             location: "Pune, India",
-            distance: "1.9 km",
-            rating: 4.4,
-            reviews: 14,
-            experience: "6 years",
-            specializations: ["Residential Painting", "Commercial Painting", "Wood Polishing", "Metal Painting"],
-            styles: ["Residential", "Commercial"],
-            budget: "5k-20k",
-            phone: "+91 98765 43220",
-            email: "santosh.painter@example.com",
-            verified: true,
-            portfolio: ["Home Painting", "Office Paint", "Wood Polish"],
-            expertise: ["Room Painting", "Office Spaces", "Wood Finishes", "Metal Coatings"]
-        },
-        {
-            id: 'paint_003',
-            name: "Ajay Singh",
-            profession: "Painter",
-            location: "Delhi, India",
-            distance: "6.8 km",
+            distance: "2.1 km",
             rating: 4.6,
-            reviews: 35,
-            experience: "14+ years",
-            specializations: ["Decorative Painting", "Artistic Work", "Restoration", "Specialty Finishes"],
-            styles: ["Artistic", "Decorative", "Luxury"],
-            budget: "15k-50k",
-            phone: "+91 98765 43221",
-            email: "ajay.painter@example.com",
+            reviews: 22,
+            experience: "10+ years",
+            specializations: ["Wall Painting", "Texture Painting", "Exterior Painting", "Wood Polishing"],
+            services: ["Color Consultation", "Surface Preparation", "Painting", "Touch-up Work"],
+            budget: "15-50 per sqft",
+            phone: "+91 98765 43240",
+            email: "arjun.painter@example.com",
             verified: true,
-            portfolio: ["Artistic Mural", "Decorative Wall", "Restoration Work"],
-            expertise: ["Artistic Designs", "Decorative Techniques", "Wall Art", "Specialty Coatings", "Restoration"]
-        }
-    ],
-    electricians: [
-        {
-            id: 'elec_001',
-            name: "Mohan Lal",
-            profession: "Electrician",
-            location: "Mumbai, India",
-            distance: "1.7 km",
-            rating: 4.6,
-            reviews: 18,
-            experience: "11 years",
-            specializations: ["Home Wiring", "LED Installation", "Fan Installation", "Switch Boards"],
-            styles: ["Modern", "Standard"],
-            budget: "3k-18k",
-            phone: "+91 98765 43222",
-            email: "mohan.electrician@example.com",
-            verified: true,
-            portfolio: ["Home Wiring", "LED Setup", "Fan Installation"],
-            expertise: ["Electrical Wiring", "Lighting Solutions", "Fan Installation", "Switch Installation", "Safety Systems"]
-        },
-        {
-            id: 'elec_002',
-            name: "Prakash Jain",
-            profession: "Electrician",
-            location: "Pune, India",
-            distance: "3.1 km",
-            rating: 4.5,
-            reviews: 21,
-            experience: "8 years",
-            specializations: ["Smart Home", "Security Systems", "Solar Installation", "Automation"],
-            styles: ["Smart", "Automated"],
-            budget: "8k-35k",
-            phone: "+91 98765 43223",
-            email: "prakash.electrician@example.com",
-            verified: true,
-            portfolio: ["Smart Home Setup", "Security System", "Solar Panel"],
-            expertise: ["Smart Lighting", "Home Automation", "Security Installation", "Solar Systems"]
+            portfolio: ["Modern Home Paint", "Textured Wall", "Exterior Paint"],
+            expertise: ["Asian Paints", "Berger Paints", "Texture Work", "Color Matching"]
         }
     ]
 };
 
-// App State Management
-let currentUser = null;
-let currentProject = null;
-let selectedArchitects = [];
+// Global variables for current project
+let currentProject = {
+    name: '',
+    type: '',
+    bedrooms: 0,
+    area: 0,
+    bathrooms: 0,
+    location: '',
+    familyInvites: [],
+    budget: 0,
+    boqFile: null
+};
+
 let uploadedPhotos = [];
-let propertyAuditData = {};
-let shortlistedProfessionals = [];
-let selectedForComparison = [];
-let currentPhotoIndex = 0;
-let mediaRecorder = null;
-let audioChunks = [];
-
-// Mock architect data
-const mockArchitects = [
-    {
-        id: 1,
-        name: "Priya Sharma",
-        location: "Mumbai, India",
-        distance: "2.6 km",
-        rating: 4.9,
-        reviews: 12,
-        bio: "Passionate about creating homes that blend modern aesthetics with traditional Indian architecture.",
-        specialization: "Residential Design",
-        experience: "8+ years",
-        styles: ["Modern", "Traditional", "Contemporary"],
-        budget: "150k-300k",
-        avatar: "👩‍💼",
-        portfolio: ["🏠", "🏡", "🏢"],
-        services: ["Architecture Design", "Interior Design", "Project Management", "3D Visualization"],
-        about: "With over 8 years of experience in residential architecture, I specialize in creating homes that perfectly balance functionality with aesthetic appeal. My designs incorporate sustainable practices and respect for Indian building traditions.",
-        verified: true
-    },
-    {
-        id: 2,
-        name: "Rajesh Kumar",
-        location: "Pune, India", 
-        distance: "5.2 km",
-        rating: 4.7,
-        reviews: 8,
-        bio: "Expert in sustainable architecture and energy-efficient design solutions for modern Indian homes.",
-        specialization: "Sustainable Architecture",
-        experience: "6 years",
-        styles: ["Sustainable", "Modern", "Minimalist"],
-        budget: "50k-150k",
-        avatar: "👨‍💼",
-        portfolio: ["🌿", "🏘️", "🏗️"],
-        services: ["Sustainable Design", "Energy Consultation", "Green Building Certification"],
-        about: "I focus on creating environmentally conscious designs that reduce energy consumption while maintaining comfort and style. Every project is an opportunity to build a better future.",
-        verified: true
-    },
-    {
-        id: 3,
-        name: "Arun Mehta",
-        location: "Mumbai, India",
-        distance: "3.8 km", 
-        rating: 4.8,
-        reviews: 15,
-        bio: "Specializing in luxury residential projects with a focus on contemporary Indian design.",
-        specialization: "Luxury Residential",
-        experience: "10+ years",
-        styles: ["Contemporary", "Modern", "Luxury"],
-        budget: "above-300k",
-        avatar: "👨‍💻",
-        portfolio: ["🏰", "🏖️", "🌆"],
-        services: ["Luxury Design", "Custom Architecture", "High-end Interiors"],
-        about: "With a decade of experience in luxury residential projects, I create bespoke architectural solutions that reflect my clients' lifestyle and aspirations.",
-        verified: true
-    }
-];
-
-// DOM Content Loaded Event
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('App loaded successfully');
-    
-    // Initialize the app
-    initializeApp();
-    
-    // Add click handlers for all buttons
-    setupEventListeners();
-    
-    // Add specific event listener for splash screen
-    const splashScreen = document.getElementById('splash');
-    if (splashScreen) {
-        splashScreen.addEventListener('click', function() {
-            console.log('Splash screen clicked');
-            showScreen('intro1');
-        });
-    }
-});
-
-// Initialize Application
-function initializeApp() {
-    // Load saved data from localStorage
-    loadUserData();
-    loadProjectData();
-    loadShortlistData();
-    
-    // Setup form validation
-    setupFormValidation();
-    
-    // Initialize any required components
-    initializeComponents();
-}
-
-// Simple, reliable navigation function
-function showScreen(screenId) {
-    console.log('Navigating to:', screenId);
-    
-    // Hide all screens
-    const allScreens = document.querySelectorAll('.screen');
-    console.log('Found screens:', allScreens.length);
-    allScreens.forEach(screen => {
-        screen.classList.remove('active');
-    });
-    
-    // Show target screen
-    const targetScreen = document.getElementById(screenId);
-    if (targetScreen) {
-        targetScreen.classList.add('active');
-        window.scrollTo(0, 0);
-        
-        // Update dashboard with user data when showing dashboard
-        if (screenId === 'dashboard') {
-            console.log('Updating dashboard names...');
-            updateDashboardNames();
-        }
-        
-        // Load notes list when showing notes list screen
-        if (screenId === 'notes-list') {
-            loadNotesList();
-        }
-        
-        // Load architects when showing architect listing screen
-        if (screenId === 'architect-listing') {
-            loadProfessionals('architects');
-        }
-        
-        console.log('Successfully navigated to:', screenId);
-        console.log('Target screen classes:', targetScreen.className);
-    } else {
-        console.error('Screen not found:', screenId);
-        console.log('Available screen IDs:', Array.from(document.querySelectorAll('.screen')).map(s => s.id));
-    }
-}
+let selectedPhotos = [];
 
 // Navigation Functions
-function goToWelcome() {
-    showScreen('welcome');
-}
-
-function goToLogin() {
-    showScreen('login');
-}
-
-function goToSignup() {
-    showScreen('signup');
-}
-
-function goToOnboarding() {
-    showScreen('intro1');
-}
-
-function goToDashboard() {
-    showScreen('main-menu');
-}
-
 function goToMainMenu() {
     showScreen('main-menu');
-}
-
-function goToStartProject() {
-    showScreen('start-new-project');
+    // Initialize main menu when shown
+    updateMenuCounters();
 }
 
 function goToFindProfessionals() {
-    showScreen('find-professionals-main');
+    showScreen('find-professionals');
 }
 
-function goToTrackProgress() {
-    showScreen('track-progress-main');
+function goToProjects() {
+    showScreen('my-projects');
 }
 
-// New Project Flow Functions
 function goToProjectDetails() {
-    showScreen('project-details-form');
+    showScreen('project-details');
+    updateProjectDetails();
 }
 
-function goToUploadPhotos() {
-    showScreen('upload-photos');
+function goToProjectSchedule() {
+    showScreen('project-schedule');
+    updateProjectSchedule();
 }
 
-function goToHomePathway() {
-    showScreen('home-pathway');
+function goToProjectBudget() {
+    showScreen('project-budget');
+    updateProjectBudget();
 }
 
-function goToFindArchitect() {
-    showScreen('find-professionals-main');
+function goToProjectPhotos() {
+    showScreen('project-photos');
+    updateProjectPhotos();
 }
 
-// Form Handling
-function handleLogin(event) {
-    event.preventDefault();
-    const email = document.getElementById('login-email').value;
-    const password = document.getElementById('login-password').value;
-    
-    if (email && password) {
-        // Simulate login
-        currentUser = {
-            email: email,
-            name: email.split('@')[0]
-        };
-        saveUserData();
-        showScreen('dashboard');
+function goToProjectChat() {
+    showScreen('project-chat');
+    if (!chatInitialized) {
+        initializeProjectChat();
     }
 }
 
-function handleSignup(event) {
-    event.preventDefault();
-    const email = document.getElementById('signup-email').value;
-    const password = document.getElementById('signup-password').value;
-    const confirmPassword = document.getElementById('signup-confirm-password').value;
+function goToSettings() {
+    showScreen('app-settings');
+}
+
+function goToProfessionalDetails(professionalId) {
+    showScreen('professional-details');
+    loadProfessionalDetails(professionalId);
+}
+
+// Professional Search Functions
+function searchProfessionals() {
+    const profession = document.getElementById('profession-select').value;
+    const location = document.getElementById('location-input').value;
+    const budget = document.getElementById('budget-range').value;
     
-    if (email && password && password === confirmPassword) {
-        // Simulate signup
-        currentUser = {
-            email: email,
-            name: email.split('@')[0]
-        };
-        saveUserData();
-        showScreen('onboarding1');
+    displaySearchResults(profession, location, budget);
+}
+
+function displaySearchResults(profession, location, budget) {
+    const resultsContainer = document.getElementById('search-results');
+    resultsContainer.innerHTML = '';
+    
+    let professionals = [];
+    
+    // Filter professionals by type
+    switch(profession) {
+        case 'architect':
+            professionals = professionalDatabase.architects;
+            break;
+        case 'carpenter':
+            professionals = professionalDatabase.carpenters;
+            break;
+        case 'plumber':
+            professionals = professionalDatabase.plumbers;
+            break;
+        case 'painter':
+            professionals = professionalDatabase.painters;
+            break;
+        default:
+            professionals = [
+                ...professionalDatabase.architects,
+                ...professionalDatabase.carpenters,
+                ...professionalDatabase.plumbers,
+                ...professionalDatabase.painters
+            ];
     }
-}
-
-// Step 1: Home Name Handling
-function handleStep1(event) {
-    event.preventDefault();
-    const homeName = document.getElementById('home-name-step1').value;
     
-    // Save step 1 data
-    if (!currentProject) currentProject = {};
-    currentProject.step1 = { homeName };
-    saveProjectData();
-    
-    console.log('Step 1 completed, home name:', homeName);
-    
-    // Navigate to step 2
-    showScreen('home-details-step2');
-}
-
-// Step 2: Home Details Handling
-function handleStep2(event) {
-    event.preventDefault();
-    const formData = {
-        homeType: document.getElementById('home-type-step2').value,
-        bedrooms: document.getElementById('bedrooms-step2').value,
-        squareFeet: document.getElementById('square-feet-step2').value,
-        bathrooms: document.getElementById('bathrooms-step2').value,
-        homeLocation: document.getElementById('home-location-step2').value
-    };
-    
-    // Save step 2 data
-    currentProject.step2 = formData;
-    saveProjectData();
-    
-    // Navigate to step 3
-    showScreen('home-details-step3');
-}
-
-// Step 3: Family Invitation Handling
-function handleStep3(event) {
-    event.preventDefault();
-    const familyInvite = document.getElementById('family-invite-step3').value;
-    
-    // Save step 3 data
-    currentProject.step3 = { familyInvite };
-    saveProjectData();
-    
-    // Navigate to step 4
-    showScreen('home-details-step4');
-}
-
-// Step 4: Budget Handling
-function handleStep4(event) {
-    event.preventDefault();
-    const budget = document.getElementById('budget-step4').value;
-    
-    // Save step 4 data
-    currentProject.step4 = { budget };
-    saveProjectData();
-    
-    console.log('Step 4 completed, project setup finished');
-    
-    // Show congratulations and navigate to pathway
-    showCongratulations();
-}
-
-// BOQ Upload Handling
-function handleBOQUpload(input) {
-    const file = input.files[0];
-    const statusDiv = document.getElementById('boq-status');
-    
-    if (file) {
-        // Check file size (max 10MB)
-        if (file.size > 10 * 1024 * 1024) {
-            statusDiv.textContent = 'File too large. Please choose a file under 10MB.';
-            statusDiv.className = 'upload-status error';
-            return;
-        }
-        
-        // Success
-        statusDiv.textContent = `✓ ${file.name} uploaded successfully`;
-        statusDiv.className = 'upload-status success';
-        
-        // Store file reference
-        if (!currentProject.step4) currentProject.step4 = {};
-        currentProject.step4.boqFile = {
-            name: file.name,
-            size: file.size,
-            type: file.type
-        };
-        saveProjectData();
+    // Filter by location if specified
+    if (location) {
+        professionals = professionals.filter(prof => 
+            prof.location.toLowerCase().includes(location.toLowerCase())
+        );
     }
-}
-
-// Congratulations handler
-function showCongratulations() {
-    // For now, directly navigate to dashboard then pathway
-    // This ensures the dashboard names are updated first
-    console.log('Setup completed, navigating to dashboard then pathway');
-    showScreen('dashboard');
     
-    // Small delay to ensure dashboard loads before going to pathway
-    setTimeout(() => {
-        showScreen('home-pathway');
-    }, 100);
-}
-
-// Phase selection handler
-function selectPhase(phaseNumber) {
-    console.log('Phase selected:', phaseNumber);
-    
-    // Update active tab
-    const tabs = document.querySelectorAll('.phase-tab');
-    tabs.forEach(tab => tab.classList.remove('active'));
-    tabs[phaseNumber - 1]?.classList.add('active');
-    
-    // In a real app, this would load different phase content
-    // For now, we'll just log the selection
-}
-
-// Step details handler
-function showStepDetails(stepId) {
-    console.log('Step details requested for:', stepId);
-    // In a real app, this would show detailed step information
-}
-
-// Property audit screen placeholder
-function showPropertyAudit() {
-    console.log('Property audit screen - to be implemented');
-    // This will be implemented with the detailed property audit flow
-}
-
-// Login Functions
-function handleGoogleLogin() {
-    // Simulate Google login
-    console.log('Google login clicked');
-    currentUser = {
-        email: 'user@gmail.com',
-        name: 'User',
-        loginMethod: 'google'
-    };
-    saveUserData();
-    showScreen('home-setup');
-}
-
-function handleEmailLogin() {
-    const email = document.getElementById('welcome-email').value;
-    if (email && email.includes('@')) {
-        // Simulate email login
-        currentUser = {
-            email: email,
-            name: email.split('@')[0],
-            loginMethod: 'email'
-        };
-        saveUserData();
-        showScreen('home-setup');
-    } else {
-        alert('Please enter a valid email address');
-    }
-}
-
-function showOtherOptions() {
-    // This could show additional login options like Apple, Facebook, etc.
-    console.log('Show other login options');
-    // For now, just show the existing login screen
-    showScreen('login');
-}
-
-// Data Management for Shortlist
-function loadShortlistData() {
-    const saved = localStorage.getItem('homii-shortlist');
-    if (saved) {
-        shortlistedProfessionals = JSON.parse(saved);
-    }
-}
-
-function saveShortlistData() {
-    localStorage.setItem('homii-shortlist', JSON.stringify(shortlistedProfessionals));
-}
-
-// Data Management
-function loadUserData() {
-    const saved = localStorage.getItem('homii-user');
-    if (saved) {
-        currentUser = JSON.parse(saved);
-        console.log('Loaded user data:', currentUser);
-    }
-}
-
-function saveUserData() {
-    localStorage.setItem('homii-user', JSON.stringify(currentUser));
-    console.log('Saved user data:', currentUser);
-}
-
-function loadProjectData() {
-    const saved = localStorage.getItem('homii-project');
-    if (saved) {
-        currentProject = JSON.parse(saved);
-        console.log('Loaded project data:', currentProject);
-    }
-}
-
-function saveProjectData() {
-    localStorage.setItem('homii-project', JSON.stringify(currentProject));
-    console.log('Saved project data:', currentProject);
-}
-
-// Update Dashboard Names
-function updateDashboardNames() {
-    try {
-        // Get user name - try multiple sources
-        let userName = 'User';
-        if (currentUser && currentUser.name) {
-            userName = currentUser.name;
-        } else if (currentUser && currentUser.email) {
-            userName = currentUser.email.split('@')[0];
-        }
-        
-        // Get home name from project data
-        let homeName = 'User\'s Home';
-        if (currentProject && currentProject.step1 && currentProject.step1.homeName) {
-            homeName = currentProject.step1.homeName;
-        }
-        
-        // Update the dashboard elements
-        const userNameElement = document.getElementById('dashboard-user-name');
-        const homeNameElements = document.querySelectorAll('#dashboard-home-name');
-        
-        if (userNameElement) {
-            userNameElement.textContent = userName + '!';
-        }
-        
-        homeNameElements.forEach(element => {
-            if (element) {
-                element.textContent = homeName;
-            }
-        });
-        
-        console.log('Dashboard updated with user:', userName, 'home:', homeName);
-    } catch (error) {
-        console.error('Error updating dashboard names:', error);
-    }
-}
-
-// Event Listeners Setup
-function setupEventListeners() {
-    // Add any additional event listeners here
-    console.log('Event listeners setup complete');
-}
-
-// Form Validation
-function setupFormValidation() {
-    // Add form validation logic here
-    console.log('Form validation setup complete');
-}
-
-// Initialize Components
-function initializeComponents() {
-    // Initialize any additional components as needed
-    console.log('Components initialized successfully');
-}
-
-// Back Navigation
-function goBack() {
-    // Simple back navigation - in a real app you'd maintain a navigation history
-    window.history.back();
-}
-
-// Logout
-function logout() {
-    currentUser = null;
-    localStorage.removeItem('homii-user');
-    showScreen('welcome');
-}
-
-// Site Survey Photo Functions
-function openPhotoOptions() {
-    document.getElementById('photo-modal').style.display = 'block';
-}
-
-function closePhotoModal() {
-    document.getElementById('photo-modal').style.display = 'none';
-}
-
-function takePhoto() {
-    document.getElementById('camera-input').click();
-    closePhotoModal();
-}
-
-function selectFromGallery() {
-    document.getElementById('gallery-input').click();
-    closePhotoModal();
-}
-
-function handlePhotoCapture(input) {
-    const files = input.files;
-    if (files.length > 0) {
-        for (let i = 0; i < files.length; i++) {
-            const file = files[i];
-            const reader = new FileReader();
-            reader.onload = function(e) {
-                currentPhotoIndex = uploadedPhotos.length;
-                showPhotoDetailModal(e.target.result, file);
-            };
-            reader.readAsDataURL(file);
-        }
-    }
-    input.value = ''; // Reset input
-}
-
-function showPhotoDetailModal(imageSrc, file) {
-    const modal = document.getElementById('photo-detail-modal');
-    const preview = document.getElementById('photo-preview');
-    preview.innerHTML = `<img src="${imageSrc}" alt="Photo preview">`;
-    modal.style.display = 'block';
-}
-
-function closePhotoDetailModal() {
-    document.getElementById('photo-detail-modal').style.display = 'none';
-    document.getElementById('room-tag').value = '';
-    document.getElementById('photo-notes').value = '';
-}
-
-function savePhotoDetails() {
-    const roomTag = document.getElementById('room-tag').value;
-    const notes = document.getElementById('photo-notes').value;
-    const imageSrc = document.querySelector('#photo-preview img').src;
-    
-    const photo = {
-        id: Date.now(),
-        src: imageSrc,
-        roomTag: roomTag || 'Untagged',
-        notes: notes,
-        timestamp: new Date().toLocaleString()
-    };
-    
-    uploadedPhotos.push(photo);
-    updatePhotoDisplay();
-    closePhotoDetailModal();
-    updateNextButton();
-}
-
-function updatePhotoDisplay() {
-    const photoCount = document.getElementById('photo-count');
-    const syncStatus = document.getElementById('sync-status');
-    const photoGrid = document.getElementById('photo-grid');
-    
-    photoCount.textContent = `${uploadedPhotos.length} Photos Uploaded`;
-    syncStatus.textContent = uploadedPhotos.length > 0 ? '✅ All synced' : '📤 Ready to sync';
-    
-    photoGrid.innerHTML = '';
-    uploadedPhotos.forEach((photo, index) => {
-        const photoItem = document.createElement('div');
-        photoItem.className = 'photo-item';
-        photoItem.innerHTML = `
-            <img src="${photo.src}" alt="Site photo">
-            <div class="photo-tag">${photo.roomTag}</div>
-            <button class="photo-delete" onclick="deletePhoto(${index})">×</button>
-        `;
-        photoItem.onclick = () => viewPhotoDetail(index);
-        photoGrid.appendChild(photoItem);
+    // Display results
+    professionals.forEach(professional => {
+        const professionalCard = createProfessionalCard(professional);
+        resultsContainer.appendChild(professionalCard);
     });
-}
-
-function deletePhoto(index) {
-    uploadedPhotos.splice(index, 1);
-    updatePhotoDisplay();
-    updateNextButton();
-}
-
-function viewPhotoDetail(index) {
-    const photo = uploadedPhotos[index];
-    alert(`Room: ${photo.roomTag}\nNotes: ${photo.notes || 'No notes'}\nTime: ${photo.timestamp}`);
-}
-
-function updateNextButton() {
-    const nextBtn = document.getElementById('next-btn');
-    if (nextBtn) {
-        nextBtn.disabled = uploadedPhotos.length === 0;
-    }
-}
-
-function goToNext() {
-    if (uploadedPhotos.length > 0) {
-        // Save photos to project data
-        if (!currentProject) currentProject = {};
-        currentProject.sitePhotos = uploadedPhotos;
-        saveProjectData();
-        
-        showScreen('home-pathway');
-    }
-}
-
-function toggleVoiceRecording() {
-    const voiceIcon = document.getElementById('voice-icon');
-    const voiceText = document.getElementById('voice-text');
-    const voiceStatus = document.getElementById('voice-status');
     
-    if (!isRecording) {
-        // Start recording
-        if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-            navigator.mediaDevices.getUserMedia({ audio: true })
-                .then(stream => {
-                    mediaRecorder = new MediaRecorder(stream);
-                    audioChunks = [];
-                    
-                    mediaRecorder.ondataavailable = event => {
-                        audioChunks.push(event.data);
-                    };
-                    
-                    mediaRecorder.onstop = () => {
-                        const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
-                        voiceStatus.textContent = '✅ Voice note recorded';
-                    };
-                    
-                    mediaRecorder.start();
-                    isRecording = true;
-                    voiceIcon.textContent = '⏹️';
-                    voiceText.textContent = 'Stop Recording';
-                    voiceStatus.textContent = '🔴 Recording...';
-                })
-                .catch(err => {
-                    voiceStatus.textContent = '❌ Could not access microphone';
-                });
-        }
-    } else {
-        // Stop recording
-        if (mediaRecorder && mediaRecorder.state === 'recording') {
-            mediaRecorder.stop();
-            mediaRecorder.stream.getTracks().forEach(track => track.stop());
-        }
-        isRecording = false;
-        voiceIcon.textContent = '🎤';
-        voiceText.textContent = 'Add Voice Note';
+    if (professionals.length === 0) {
+        resultsContainer.innerHTML = '<p class="no-results">No professionals found matching your criteria.</p>';
     }
 }
 
-// Architect Listing Functions
-function selectProfessionalTab(tabName) {
-    const tabs = document.querySelectorAll('.tab-btn');
-    tabs.forEach(tab => tab.classList.remove('active'));
-    event.target.classList.add('active');
-    
-    // Load professionals based on tab
-    loadProfessionals(tabName);
-}
-
-function loadProfessionals(type = 'architects') {
-    const list = document.getElementById('professionals-list');
-    list.innerHTML = '';
-    
-    if (type === 'architects') {
-        mockArchitects.forEach(architect => {
-            const card = createProfessionalCard(architect);
-            list.appendChild(card);
-        });
-    } else {
-        list.innerHTML = `<div style="text-align: center; padding: 40px; color: #666;">
-            ${type.charAt(0).toUpperCase() + type.slice(1)} coming soon!
-        </div>`;
-    }
-}
-
-function createProfessionalCard(architect) {
+function createProfessionalCard(professional) {
     const card = document.createElement('div');
     card.className = 'professional-card';
-    const isArchitectShortlisted = isShortlisted(architect.id);
+    card.onclick = () => goToProfessionalDetails(professional.id);
     
     card.innerHTML = `
         <div class="professional-header">
             <div class="professional-avatar">
-                <div style="font-size: 30px; display: flex; align-items: center; justify-content: center; height: 100%;">
-                    ${architect.avatar}
-                </div>
+                ${professional.name.charAt(0)}
             </div>
             <div class="professional-info">
-                <div class="professional-name">${architect.name}</div>
-                <div class="professional-location">${architect.location} | ${architect.distance}</div>
-                <div class="professional-rating">
-                    ⭐ ${architect.rating} (${architect.reviews} reviews)
+                <h3>${professional.name}</h3>
+                <p class="profession">${professional.profession}</p>
+                <div class="rating">
+                    ${'⭐'.repeat(Math.floor(professional.rating))} ${professional.rating} (${professional.reviews} reviews)
                 </div>
             </div>
+            ${professional.verified ? '<div class="verified-badge">✓</div>' : ''}
         </div>
-        <div class="professional-bio">${architect.bio}</div>
-        <div class="professional-actions">
-            <button class="btn btn-outline ${isArchitectShortlisted ? 'shortlisted' : ''}" 
-                    onclick="shortlistArchitect(${architect.id})" 
-                    style="${isArchitectShortlisted ? 'background-color: #4CAF50; color: white;' : ''}">
-                ${isArchitectShortlisted ? 'Shortlisted' : 'Shortlist'}
-            </button>
-            <button class="btn btn-primary" onclick="viewArchitectProfile(${architect.id})">View work</button>
+        <div class="professional-details">
+            <p class="location">📍 ${professional.location} • ${professional.distance}</p>
+            <p class="experience">🏗️ ${professional.experience}</p>
+            <p class="budget">💰 ${professional.budget}</p>
+            <div class="specializations">
+                ${professional.specializations.slice(0, 2).map(spec => 
+                    `<span class="spec-tag">${spec}</span>`
+                ).join('')}
+            </div>
         </div>
     `;
+    
     return card;
 }
 
-function isShortlisted(architectId) {
-    return shortlistedProfessionals.some(p => p.id === architectId);
-}
-
-function shortlistArchitect(architectId) {
-    const architect = mockArchitects.find(a => a.id === architectId);
+function loadProfessionalDetails(professionalId) {
+    // Find professional in database
+    const allProfessionals = [
+        ...professionalDatabase.architects,
+        ...professionalDatabase.carpenters,
+        ...professionalDatabase.plumbers,
+        ...professionalDatabase.painters
+    ];
     
-    if (architect) {
-        if (!isShortlisted(architectId)) {
-            // Add to shortlist
-            shortlistedProfessionals.push(architect);
-            saveShortlistData();
-            
-            // Update all shortlist buttons for this architect
-            updateShortlistButtons(architectId, true);
-            
-            // Show feedback
-            showToast('Added to shortlist!');
-        } else {
-            // Remove from shortlist
-            shortlistedProfessionals = shortlistedProfessionals.filter(p => p.id !== architectId);
-            saveShortlistData();
-            
-            // Update all shortlist buttons for this architect
-            updateShortlistButtons(architectId, false);
-            
-            // Show feedback
-            showToast('Removed from shortlist!');
-        }
+    const professional = allProfessionals.find(p => p.id === professionalId);
+    
+    if (professional) {
+        updateProfessionalDetailsView(professional);
     }
 }
 
-function updateShortlistButtons(architectId, isShortlisted) {
-    // Find all shortlist buttons for this architect and update them
-    const buttons = document.querySelectorAll(`button[onclick="shortlistArchitect(${architectId})"]`);
-    buttons.forEach(button => {
-        if (isShortlisted) {
-            button.textContent = 'Shortlisted';
-            button.classList.add('shortlisted');
-            button.style.backgroundColor = '#4CAF50';
-            button.style.color = 'white';
-        } else {
-            button.textContent = 'Shortlist';
-            button.classList.remove('shortlisted');
-            button.style.backgroundColor = '';
-            button.style.color = '';
-        }
+function updateProfessionalDetailsView(professional) {
+    document.getElementById('prof-name').textContent = professional.name;
+    document.getElementById('prof-profession').textContent = professional.profession;
+    document.getElementById('prof-rating').textContent = `${professional.rating} (${professional.reviews} reviews)`;
+    document.getElementById('prof-location').textContent = professional.location;
+    document.getElementById('prof-experience').textContent = professional.experience;
+    document.getElementById('prof-budget').textContent = professional.budget;
+    
+    // About section
+    document.getElementById('prof-about').textContent = professional.about || 'Experienced professional dedicated to quality work.';
+    
+    // Specializations
+    const specializationsContainer = document.getElementById('prof-specializations');
+    specializationsContainer.innerHTML = professional.specializations.map(spec => 
+        `<span class="spec-tag">${spec}</span>`
+    ).join('');
+    
+    // Portfolio
+    const portfolioContainer = document.getElementById('prof-portfolio');
+    portfolioContainer.innerHTML = professional.portfolio.map(work => 
+        `<div class="portfolio-item">${work}</div>`
+    ).join('');
+    
+    // Contact info
+    document.getElementById('prof-phone').textContent = professional.phone;
+    document.getElementById('prof-email').textContent = professional.email;
+}
+
+// Project Management Functions
+function updateProjectDetails() {
+    document.getElementById('project-name-display').textContent = currentProject.name || 'My Home Project';
+    document.getElementById('project-type-display').textContent = currentProject.type || 'Villa';
+    document.getElementById('project-area-display').textContent = currentProject.area || '1200 sqft';
+    document.getElementById('project-location-display').textContent = currentProject.location || 'Mumbai, India';
+}
+
+let projectSteps = [
+    { id: 'planning', name: 'Planning & Design', status: 'completed', progress: 100 },
+    { id: 'permits', name: 'Permits & Approvals', status: 'in-progress', progress: 75 },
+    { id: 'foundation', name: 'Foundation Work', status: 'upcoming', progress: 0 },
+    { id: 'structure', name: 'Structure Construction', status: 'upcoming', progress: 0 },
+    { id: 'plumbing', name: 'Plumbing & Electrical', status: 'upcoming', progress: 0 },
+    { id: 'finishing', name: 'Finishing Work', status: 'upcoming', progress: 0 }
+];
+
+function updateProjectSchedule() {
+    const stepsContainer = document.getElementById('project-steps');
+    stepsContainer.innerHTML = '';
+    
+    projectSteps.forEach(step => {
+        const stepElement = document.createElement('div');
+        stepElement.className = `project-step ${step.status}`;
+        stepElement.onclick = () => showStepDetails(step.id);
+        
+        stepElement.innerHTML = `
+            <div class="step-icon">
+                ${step.status === 'completed' ? '✅' : 
+                  step.status === 'in-progress' ? '🔄' : '⏳'}
+            </div>
+            <div class="step-info">
+                <h4>${step.name}</h4>
+                <div class="step-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: ${step.progress}%"></div>
+                    </div>
+                    <span class="progress-text">${step.progress}%</span>
+                </div>
+            </div>
+        `;
+        
+        stepsContainer.appendChild(stepElement);
     });
 }
 
-function viewArchitectProfile(architectId) {
-    const architect = mockArchitects.find(a => a.id === architectId);
-    if (architect) {
-        displayArchitectProfile(architect);
-        showScreen('architect-profile');
+function showStepDetails(stepId) {
+    const step = projectSteps.find(s => s.id === stepId);
+    if (step) {
+        alert(`${step.name}\nStatus: ${step.status}\nProgress: ${step.progress}%`);
     }
 }
 
-function displayArchitectProfile(architect) {
-    const content = document.getElementById('architect-profile-content');
-    content.innerHTML = `
-        <div class="profile-header">
-            <div class="profile-avatar">
-                <div style="font-size: 50px; display: flex; align-items: center; justify-content: center; height: 100%;">
-                    ${architect.avatar}
-                </div>
-            </div>
-            <div class="profile-name">${architect.name}</div>
-            <div class="profile-specialization">${architect.specialization}</div>
-            <div class="profile-rating">
-                ⭐ ${architect.rating} (${architect.reviews} reviews) ${architect.verified ? '✅' : ''}
-            </div>
-            <div class="profile-location">${architect.location}</div>
-        </div>
-        
-        <div class="profile-tabs">
-            <button class="profile-tab active" onclick="showProfileTab('about')">About</button>
-            <button class="profile-tab" onclick="showProfileTab('portfolio')">Portfolio</button>
-            <button class="profile-tab" onclick="showProfileTab('services')">Services</button>
-            <button class="profile-tab" onclick="showProfileTab('reviews')">Reviews</button>
-        </div>
-        
-        <div id="profile-tab-content">
-            <div class="profile-section">
-                <h4>About</h4>
-                <p>${architect.about}</p>
-                <p><strong>Experience:</strong> ${architect.experience}</p>
-                <p><strong>Specializes in:</strong> ${architect.styles.join(', ')}</p>
-            </div>
-        </div>
-        
-        <div class="profile-actions">
-            <button class="btn btn-outline ${isShortlisted(architect.id) ? 'shortlisted' : ''}" 
-                    onclick="shortlistArchitect(${architect.id})" 
-                    style="${isShortlisted(architect.id) ? 'background-color: #4CAF50; color: white;' : ''}">
-                ${isShortlisted(architect.id) ? 'Shortlisted' : 'Shortlist'}
-            </button>
-            <button class="btn btn-primary" onclick="contactArchitect(${architect.id})">Contact</button>
-        </div>
-    `;
-}
-
-function showProfileTab(tabName) {
-    const tabs = document.querySelectorAll('.profile-tab');
-    tabs.forEach(tab => tab.classList.remove('active'));
-    event.target.classList.add('active');
-    
-    const content = document.getElementById('profile-tab-content');
-    const architect = mockArchitects.find(a => a.id === parseInt(document.querySelector('.profile-actions .btn-primary').onclick.toString().match(/\d+/)[0]));
-    
-    switch(tabName) {
-        case 'about':
-            content.innerHTML = `
-                <div class="profile-section">
-                    <h4>About</h4>
-                    <p>${architect.about}</p>
-                    <p><strong>Experience:</strong> ${architect.experience}</p>
-                    <p><strong>Specializes in:</strong> ${architect.styles.join(', ')}</p>
-                </div>
-            `;
-            break;
-        case 'portfolio':
-            content.innerHTML = `
-                <div class="profile-section">
-                    <h4>Portfolio</h4>
-                    <div class="portfolio-grid">
-                        ${architect.portfolio.map(item => `
-                            <div class="portfolio-item">
-                                <div style="height: 120px; display: flex; align-items: center; justify-content: center; font-size: 48px;">
-                                    ${item}
-                                </div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-            break;
-        case 'services':
-            content.innerHTML = `
-                <div class="profile-section">
-                    <h4>Services Offered</h4>
-                    <div class="services-list">
-                        ${architect.services.map(service => `
-                            <span class="service-tag">${service}</span>
-                        `).join('')}
-                    </div>
-                </div>
-            `;
-            break;
-        case 'reviews':
-            content.innerHTML = `
-                <div class="profile-section">
-                    <h4>Client Reviews</h4>
-                    <div style="text-align: center; padding: 20px; color: #666;">
-                        Reviews coming soon!
-                    </div>
-                </div>
-            `;
-            break;
-    }
-}
-
-function contactArchitect(architectId) {
-    showToast('Contact feature coming soon!');
-}
-
-// Filter Functions
-function showFilterModal() {
-    document.getElementById('filter-modal').style.display = 'block';
-}
-
-function closeFilterModal() {
-    document.getElementById('filter-modal').style.display = 'none';
-}
-
-function updateRadiusValue(value) {
-    document.getElementById('radius-value').textContent = value;
-}
-
-function toggleStyle(button) {
-    button.classList.toggle('selected');
-}
-
-function resetFilters() {
-    // Reset all filter inputs
-    document.getElementById('location-filter').value = '';
-    document.getElementById('radius-slider').value = 25;
-    updateRadiusValue(25);
-    
-    document.querySelectorAll('input[name="experience"]').forEach(input => input.checked = false);
-    document.querySelectorAll('input[name="budget"]').forEach(input => input.checked = false);
-    document.querySelectorAll('.style-btn').forEach(btn => btn.classList.remove('selected'));
-}
-
-function applyFilters() {
-    // Collect filter values
-    const location = document.getElementById('location-filter').value;
-    const radius = document.getElementById('radius-slider').value;
-    const experience = document.querySelector('input[name="experience"]:checked')?.value;
-    const budget = document.querySelector('input[name="budget"]:checked')?.value;
-    const styles = Array.from(document.querySelectorAll('.style-btn.selected')).map(btn => btn.textContent);
-    
-    // Update active filters display
-    updateActiveFilters({ location, radius, experience, budget, styles });
-    
-    // Filter and display results
-    filterArchitects({ location, radius, experience, budget, styles });
-    
-    closeFilterModal();
-}
-
-function updateActiveFilters(filters) {
-    const container = document.getElementById('active-filters');
-    container.innerHTML = '';
-    
-    if (filters.location) {
-        container.innerHTML += `<span class="filter-chip">${filters.location} <span onclick="removeFilter(this)">×</span></span>`;
-    }
-    if (filters.experience) {
-        container.innerHTML += `<span class="filter-chip">${filters.experience} Level <span onclick="removeFilter(this)">×</span></span>`;
-    }
-    if (filters.budget) {
-        const budgetLabels = {
-            'under-50k': 'Under ₹50K',
-            '50k-150k': '₹50K-1.5L',
-            '150k-300k': '₹1.5L-3L',
-            'above-300k': 'Above ₹3L'
-        };
-        container.innerHTML += `<span class="filter-chip">${budgetLabels[filters.budget]} <span onclick="removeFilter(this)">×</span></span>`;
-    }
-    if (filters.styles && filters.styles.length > 0) {
-        filters.styles.forEach(style => {
-            container.innerHTML += `<span class="filter-chip">${style} <span onclick="removeFilter(this)">×</span></span>`;
-        });
-    }
-}
-
-function removeFilter(element) {
-    element.parentElement.remove();
-    // Re-apply remaining filters
-    loadProfessionals('architects');
-}
-
-function filterArchitects(filters) {
-    let filteredArchitects = [...mockArchitects];
-    
-    if (filters.budget) {
-        filteredArchitects = filteredArchitects.filter(architect => architect.budget === filters.budget);
-    }
-    
-    if (filters.styles && filters.styles.length > 0) {
-        filteredArchitects = filteredArchitects.filter(architect => 
-            filters.styles.some(style => architect.styles.includes(style))
-        );
-    }
-    
-    // Display filtered results
-    const list = document.getElementById('professionals-list');
-    list.innerHTML = '';
-    
-    if (filteredArchitects.length === 0) {
-        list.innerHTML = `<div style="text-align: center; padding: 40px; color: #666;">
-            No architects found matching your criteria. Try adjusting your filters.
-        </div>`;
-    } else {
-        filteredArchitects.forEach(architect => {
-            const card = createProfessionalCard(architect);
-            list.appendChild(card);
-        });
-    }
-}
-
-// Utility Functions
-function showToast(message) {
-    // Simple toast notification
-    const toast = document.createElement('div');
-    toast.style.cssText = `
-        position: fixed;
-        top: 80px;
-        left: 50%;
-        transform: translateX(-50%);
-        background: #333;
-        color: white;
-        padding: 12px 24px;
-        border-radius: 6px;
-        z-index: 10000;
-        font-size: 14px;
-    `;
-    toast.textContent = message;
-    document.body.appendChild(toast);
-    
+// Authentication Functions
+function handleGoogleLogin() {
+    // Simulate Google login
+    console.log('Google login initiated');
     setTimeout(() => {
-        document.body.removeChild(toast);
-    }, 3000);
+        alert('Google login successful!');
+        showScreen('home-setup');
+    }, 1000);
 }
 
-// Write Notes functionality
-function writeNotes() {
-    showScreen('write-notes');
+function handleEmailLogin() {
+    const email = document.getElementById('welcome-email').value;
+    if (email) {
+        console.log('Email login for:', email);
+        showScreen('home-setup');
+    } else {
+        alert('Please enter your email address');
+    }
 }
 
-function saveNote() {
-    const noteTitle = document.getElementById('note-title').value;
-    const noteContent = document.getElementById('note-content').value;
+function showOtherOptions() {
+    alert('Other login options:\n- Phone number\n- Facebook\n- Apple ID\n\nFeatures coming soon!');
+}
+
+// Form handling functions
+function handleStep1(event) {
+    event.preventDefault();
+    const homeName = document.getElementById('home-name-step1').value;
+    if (homeName) {
+        currentProject.name = homeName;
+        showScreen('home-details-step2');
+    }
+}
+
+function handleStep2(event) {
+    event.preventDefault();
+    currentProject.type = document.getElementById('home-type-step2').value;
+    currentProject.bedrooms = document.getElementById('bedrooms-step2').value;
+    currentProject.area = document.getElementById('square-feet-step2').value;
+    currentProject.bathrooms = document.getElementById('bathrooms-step2').value;
+    currentProject.location = document.getElementById('home-location-step2').value;
+    showScreen('home-details-step3');
+}
+
+function handleStep3(event) {
+    event.preventDefault();
+    const familyEmail = document.getElementById('family-invite-step3').value;
+    if (familyEmail) {
+        currentProject.familyInvites.push(familyEmail);
+    }
+    showScreen('home-details-step4');
+}
+
+function handleStep4(event) {
+    event.preventDefault();
+    const budget = document.getElementById('budget-step4').value;
+    currentProject.budget = budget;
     
-    if (noteTitle.trim() === '' || noteContent.trim() === '') {
-        showToast('Please enter both title and content for the note');
-        return;
+    // Project setup complete
+    alert(`Project "${currentProject.name}" created successfully!`);
+    showScreen('main-menu');
+}
+
+function handleBOQUpload(input) {
+    const file = input.files[0];
+    if (file) {
+        currentProject.boqFile = file;
+        document.getElementById('boq-status').innerHTML = `✅ ${file.name} uploaded successfully`;
+    }
+}
+
+// Photo management functions
+function openPhotoCapture() {
+    showScreen('photo-capture');
+}
+
+function openGallery() {
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = 'image/*';
+    input.multiple = true;
+    input.onchange = handlePhotoSelection;
+    input.click();
+}
+
+function handlePhotoSelection(event) {
+    const files = Array.from(event.target.files);
+    files.forEach(file => {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            uploadedPhotos.push({
+                id: Date.now() + Math.random(),
+                url: e.target.result,
+                file: file,
+                timestamp: new Date().toISOString(),
+                title: file.name,
+                description: ''
+            });
+            updatePhotoDisplay();
+        };
+        reader.readAsDataURL(file);
+    });
+}
+
+function takePhoto() {
+    capturePhoto(); // Use the existing camera function
+}
+
+function updatePhotoDisplay() {
+    const photosContainer = document.getElementById('captured-photos');
+    const projectPhotosContainer = document.getElementById('project-photos-grid');
+    
+    if (photosContainer) {
+        photosContainer.innerHTML = '';
+        uploadedPhotos.forEach(photo => {
+            const photoElement = document.createElement('div');
+            photoElement.className = 'photo-thumbnail';
+            photoElement.onclick = () => showPhotoDetailModal(photo.url, photo.file);
+            photoElement.innerHTML = `<img src="${photo.url}" alt="Photo">`;
+            photosContainer.appendChild(photoElement);
+        });
     }
     
-    const note = {
-        id: Date.now(),
-        title: noteTitle,
-        content: noteContent,
-        timestamp: new Date().toLocaleString(),
-        project: currentProject?.step1?.homeName || 'Current Project'
-    };
-    
-    // Load existing notes
-    let notes = JSON.parse(localStorage.getItem('homii-notes') || '[]');
-    notes.unshift(note); // Add to beginning of array
-    
-    // Save to localStorage
-    localStorage.setItem('homii-notes', JSON.stringify(notes));
-    
-    // Show success message
-    showToast('Note saved successfully!');
-    
-    // Clear form
-    document.getElementById('note-title').value = '';
-    document.getElementById('note-content').value = '';
-    
-    // Update notes list if visible
-    loadNotesList();
+    if (projectPhotosContainer) {
+        projectPhotosContainer.innerHTML = '';
+        uploadedPhotos.forEach((photo, index) => {
+            const photoElement = document.createElement('div');
+            photoElement.className = 'photo-item';
+            photoElement.onclick = () => viewPhotoDetail(index);
+            photoElement.innerHTML = `
+                <img src="${photo.url}" alt="${photo.title || 'Photo'}">
+                <div class="photo-info">
+                    <h4>${photo.title || 'Untitled'}</h4>
+                    <p>${new Date(photo.timestamp).toLocaleDateString()}</p>
+                </div>
+            `;
+            projectPhotosContainer.appendChild(photoElement);
+        });
+    }
 }
 
-function loadNotesList() {
-    const notesList = document.getElementById('notes-list');
-    if (!notesList) return;
+function showPhotoDetailModal(imageSrc, file) {
+    // Create and show photo detail modal
+    console.log('Showing photo detail for:', file.name);
+}
+
+function closePhotoDetailModal() {
+    // Close photo detail modal
+    console.log('Closing photo detail modal');
+}
+
+function savePhotoDetails() {
+    // Save photo title and description
+    console.log('Saving photo details');
+    closePhotoDetailModal();
+}
+
+function deletePhoto(photoId) {
+    uploadedPhotos = uploadedPhotos.filter(photo => photo.id !== photoId);
+    updatePhotoDisplay();
+}
+
+function selectPhotoForReport(photoId) {
+    const photo = uploadedPhotos.find(p => p.id === photoId);
+    if (photo) {
+        if (selectedPhotos.includes(photoId)) {
+            selectedPhotos = selectedPhotos.filter(id => id !== photoId);
+        } else {
+            selectedPhotos.push(photoId);
+        }
+    }
+}
+
+function generatePhotoReport() {
+    const selectedPhotoData = uploadedPhotos.filter(photo => 
+        selectedPhotos.includes(photo.id)
+    );
     
-    const notes = JSON.parse(localStorage.getItem('homii-notes') || '[]');
+    console.log('Generating report with', selectedPhotoData.length, 'photos');
+    alert(`Photo report generated with ${selectedPhotoData.length} photos!`);
+}
+
+function viewPhotoDetail(index) {
+    const photo = uploadedPhotos[index];
+    if (photo) {
+        showScreen('photo-detail');
+        document.getElementById('detail-photo').src = photo.url;
+        document.getElementById('detail-title').value = photo.title || '';
+        document.getElementById('detail-description').value = photo.description || '';
+    }
+}
+
+// Budget management functions
+let budgetItems = [
+    { category: 'Construction', amount: 1500000, spent: 450000 },
+    { category: 'Materials', amount: 800000, spent: 320000 },
+    { category: 'Labor', amount: 600000, spent: 180000 },
+    { category: 'Permits', amount: 100000, spent: 75000 },
+    { category: 'Contingency', amount: 200000, spent: 0 }
+];
+
+function updateProjectBudget() {
+    const budgetContainer = document.getElementById('budget-breakdown');
+    const totalBudget = budgetItems.reduce((sum, item) => sum + item.amount, 0);
+    const totalSpent = budgetItems.reduce((sum, item) => sum + item.spent, 0);
     
-    if (notes.length === 0) {
-        notesList.innerHTML = `
-            <div class="empty-state">
-                <span style="font-size: 48px;">📝</span>
-                <h3>No notes yet</h3>
-                <p>Start writing your thoughts and ideas</p>
+    // Update summary
+    document.getElementById('total-budget').textContent = `₹${(totalBudget / 100000).toFixed(1)}L`;
+    document.getElementById('total-spent').textContent = `₹${(totalSpent / 100000).toFixed(1)}L`;
+    document.getElementById('remaining-budget').textContent = `₹${((totalBudget - totalSpent) / 100000).toFixed(1)}L`;
+    
+    // Update progress
+    const progressPercentage = (totalSpent / totalBudget) * 100;
+    document.getElementById('budget-progress-fill').style.width = `${progressPercentage}%`;
+    document.getElementById('budget-progress-text').textContent = `${progressPercentage.toFixed(1)}%`;
+    
+    // Update breakdown
+    budgetContainer.innerHTML = '';
+    budgetItems.forEach(item => {
+        const itemElement = document.createElement('div');
+        itemElement.className = 'budget-item';
+        const percentage = (item.spent / item.amount) * 100;
+        
+        itemElement.innerHTML = `
+            <div class="budget-item-header">
+                <h4>${item.category}</h4>
+                <span class="budget-amount">₹${(item.amount / 100000).toFixed(1)}L</span>
+            </div>
+            <div class="budget-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: ${percentage}%"></div>
+                </div>
+                <span class="progress-text">${percentage.toFixed(1)}%</span>
+            </div>
+            <div class="budget-details">
+                <span>Spent: ₹${(item.spent / 100000).toFixed(1)}L</span>
+                <span>Remaining: ₹${((item.amount - item.spent) / 100000).toFixed(1)}L</span>
             </div>
         `;
-        return;
-    }
+        
+        budgetContainer.appendChild(itemElement);
+    });
+}
+
+function addBudgetItem() {
+    const category = prompt('Enter budget category:');
+    const amount = parseFloat(prompt('Enter budget amount:'));
     
-    notesList.innerHTML = notes.map(note => `
-        <div class="note-item">
-            <div class="note-header">
-                <h4 class="note-title">${note.title}</h4>
-                <span class="note-date">${note.timestamp}</span>
-            </div>
-            <p class="note-content">${note.content.substring(0, 100)}${note.content.length > 100 ? '...' : ''}</p>
-            <div class="note-footer">
-                <span class="note-project">${note.project}</span>
-                <button class="btn-delete" onclick="deleteNote(${note.id})" title="Delete note">🗑️</button>
-            </div>
-        </div>
-    `).join('');
-}
-
-function deleteNote(noteId) {
-    if (confirm('Are you sure you want to delete this note?')) {
-        let notes = JSON.parse(localStorage.getItem('homii-notes') || '[]');
-        notes = notes.filter(note => note.id !== noteId);
-        localStorage.setItem('homii-notes', JSON.stringify(notes));
-        loadNotesList();
-        showToast('Note deleted');
+    if (category && amount) {
+        budgetItems.push({
+            category: category,
+            amount: amount,
+            spent: 0
+        });
+        updateProjectBudget();
     }
 }
 
-function goToDesignBrief() {
-    showScreen('design-brief');
+// Chat System Functions
+function initializeProjectChat() {
+    chatInitialized = true;
+    const welcomeMessage = currentLanguage === 'hi' ? 
+        "👋 नमस्ते! मैं आपका Homii AI असिस्टेंट हूँ। मैं आपके घर निर्माण, डिज़ाइन और योजना की सभी जरूरतों में मदद के लिए यहाँ हूँ। आप मुझसे इसके बारे में पूछ सकते हैं:\n\n🏗️ प्रोफेशनल ढूंढना (आर्किटेक्ट, बढ़ई, प्लंबर, पेंटर)\n🏠 घर डिज़ाइन की सलाह\n📐 योजना मार्गदर्शन\n💡 निर्माण टिप्स\n\nआप क्या जानना चाहते हैं?" :
+        "👋 Hello! I'm your Homii AI Assistant. I'm here to help with all your home building, design, and planning needs. You can ask me about:\n\n🏗️ Finding professionals (architects, carpenters, plumbers, painters)\n🏠 Home design advice\n📐 Planning guidance\n💡 Construction tips\n\nWhat would you like to know?";
+    
+    addMessageToChat(welcomeMessage, 'ai');
 }
-
-// Initialize architect listing when page loads
-document.addEventListener('DOMContentLoaded', function() {
-    loadProfessionals('architects');
-});
 
 // Make functions globally available for onclick handlers
-window.showScreen = showScreen;
-window.goToWelcome = goToWelcome;
-window.goToLogin = goToLogin;
-window.goToSignup = goToSignup;
-window.goToOnboarding = goToOnboarding;
-window.goToDashboard = goToDashboard;
-window.goToMainMenu = goToMainMenu;
-window.goToStartProject = goToStartProject;
-window.goToFindProfessionals = goToFindProfessionals;
-window.goToTrackProgress = goToTrackProgress;
-window.goToProjectDetails = goToProjectDetails;
-window.goToUploadPhotos = goToUploadPhotos;
-window.goToHomePathway = goToHomePathway;
-window.goToFindArchitect = goToFindArchitect;
-window.handleLogin = handleLogin;
-window.handleSignup = handleSignup;
-window.handleStep1 = handleStep1;
-window.handleStep2 = handleStep2;
-window.handleStep3 = handleStep3;
-window.handleStep4 = handleStep4;
-window.handleBOQUpload = handleBOQUpload;
-window.selectPhase = selectPhase;
-window.showStepDetails = showStepDetails;
-window.showPropertyAudit = showPropertyAudit;
-window.handleGoogleLogin = handleGoogleLogin;
-window.handleEmailLogin = handleEmailLogin;
-window.showOtherOptions = showOtherOptions;
-window.goBack = goBack;
-window.logout = logout;
-
-// Site Survey Functions
-window.openPhotoOptions = openPhotoOptions;
-window.closePhotoModal = closePhotoModal;
-window.takePhoto = takePhoto;
-window.selectFromGallery = selectFromGallery;
-window.handlePhotoCapture = handlePhotoCapture;
-window.showPhotoDetailModal = showPhotoDetailModal;
-window.closePhotoDetailModal = closePhotoDetailModal;
-window.savePhotoDetails = savePhotoDetails;
-window.deletePhoto = deletePhoto;
-window.viewPhotoDetail = viewPhotoDetail;
-window.goToNext = goToNext;
-window.toggleVoiceRecording = toggleVoiceRecording;
-
-// Architect Functions  
-window.selectProfessionalTab = selectProfessionalTab;
-window.shortlistArchitect = shortlistArchitect;
-window.viewArchitectProfile = viewArchitectProfile;
-window.showProfileTab = showProfileTab;
-window.contactArchitect = contactArchitect;
-window.showFilterModal = showFilterModal;
-window.closeFilterModal = closeFilterModal;
-window.updateRadiusValue = updateRadiusValue;
-window.toggleStyle = toggleStyle;
-window.resetFilters = resetFilters;
-window.applyFilters = applyFilters;
-window.removeFilter = removeFilter;
-
-// AI Chatbot System
-function initializeChatbot() {
-    if (!chatInitialized) {
-        const welcomeMessage = currentLanguage === 'hi' ? 
-            "👋 नमस्ते! मैं आपका Homii AI असिस्टेंट हूँ। मैं आपके घर निर्माण, डिज़ाइन और योजना की सभी जरूरतों में मदद के लिए यहाँ हूँ। आप मुझसे इसके बारे में पूछ सकते हैं:\n\n🏗️ प्रोफेशनल ढूंढना (आर्किटेक्ट, बढ़ई, प्लंबर, पेंटर)\n🏠 घर डिज़ाइन की सलाह\n📐 योजना मार्गदर्शन\n💡 निर्माण टिप्स\n\nआप क्या जानना चाहते हैं?" :
-            "👋 Hello! I'm your Homii AI Assistant. I'm here to help you with all your home construction, design, and planning needs. You can ask me about:\n\n🏗️ Finding professionals (architects, carpenters, plumbers, painters)\n🏠 Home design advice\n📐 Planning guidance\n💡 Construction tips\n\nWhat would you like to know?";
-            
-        chatMessages = [
-            {
-                sender: 'bot',
-                message: welcomeMessage,
-                timestamp: new Date().toLocaleTimeString()
-            }
-        ];
-        chatInitialized = true;
-    }
-    displayChatMessages();
+window.sendMessage = function() {
+    sendMessage();
 }
 
-function displayChatMessages() {
-    const chatContainer = document.getElementById('chat-messages');
-    if (!chatContainer) return;
-    
-    chatContainer.innerHTML = '';
-    
-    chatMessages.forEach(msg => {
-        const messageDiv = document.createElement('div');
-        messageDiv.className = `message ${msg.sender}-message`;
-        
-        messageDiv.innerHTML = `
-            <div class="message-content">
-                <div class="message-text">${msg.message}</div>
-                <div class="message-time">${msg.timestamp}</div>
-            </div>
-        `;
-        
-        chatContainer.appendChild(messageDiv);
-    });
-    
-    // Scroll to bottom
-    chatContainer.scrollTop = chatContainer.scrollHeight;
+window.addEventListener('DOMContentLoaded', function() {
+    // Initialize chat when chat screen is first accessed
+    const chatScreen = document.getElementById('project-chat');
+    if (chatScreen) {
+        new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                    if (chatScreen.classList.contains('active') && !chatInitialized) {
+                        setTimeout(() => initializeProjectChat(), 500);
+                    }
+                }
+            });
+        }).observe(chatScreen, { attributes: true });
+    }
+});
+
+// Add enter key support for chat input
+document.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter' && document.getElementById('chat-input') === document.activeElement) {
+        event.preventDefault();
+        sendMessage();
+    }
+});
+
+function updateMenuCounters() {
+    // Update various counters on the main menu
+    document.getElementById('project-count').textContent = '1';
+    document.getElementById('photo-count').textContent = uploadedPhotos.length.toString();
+    document.getElementById('task-count').textContent = projectSteps.filter(step => step.status === 'in-progress').length.toString();
+}
+
+function updateProjectPhotos() {
+    updatePhotoDisplay();
+}
+
+// Chat System - Enhanced Version
+function sendChatMessage() {
+    sendMessage();
 }
 
 function sendMessage() {
-    const messageInput = document.getElementById('chat-input');
-    const message = messageInput.value.trim();
+    const input = document.getElementById('chat-input');
+    const message = input.value.trim();
     
     if (!message) return;
     
-    // Add user message
-    chatMessages.push({
-        sender: 'user',
-        message: message,
-        timestamp: new Date().toLocaleTimeString()
-    });
+    // Add user message to chat
+    addMessageToChat(message, 'user');
     
-    messageInput.value = '';
-    displayChatMessages();
+    // Clear input
+    input.value = '';
     
     // Show typing indicator
     showTypingIndicator();
     
-    // Process message and generate response
+    // Process AI response
     setTimeout(() => {
         const response = processUserMessage(message);
         hideTypingIndicator();
+        addMessageToChat(response, 'ai');
         
-        chatMessages.push({
-            sender: 'bot',
-            message: response,
-            timestamp: new Date().toLocaleTimeString()
-        });
-        
-        displayChatMessages();
-    }, 1000 + Math.random() * 2000); // Simulate thinking time
+        // Speak response if it's in Hindi or user prefers voice
+        if (currentLanguage === 'hi' || message.includes('speak') || message.includes('बोलो')) {
+            speakResponse(response);
+        }
+    }, 1000 + Math.random() * 2000);
+}
+
+function addMessageToChat(message, sender) {
+    const chatMessages = document.getElementById('chat-messages');
+    const messageDiv = document.createElement('div');
+    messageDiv.className = `chat-message ${sender}-message`;
+    
+    const timestamp = new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+    
+    if (sender === 'user') {
+        messageDiv.innerHTML = `
+            <div class="message-content user-content">
+                <div class="message-text">${message}</div>
+                <div class="message-time">${timestamp}</div>
+            </div>
+            <div class="message-avatar user-avatar">👤</div>
+        `;
+    } else {
+        messageDiv.innerHTML = `
+            <div class="message-avatar ai-avatar">🤖</div>
+            <div class="message-content ai-content">
+                <div class="message-text">${message}</div>
+                <div class="message-time">${timestamp}</div>
+            </div>
+        `;
+    }
+    
+    chatMessages.appendChild(messageDiv);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
 }
 
 function showTypingIndicator() {
     isTyping = true;
-    const chatContainer = document.getElementById('chat-messages');
+    const chatMessages = document.getElementById('chat-messages');
     
     const typingDiv = document.createElement('div');
     typingDiv.id = 'typing-indicator';
-    typingDiv.className = 'message bot-message typing';
+    typingDiv.className = 'chat-message ai-message typing';
     typingDiv.innerHTML = `
-        <div class="message-content">
+        <div class="message-avatar ai-avatar">🤖</div>
+        <div class="message-content ai-content">
             <div class="typing-dots">
                 <span></span>
                 <span></span>
@@ -2021,8 +1272,8 @@ function showTypingIndicator() {
         </div>
     `;
     
-    chatContainer.appendChild(typingDiv);
-    chatContainer.scrollTop = chatContainer.scrollHeight;
+    chatMessages.appendChild(typingDiv);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
 }
 
 function hideTypingIndicator() {
@@ -2033,6 +1284,7 @@ function hideTypingIndicator() {
     }
 }
 
+// Enhanced AI Processing Functions
 function processUserMessage(message) {
     const lowerMessage = message.toLowerCase();
     
@@ -2126,7 +1378,7 @@ function processUserMessage(message) {
     // Default expert response
     return currentLanguage === 'hi' ? 
         `🏠 **मैं आपका मास्टर होम डिज़ाइन और प्लानिंग एक्सपर्ट हूँ!** 🏗️\n\nमैं आपको व्यापक कंसल्टेशन में मदद कर सकता हूँ:\n\n🎯 **"मेरे घर की योजना बनाएं"** - शुरुआत से पूरी होम प्लानिंग\n📐 **"मेरे [कमरे] को डिज़ाइन करें"** - विस्तृत रूम डिज़ाइन कंसल्टेशन\n💰 **"बजट प्लानिंग"** - सटीक कॉस्ट एस्टिमेशन\n🔧 **"कन्स्ट्रक्शन एडवाइस"** - चरणबद्ध बिल्डिंग गाइडेंस\n🧭 **"वास्तु कंसल्टेशन"** - दिशा और प्लेसमेंट एडवाइस\n🎨 **"इंटीरियर डिज़ाइन"** - स्टाइल और डेकोर रेकमेंडेशन\n📏 **"स्पेस प्लानिंग"** - आपका लेआउट ऑप्टिमाइज़ करें\n🏗️ **"मटेरियल एडवाइस"** - आपकी जरूरतों के लिए बेस्ट मटेरियल\n\n**बस मुझे बताएं कि आप क्या प्लान या डिज़ाइन करना चाहते हैं, और मैं आपको हर डिटेल में गाइड करूँगा!**` :
-        `🏠 **I'm your Master Home Design & Planning Expert!** 🏗️\n\nI can help you with comprehensive consultation:\n\n🎯 **\"Plan my home\"** - Complete house planning from scratch\n📐 **\"Design my [room]\"** - Detailed room design consultation  \n💰 **\"Budget planning\"** - Accurate cost estimation\n🔧 **\"Construction advice\"** - Step-by-step building guidance\n🧭 **\"Vastu consultation\"** - Direction and placement advice\n🎨 **\"Interior design\"** - Style and decor recommendations\n📏 **\"Space planning\"** - Optimize your layout\n🏗️ **\"Material advice\"** - Best materials for your needs\n\n**Just tell me what you want to plan or design, and I'll guide you through every detail!**`;
+        `🏠 **I'm your Master Home Design & Planning Expert!** 🏗️\n\nI can help you with comprehensive consultation:\n\n🎯 **"Plan my home"** - Complete house planning from scratch\n📐 **"Design my [room]"** - Detailed room design consultation  \n💰 **"Budget planning"** - Accurate cost estimation\n🔧 **"Construction advice"** - Step-by-step building guidance\n🧭 **"Vastu consultation"** - Direction and placement advice\n🎨 **"Interior design"** - Style and decor recommendations\n📏 **"Space planning"** - Optimize your layout\n🏗️ **"Material advice"** - Best materials for your needs\n\n**Just tell me what you want to plan or design, and I'll guide you through every detail!**`;
 }
 
 // Expert Consultation Flow Functions
@@ -2199,260 +1451,237 @@ function continueHomePlanningFlow(message, step) {
             
         case 4:
             conversationState.step = 5;
-            let budgetRange = extractBudgetFromMessage(message);
+            let budgetRange = '';
+            if (lowerMessage.includes('a')) budgetRange = '₹8-15 Lakhs (Basic)';
+            else if (lowerMessage.includes('b')) budgetRange = '₹15-25 Lakhs (Standard)';
+            else if (lowerMessage.includes('c')) budgetRange = '₹25-40 Lakhs (Premium)';
+            else if (lowerMessage.includes('d')) budgetRange = '₹40+ Lakhs (Luxury)';
+            else budgetRange = extractBudgetFromMessage(message);
+            
             conversationState.projectData.budget = budgetRange;
             
-            return `💰 **Budget: ${budgetRange}** - Excellent! I can work with this budget effectively.\n\n**Question 5/9: Which city/climate are you building in?**\n\n🌍 This is crucial for:\n• Material selection\n• Ventilation planning  \n• Weather protection\n• Energy efficiency\n\nTell me your city or climate type (hot, humid, cold, moderate)`;
+            return `💰 **Budget: ${budgetRange}** - Excellent planning!\n\n**Question 5/9: What's your preferred architectural style?**\n\nA) Modern/Contemporary - Clean lines, minimal design\nB) Traditional/Indian - Cultural elements, courtyards\nC) Mediterranean - Arches, tiles, warm colors\nD) Colonial - Classic, symmetrical, elegant\nE) Minimalist - Simple, functional, less is more\nF) Mixed/Fusion - Combine multiple styles\n\nWhich style appeals to you most?`;
             
         case 5:
             conversationState.step = 6;
-            conversationState.projectData.location = message;
+            let style = '';
+            if (lowerMessage.includes('a')) style = 'Modern/Contemporary';
+            else if (lowerMessage.includes('b')) style = 'Traditional/Indian';
+            else if (lowerMessage.includes('c')) style = 'Mediterranean';
+            else if (lowerMessage.includes('d')) style = 'Colonial';
+            else if (lowerMessage.includes('e')) style = 'Minimalist';
+            else style = 'Mixed/Fusion';
             
-            return `🏙️ **Location: ${message}** - Perfect! I'll consider climate factors.\n\n**Question 6/9: Do you want Vastu compliance in your home design?**\n\nA) Yes, strict Vastu compliance\nB) Partial Vastu (where practical)\nC) No Vastu requirements\nD) Not sure, please advise\n\n🧭 **Expert Insight:** Vastu can be balanced with modern design principles for optimal results.`;
+            conversationState.projectData.style = style;
+            
+            return `🎨 **${style} style** - Fantastic choice!\n\n**Question 6/9: What's your location/city?**\n\n🌍 **This helps me consider:**\n• Local climate factors\n• Building regulations\n• Material availability\n• Regional architectural preferences\n• Vastu considerations\n\nPlease tell me your city or region.`;
             
         case 6:
             conversationState.step = 7;
-            conversationState.projectData.vastu = message;
+            conversationState.projectData.location = message;
             
-            return `🧭 **Vastu preference noted!**\n\n**Question 7/9: What are your priority rooms/areas?**\n\n🏠 **Common priorities:**\n• Large kitchen for cooking lovers\n• Spacious living room for entertaining\n• Master bedroom with attached bathroom\n• Study/work from home space\n• Dining area\n• Prayer room\n• Storage areas\n\nTell me your top 3 priorities!`;
+            return `📍 **Location: ${message}** - Perfect!\n\n**Question 7/9: What are your top 3 priorities for this home?**\n\n🎯 **Popular Priorities:**\n• Natural lighting & ventilation\n• Privacy & security\n• Storage space optimization\n• Energy efficiency\n• Entertainment areas\n• Home office/study\n• Garden/outdoor space\n• Modern kitchen\n• Luxury bathrooms\n• Guest accommodation\n\nTell me your top 3 priorities!`;
             
         case 7:
             conversationState.step = 8;
             conversationState.projectData.priorities = message;
             
-            return `🎯 **Priorities noted!** These will be the focus of my design.\n\n**Question 8/9: What style & aesthetics do you prefer for your home?**\n\nA) **Modern Minimalist** - Clean lines, neutral colors, clutter-free\nB) **Classic Traditional** - Warm wood, rich colors, ornate details\nC) **Industrial** - Exposed brick, metal fixtures, urban vibe\nD) **Bohemian** - Eclectic colors, artistic elements, cozy textures\nE) **Contemporary** - Latest trends, smart features, sleek finishes\nF) **Rustic** - Natural materials, earthy tones, country charm\n\n🎨 **Expert Tip:** Your style choice affects material selection, color schemes, and finishing details!\n\nJust type A, B, C, D, E, or F!`;
+            return `✨ **Your priorities noted!** I'll design around these key elements.\n\n**Question 8/9: Any specific requirements or special features?**\n\n🏠 **Consider mentioning:**\n• Accessibility needs (elderly, differently-abled)\n• Home office requirements\n• Entertainment room/theater\n• Gym or wellness area\n• Pet-friendly features\n• Solar panels/green features\n• Swimming pool\n• Parking for multiple vehicles\n• Servant quarters\n• Special storage needs\n\nWhat special features do you want? (Or type "none" if no special requirements)`;
             
         case 8:
             conversationState.step = 9;
-            conversationState.projectData.style = message;
+            conversationState.projectData.specialFeatures = message;
             
-            let selectedStyle = '';
-            const lowerMessage = message.toLowerCase();
-            if (lowerMessage.includes('a') || lowerMessage.includes('modern minimalist')) selectedStyle = 'Modern Minimalist';
-            else if (lowerMessage.includes('b') || lowerMessage.includes('classic traditional')) selectedStyle = 'Classic Traditional';
-            else if (lowerMessage.includes('c') || lowerMessage.includes('industrial')) selectedStyle = 'Industrial';
-            else if (lowerMessage.includes('d') || lowerMessage.includes('bohemian')) selectedStyle = 'Bohemian';
-            else if (lowerMessage.includes('e') || lowerMessage.includes('contemporary')) selectedStyle = 'Contemporary';
-            else if (lowerMessage.includes('f') || lowerMessage.includes('rustic')) selectedStyle = 'Rustic';
-            else selectedStyle = 'Custom Style';
-            
-            conversationState.projectData.selectedStyle = selectedStyle;
-            
-            return `🎨 **${selectedStyle}** - Excellent choice! This style will beautifully complement your home design.\n\n**Final Question 9/9: When do you plan to start construction?**\n\nA) Immediately (within 1 month)\nB) Soon (1-3 months)\nC) Planning phase (3-6 months)\nD) Future planning (6+ months)\n\n⏰ **Timeline affects:** Permit processing, material procurement, seasonal considerations.`;
+            return `🏗️ **Final Question 9/9: When do you plan to start construction?**\n\nA) Immediately (within 1-2 months)\nB) Soon (3-6 months)\nC) This year (6-12 months)\nD) Next year\nE) Just planning for now\n\n⏰ **Timeline affects:**\n• Design development schedule\n• Material procurement\n• Contractor selection\n• Permit processing\n• Budget finalization\n\nWhat's your preferred timeline?`;
             
         case 9:
-            conversationState.projectData.timeline = message;
-            return generateCompleteHomePlan();
+            // Generate comprehensive home plan
+            return generateComprehensiveHomePlan();
             
         default:
             return resetConversation();
     }
 }
 
-function getStyleSpecificRecommendations(style) {
+function generateComprehensiveHomePlan() {
+    const data = conversationState.projectData;
+    
+    // Calculate recommendations based on inputs
+    const costPerSqft = calculateCostPerSqft(data.budget, data.area);
+    const designRecommendations = getDesignRecommendations(data.style);
+    const roomLayout = generateRoomLayout(data.houseType, data.familySize, data.area);
+    
+    conversationState.currentFlow = null; // End conversation flow
+    
+    return `🎉 **COMPREHENSIVE HOME PLAN READY!** 🏠\n\n**📋 PROJECT SUMMARY:**\n🏠 **Type:** ${data.houseType}\n📏 **Area:** ${data.area} sqft\n👥 **Family:** ${data.familySize} members\n💰 **Budget:** ${data.budget}\n🎨 **Style:** ${data.style}\n📍 **Location:** ${data.location}\n\n**🏗️ RECOMMENDED LAYOUT:**\n${roomLayout}\n\n**💰 BUDGET BREAKDOWN:**\n• **Structure (40%):** ₹${(extractBudgetNumber(data.budget) * 0.4 / 100000).toFixed(1)}L\n• **Finishes (25%):** ₹${(extractBudgetNumber(data.budget) * 0.25 / 100000).toFixed(1)}L\n• **Plumbing & Electrical (15%):** ₹${(extractBudgetNumber(data.budget) * 0.15 / 100000).toFixed(1)}L\n• **Materials (20%):** ₹${(extractBudgetNumber(data.budget) * 0.2 / 100000).toFixed(1)}L\n\n**🎨 ${data.style.toUpperCase()} DESIGN ELEMENTS:**\n${designRecommendations}\n\n**⏰ CONSTRUCTION TIMELINE:**\n• **Design Development:** 4-6 weeks\n• **Approvals & Permits:** 6-8 weeks\n• **Construction:** 8-12 months\n• **Finishing:** 2-3 months\n\n**🎯 YOUR PRIORITIES INCORPORATED:**\n${data.priorities}\n\n**✨ SPECIAL FEATURES:**\n${data.specialFeatures}\n\n**🧭 VASTU RECOMMENDATIONS:**\n• Main entrance: Northeast/East\n• Kitchen: Southeast corner\n• Master bedroom: Southwest\n• Pooja room: Northeast\n\n**📞 NEXT STEPS:**\n1. **Architect selection** - I can help you find the perfect architect\n2. **Detailed drawings** - Floor plans, elevations, 3D views\n3. **Permit applications** - Building approvals\n4. **Contractor selection** - Verified builders\n\n**💬 Would you like me to help you with any specific aspect? I can:**\n• Find architects in your area\n• Detailed room-by-room design\n• Material selection guidance\n• Construction timeline planning\n• Budget optimization tips`;
+}
+
+// Helper functions for home planning
+function extractAreaFromMessage(message) {
+    const numbers = message.match(/\d+/g);
+    if (numbers) {
+        if (numbers.length === 1) {
+            return numbers[0];
+        } else if (numbers.length === 2) {
+            return (parseInt(numbers[0]) * parseInt(numbers[1])).toString();
+        }
+    }
+    return '1000'; // Default
+}
+
+function extractNumberFromMessage(message) {
+    const numbers = message.match(/\d+/g);
+    return numbers ? numbers[0] : '4';
+}
+
+function extractBudgetFromMessage(message) {
+    const numbers = message.match(/\d+/g);
+    if (numbers) {
+        return `₹${numbers[0]} Lakhs`;
+    }
+    return '₹25 Lakhs';
+}
+
+function extractBudgetNumber(budgetString) {
+    const numbers = budgetString.match(/\d+/g);
+    return numbers ? parseInt(numbers[0]) * 100000 : 2500000;
+}
+
+function calculateCostPerSqft(budget, area) {
+    const budgetNumber = extractBudgetNumber(budget);
+    const areaNumber = parseInt(area);
+    return Math.round(budgetNumber / areaNumber);
+}
+
+function generateRoomLayout(houseType, familySize, area) {
+    const areaNum = parseInt(area);
+    
+    if (houseType === '1BHK') {
+        return `• **Living + Dining:** 200 sqft\n• **Bedroom:** 120 sqft\n• **Kitchen:** 80 sqft\n• **Bathroom:** 40 sqft\n• **Balcony:** 60 sqft`;
+    } else if (houseType === '2BHK') {
+        return `• **Living Room:** 180 sqft\n• **Dining Area:** 100 sqft\n• **Master Bedroom:** 140 sqft\n• **Bedroom 2:** 120 sqft\n• **Kitchen:** 90 sqft\n• **Bathroom 1:** 45 sqft\n• **Bathroom 2:** 35 sqft\n• **Balconies:** 90 sqft`;
+    } else if (houseType === '3BHK') {
+        return `• **Living Room:** 220 sqft\n• **Dining Area:** 120 sqft\n• **Master Bedroom:** 160 sqft\n• **Bedroom 2:** 130 sqft\n• **Bedroom 3:** 120 sqft\n• **Kitchen:** 100 sqft\n• **Master Bathroom:** 50 sqft\n• **Common Bathroom:** 40 sqft\n• **Balconies:** 100 sqft\n• **Utility/Store:** 60 sqft`;
+    } else {
+        return `• **Living Room:** 280 sqft\n• **Dining Area:** 150 sqft\n• **Master Bedroom:** 180 sqft\n• **Bedroom 2:** 140 sqft\n• **Bedroom 3:** 130 sqft\n• **Bedroom 4:** 120 sqft\n• **Kitchen:** 120 sqft\n• **Master Bathroom:** 60 sqft\n• **Bathroom 2:** 45 sqft\n• **Bathroom 3:** 40 sqft\n• **Study/Office:** 100 sqft\n• **Utility:** 80 sqft\n• **Balconies:** 150 sqft`;
+    }
+}
+
+function getDesignRecommendations(style) {
     const styleGuides = {
-        'Modern Minimalist': `\n• Color Palette: White, grey, black with minimal accent colors\n• Materials: Glass, steel, concrete, smooth finishes\n• Furniture: Clean lines, built-in storage, minimal décor\n• Lighting: Recessed LED lights, pendant lighting\n• Flooring: Polished concrete, large tiles, or hardwood`,
-        
-        'Classic Traditional': `\n• Color Palette: Warm browns, deep reds, gold, cream tones\n• Materials: Natural wood, brass fittings, marble accents\n• Furniture: Ornate details, wooden furniture, rich fabrics\n• Lighting: Chandeliers, table lamps, warm lighting\n• Flooring: Hardwood, traditional tiles, area rugs`,
-        
-        'Industrial': `\n• Color Palette: Greys, blacks, raw metal tones, brick red\n• Materials: Exposed brick, metal beams, concrete, steel\n• Furniture: Metal fixtures, leather seating, functional design\n• Lighting: Track lighting, Edison bulbs, metal fixtures\n• Flooring: Polished concrete, metal gratings, industrial tiles`,
-        
-        'Bohemian': `\n• Color Palette: Rich jewel tones, earth colors, vibrant patterns\n• Materials: Natural textiles, woven fabrics, mixed materials\n• Furniture: Low seating, floor cushions, eclectic mix\n• Lighting: String lights, colorful lampshades, natural light\n• Flooring: Natural wood, colorful rugs, textured tiles`,
-        
-        'Contemporary': `\n• Color Palette: Neutral base with bold accent colors\n• Materials: Mixed materials, smart home integration\n• Furniture: Sleek designs, multi-functional pieces\n• Lighting: Smart lighting systems, modern fixtures\n• Flooring: Luxury vinyl, modern tiles, smart surfaces`,
-        
-        'Rustic': `\n• Color Palette: Earth tones, natural browns, forest greens\n• Materials: Natural wood, stone, wrought iron\n• Furniture: Handcrafted pieces, natural textures\n• Lighting: Warm ambient lighting, lantern-style fixtures\n• Flooring: Natural wood, stone tiles, rustic finishes`
+        'Modern/Contemporary': '\n• Clean lines and minimal ornamentation\n• Large windows for natural light\n• Open floor plans\n• Neutral color palette with bold accents\n• Modern materials like glass, steel, concrete\n• Flat or simple sloped roofs',
+        'Traditional/Indian': '\n• Central courtyard or open space\n• Wooden elements and carved details\n• Warm earth tones and vibrant colors\n• Traditional tile work and patterns\n• Sloped roofs with clay tiles\n• Verandas and covered outdoor spaces',
+        'Mediterranean': '\n• Stucco walls in warm earth tones\n• Red clay tile roofs\n• Arched windows and doorways\n• Wrought iron details\n• Outdoor terraces and courtyards\n• Natural stone accents',
+        'Colonial': '\n• Symmetrical facade design\n• Columns and covered porches\n• Multi-pane windows with shutters\n• Classic proportions and details\n• Formal room arrangements\n• Traditional materials like brick and wood',
+        'Minimalist': '\n• "Less is more" philosophy\n• Clean, uncluttered spaces\n• Monochromatic color schemes\n• Hidden storage solutions\n• Simple geometric forms\n• Quality over quantity in furnishings'
     };
     
     return styleGuides[style] || '\n• Custom style elements will be designed based on your preferences\n• Natural materials and neutral colors recommended\n• Functional and aesthetic balance maintained';
 }
 
-function generateCompleteHomePlan() {
-    const data = conversationState.projectData;
-    const houseInfo = homeDesignExpertise.houseSizes[data.houseType] || {};
-    
-    resetConversation();
-    
-    return `🏠 **COMPLETE HOME PLANNING REPORT** 🏗️\n\n**═══════════════════════════════════**\n\n📋 **PROJECT SUMMARY:**\n• House Type: ${data.houseType}\n• Area: ${data.area} sqft\n• Family: ${data.familySize} members\n• Budget: ${data.budget}\n• Location: ${data.location}\n• Design Style: ${data.selectedStyle || 'Not specified'}\n• Timeline: ${data.timeline}\n\n🎯 **EXPERT RECOMMENDATIONS:**\n\n**🏗️ STRUCTURAL PLANNING:**\n• Foundation: RCC with waterproofing\n• Walls: 6" for external, 4" for internal  \n• Roof: RCC slab with insulation\n• Ventilation: Cross-ventilation in all rooms\n\n**📐 ROOM LAYOUT SUGGESTIONS:**\n• Living Room: 14x16 ft (focal point)\n• Master Bedroom: 12x14 ft (SW corner)\n• Kitchen: 10x12 ft (SE corner) \n• Bathrooms: 6x8 ft (proper ventilation)\n\n**🎨 STYLE-SPECIFIC DESIGN FEATURES:**${getStyleSpecificRecommendations(data.selectedStyle)}\n\n**💰 DETAILED BUDGET BREAKDOWN:**\n• Structure (40%): ₹${Math.round(parseFloat(data.budget.split('-')[0]) * 0.4)} Lakhs\n• Plumbing (10%): ₹${Math.round(parseFloat(data.budget.split('-')[0]) * 0.1)} Lakhs\n• Electrical (10%): ₹${Math.round(parseFloat(data.budget.split('-')[0]) * 0.1)} Lakhs\n• Flooring (15%): ₹${Math.round(parseFloat(data.budget.split('-')[0]) * 0.15)} Lakhs\n• Finishing (25%): ₹${Math.round(parseFloat(data.budget.split('-')[0]) * 0.25)} Lakhs\n\n**⏰ CONSTRUCTION TIMELINE:**\n• Total Duration: 8-10 months\n• Structure: 4 months\n• Finishing: 4 months\n• Final touches: 2 months\n\n**🎨 GENERAL DESIGN FEATURES:**\n• Natural lighting in all rooms\n• Efficient storage solutions\n• Energy-efficient design\n• Climate-appropriate materials\n\n**👥 RECOMMENDED PROFESSIONALS:**\n\nWould you like me to recommend specific architects, contractors, or other professionals for your project?\n\nOr would you like detailed advice on any specific aspect of this plan?`;
-}
-
+// Budget Consultation Flow
 function startBudgetConsultationFlow() {
     conversationState.currentFlow = 'budgetConsultation';
     conversationState.step = 1;
     conversationState.userResponses = {};
     
-    return `💰 **Master Budget Consultant** 📊\n\nHello! I'm your expert cost estimation specialist with 15+ years experience. I'll create a detailed, accurate budget by understanding your exact requirements.\n\n**Question 1/6: What type of project are you planning?**\n\nA) **New Construction** - Building from scratch\nB) **Complete Renovation** - Full house makeover\nC) **Partial Renovation** - Specific rooms/areas\nD) **Interior Design** - Furniture & decor only\nE) **Specific Work** - Kitchen, bathroom, flooring etc.\n\n📝 **Why this matters:** Different project types have completely different cost structures and requirements.\n\nWhich option best describes your project?`;
+    return `💰 **Professional Budget Consultation Started!** 📊\n\nAs your cost estimation expert, I'll help you plan a realistic budget for your project.\n\n**Question 1/6: What type of project do you need budget for?**\n\nA) New home construction\nB) Home renovation/remodeling\nC) Interior design only\nD) Specific room renovation\nE) Commercial space\nF) Other - Tell me about your project\n\nWhich option describes your project?`;
 }
 
 function continueBudgetConsultationFlow(message, step) {
-    const lowerMessage = message.toLowerCase();
-    
-    switch (step) {
-        case 1:
-            conversationState.step = 2;
-            let projectType = '';
-            if (lowerMessage.includes('a') || lowerMessage.includes('new')) projectType = 'New Construction';
-            else if (lowerMessage.includes('b') || lowerMessage.includes('complete')) projectType = 'Complete Renovation';
-            else if (lowerMessage.includes('c') || lowerMessage.includes('partial')) projectType = 'Partial Renovation';
-            else if (lowerMessage.includes('d') || lowerMessage.includes('interior')) projectType = 'Interior Design';
-            else if (lowerMessage.includes('e') || lowerMessage.includes('specific')) projectType = 'Specific Work';
-            
-            conversationState.projectData.projectType = projectType;
-            
-            return `✅ **${projectType}** - Excellent choice!\n\n**Question 2/6: How big is your house/project?**\n\n📏 **I need to understand the size to calculate material and labor costs:**\n\n🏠 **For ${projectType}:**\n• Total built-up area (if full house)\n• Carpet area (usable space)\n• Specific room size (if partial work)\n\n📝 **Examples:**\n• "1200 sqft house"\n• "10x12 kitchen + 8x10 bedroom"\n• "2BHK apartment 800 sqft"\n\nWhat's the size/area of your project?`;
-            
-        case 2:
-            conversationState.step = 3;
-            conversationState.projectData.area = extractAreaFromMessage(message);
-            
-            return `📐 **${conversationState.projectData.area} sqft** - Got it!\n\n**Question 3/5: What quality level are you targeting?**\n\nA) **Basic** (₹1,200/sqft) - Standard materials, simple finishes\nB) **Standard** (₹1,800/sqft) - Good quality, decent finishes  \nC) **Premium** (₹2,500/sqft) - High quality, premium finishes\nD) **Luxury** (₹3,500/sqft) - Top materials, designer finishes\n\n💡 **Expert Tip:** Quality affects durability and long-term costs!`;
-            
-        case 3:
-            conversationState.step = 4;
-            let qualityLevel = '';
-            let costPerSqft = 0;
-            
-            if (lowerMessage.includes('a') || lowerMessage.includes('basic')) {
-                qualityLevel = 'Basic';
-                costPerSqft = 1200;
-            } else if (lowerMessage.includes('b') || lowerMessage.includes('standard')) {
-                qualityLevel = 'Standard';
-                costPerSqft = 1800;
-            } else if (lowerMessage.includes('c') || lowerMessage.includes('premium')) {
-                qualityLevel = 'Premium';
-                costPerSqft = 2500;
-            } else if (lowerMessage.includes('d') || lowerMessage.includes('luxury')) {
-                qualityLevel = 'Luxury';
-                costPerSqft = 3500;
-            }
-            
-            conversationState.projectData.quality = qualityLevel;
-            conversationState.projectData.costPerSqft = costPerSqft;
-            
-            return `⭐ **${qualityLevel} Quality** - Excellent choice!\n\n**Question 4/5: Any special requirements?**\n\n🔧 **Common additions:**\n• Modular kitchen\n• Designer bathrooms\n• Wooden flooring\n• False ceiling\n• Landscaping\n• Smart home features\n• Swimming pool\n• Solar panels\n\nTell me what special features you want, or type "none" for standard work.`;
-            
-        case 4:
-            conversationState.step = 5;
-            conversationState.projectData.specialRequirements = message;
-            
-            return `🎯 **Special requirements noted!**\n\n**Final Question 5/5: What's your preferred timeline?**\n\nA) Fast track (20% extra cost)\nB) Normal timeline\nC) Flexible timeline (cost savings possible)\nD) Seasonal timing (monsoon considerations)\n\n⏰ **Timeline affects:** Material costs, labor availability, weather factors.`;
-            
-        case 5:
-            conversationState.projectData.timeline = message;
-            return generateDetailedBudgetEstimate();
-            
-        default:
-            return resetConversation();
-    }
+    // Implementation similar to home planning flow
+    // This would continue the budget consultation process
+    return `💰 Budget consultation continues... Step ${step + 1}`;
 }
 
-function generateDetailedBudgetEstimate() {
-    const data = conversationState.projectData;
-    const area = parseFloat(data.area);
-    const baseRate = data.costPerSqft;
-    const baseCost = area * baseRate;
-    
-    // Calculate various components
-    const structure = baseCost * 0.40;
-    const plumbing = baseCost * 0.10;
-    const electrical = baseCost * 0.10;
-    const flooring = baseCost * 0.15;
-    const painting = baseCost * 0.08;
-    const fixtures = baseCost * 0.12;
-    const finishing = baseCost * 0.05;
-    
-    // Add special requirements cost (estimate 10-20% extra)
-    const specialCost = data.specialRequirements && data.specialRequirements !== 'none' ? baseCost * 0.15 : 0;
-    
-    const totalCost = baseCost + specialCost;
-    const contingency = totalCost * 0.10; // 10% contingency
-    const finalCost = totalCost + contingency;
-    
-    resetConversation();
-    
-    return `💰 **DETAILED BUDGET ESTIMATE REPORT** 📊\n\n**═══════════════════════════════════**\n\n📋 **PROJECT DETAILS:**\n• Type: ${data.projectType}\n• Area: ${data.area} sqft\n• Quality: ${data.quality}\n• Rate: ₹${baseRate}/sqft\n\n💸 **DETAILED COST BREAKDOWN:**\n\n**🏗️ STRUCTURAL WORK (40%)**\n• Foundation & Structure: ₹${Math.round(structure/100000*100)/100} Lakhs\n\n**🔧 MEP WORK (20%)**\n• Plumbing & Sanitary: ₹${Math.round(plumbing/100000*100)/100} Lakhs\n• Electrical & Lighting: ₹${Math.round(electrical/100000*100)/100} Lakhs\n\n**🎨 FINISHING WORK (40%)**\n• Flooring & Tiles: ₹${Math.round(flooring/100000*100)/100} Lakhs\n• Painting & Polish: ₹${Math.round(painting/100000*100)/100} Lakhs\n• Doors & Fixtures: ₹${Math.round(fixtures/100000*100)/100} Lakhs\n• Final Finishing: ₹${Math.round(finishing/100000*100)/100} Lakhs\n\n**✨ SPECIAL FEATURES:**\n• Additional Work: ₹${Math.round(specialCost/100000*100)/100} Lakhs\n\n**📊 SUMMARY:**\n• Base Cost: ₹${Math.round(baseCost/100000*100)/100} Lakhs\n• Special Features: ₹${Math.round(specialCost/100000*100)/100} Lakhs\n• Contingency (10%): ₹${Math.round(contingency/100000*100)/100} Lakhs\n\n**🎯 TOTAL PROJECT COST: ₹${Math.round(finalCost/100000*100)/100} LAKHS**\n\n**⏰ PAYMENT SCHEDULE:**\n• Advance: 20% (₹${Math.round(finalCost*0.2/100000*100)/100} Lakhs)\n• Structure: 40% (₹${Math.round(finalCost*0.4/100000*100)/100} Lakhs)\n• Finishing: 35% (₹${Math.round(finalCost*0.35/100000*100)/100} Lakhs)\n• Final: 5% (₹${Math.round(finalCost*0.05/100000*100)/100} Lakhs)\n\n**💡 EXPERT COST-SAVING TIPS:**\n• Buy materials in bulk for 10-15% savings\n• Plan work during off-season for labor savings\n• Focus budget on structural quality\n• Consider phased execution to spread costs\n\n**🏗️ TIMELINE ESTIMATE:**\n• ${data.projectType}: 6-10 months\n• Monthly spend: ₹${Math.round(finalCost/8/100000*100)/100} Lakhs average\n\nWould you like me to recommend professionals who can execute this project within your budget?`;
-}
-
+// Kitchen Design Flow
 function startKitchenDesignFlow() {
     conversationState.currentFlow = 'kitchenDesign';
     conversationState.step = 1;
     conversationState.userResponses = {};
     
-    return `🍳 **Expert Kitchen Design Consultation** 👨‍🍳\n\nAs your specialized kitchen designer, I'll create the perfect cooking space for you!\n\n**Question 1/6: What's your kitchen area/size?**\n\n📏 **Common kitchen sizes:**\n• Small: 6x8 feet (48 sqft)\n• Medium: 8x10 feet (80 sqft)\n• Large: 10x12 feet (120 sqft)\n• Extra Large: 12x14+ feet (168+ sqft)\n\nTell me your kitchen dimensions (e.g., "8x10 feet" or "80 sqft")`;
+    return `🍳 **Professional Kitchen Design Consultation!** 👨‍🍳\n\nI'll help you create the perfect kitchen for your needs.\n\n**Question 1/7: What's your kitchen area/size?**\n\nA) Small (6x8 to 8x10 feet)\nB) Medium (8x10 to 10x12 feet)\nC) Large (10x12 to 12x15 feet)\nD) Very Large (12x15+ feet)\nE) I'll tell you exact dimensions\n\nWhat size kitchen are we designing?`;
 }
 
 function continueKitchenDesignFlow(message, step) {
-    switch (step) {
-        case 1:
-            conversationState.step = 2;
-            conversationState.projectData.kitchenSize = message;
-            
-            return `📐 **Kitchen size: ${message}** - Perfect!\n\n**Question 2/6: What's your cooking style?**\n\nA) **Heavy cooking** - Full Indian meals, multiple dishes\nB) **Moderate cooking** - Regular home cooking\nC) **Light cooking** - Basic meals, minimal frying\nD) **Occasional cooking** - Mostly reheating, simple dishes\n\n👨‍🍳 **This determines:** Storage needs, ventilation, countertop space, appliance requirements.`;
-            
-        case 2:
-            conversationState.step = 3;
-            conversationState.projectData.cookingStyle = message;
-            
-            return `👨‍🍳 **Cooking style noted!**\n\n**Question 3/6: How many people regularly cook in your kitchen?**\n\nA) Single person cooking\nB) 2 people (couple cooking together)\nC) Multiple family members\nD) Professional cook/helper\n\n🏃‍♀️ **This affects:** Work triangle, counter space, storage accessibility, traffic flow.`;
-            
-        case 3:
-            conversationState.step = 4;
-            conversationState.projectData.cookingPeople = message;
-            
-            return `👥 **Kitchen users noted!**\n\n**Question 4/6: What kitchen layout do you prefer?**\n\nA) **L-Shaped** - Corner utilization, good for medium kitchens\nB) **Straight/Gallery** - Single wall, space-efficient\nC) **U-Shaped** - Maximum storage, large kitchens\nD) **Island Kitchen** - Central workspace, spacious kitchens\nE) **Parallel/Galley** - Two opposite walls\n\n📐 **Expert tip:** Layout depends on your space and workflow!`;
-            
-        case 4:
-            conversationState.step = 5;
-            conversationState.projectData.kitchenLayout = message;
-            
-            return `🏗️ **Layout preference saved!**\n\n**Question 5/6: What's your kitchen budget range?**\n\nA) ₹1-2 Lakhs (Basic modular)\nB) ₹2-4 Lakhs (Standard quality)\nC) ₹4-6 Lakhs (Premium finish)\nD) ₹6-10 Lakhs (Luxury kitchen)\nE) ₹10+ Lakhs (Ultra-premium)\n\n💰 **Includes:** Cabinets, countertop, appliances, plumbing, electrical work.`;
-            
-        case 5:
-            conversationState.step = 6;
-            conversationState.projectData.kitchenBudget = message;
-            
-            return `💰 **Budget range confirmed!**\n\n**Final Question 6/6: Any special requirements?**\n\n🔧 **Popular additions:**\n• Breakfast counter/dining area\n• Built-in appliances (OTG, microwave)\n• Modular storage solutions\n• Granite/quartz countertops\n• Under-cabinet lighting\n• Chimney and ventilation\n• Water purifier space\n• Dishwasher area\n\nTell me your special needs, or type "standard" for basic requirements.`;
-            
-        case 6:
-            conversationState.projectData.specialKitchenNeeds = message;
-            return generateKitchenDesignPlan();
-            
-        default:
-            return resetConversation();
-    }
+    // Implementation for kitchen design consultation
+    return `🍳 Kitchen design continues... Step ${step + 1}`;
 }
 
-function generateKitchenDesignPlan() {
-    const data = conversationState.projectData;
-    resetConversation();
+// Carpenter Consultation Flow
+function startCarpenterConsultationFlow() {
+    conversationState.currentFlow = 'carpenterConsultation';
+    conversationState.step = 1;
+    conversationState.userResponses = {};
     
-    return `🍳 **COMPLETE KITCHEN DESIGN PLAN** 🏗️\n\n**═══════════════════════════════════**\n\n📋 **YOUR KITCHEN PROFILE:**\n• Size: ${data.kitchenSize}\n• Cooking Style: ${data.cookingStyle}\n• Users: ${data.cookingPeople}\n• Layout: ${data.kitchenLayout}\n• Budget: ${data.kitchenBudget}\n\n🎯 **EXPERT DESIGN RECOMMENDATIONS:**\n\n**📐 OPTIMAL WORK TRIANGLE:**\n• Sink ↔ Stove: 4-6 feet\n• Stove ↔ Fridge: 4-7 feet\n• Fridge ↔ Sink: 4-9 feet\n• Total triangle: 12-23 feet\n\n**🏗️ LAYOUT SPECIFICATIONS:**\n• Counter height: 32-34 inches\n• Counter depth: 24 inches\n• Upper cabinet height: 12-15 inches\n• Counter to upper cabinet: 18 inches\n\n**🎨 DESIGN FEATURES:**\n• **Countertop:** Granite/Quartz for durability\n• **Backsplash:** Tiles for easy cleaning\n• **Storage:** Pull-out drawers, corner solutions\n• **Lighting:** Under-cabinet LED + ceiling lights\n• **Ventilation:** 90cm chimney for Indian cooking\n\n**⚡ ELECTRICAL PLANNING:**\n• 15A point for chimney\n• 5A points for appliances (4-5 nos.)\n• Microwave dedicated point\n• Under-cabinet lighting points\n• GFCI protection for wet areas\n\n**🔧 PLUMBING LAYOUT:**\n• Hot & cold water lines to sink\n• Waste water connection\n• Water purifier provision\n• Dishwasher connection (if planned)\n\n**📦 STORAGE SOLUTIONS:**\n• Base cabinets: Pots, heavy items\n• Upper cabinets: Daily use items\n• Tall units: Groceries, appliances\n• Corner units: Maximum space utilization\n\n**🏷️ MATERIAL RECOMMENDATIONS:**\n• **Cabinets:** BWR plywood/MDF\n• **Shutters:** Laminate/Acrylic finish\n• **Hardware:** Soft-close hinges & slides\n• **Countertop:** 20mm granite/quartz\n\n**💰 BUDGET BREAKDOWN:**\n• Cabinets (60%): ₹${Math.round(parseFloat(data.kitchenBudget.split('-')[0]) * 0.6)} Lakhs\n• Appliances (25%): ₹${Math.round(parseFloat(data.kitchenBudget.split('-')[0]) * 0.25)} Lakhs\n• Labor & Misc (15%): ₹${Math.round(parseFloat(data.kitchenBudget.split('-')[0]) * 0.15)} Lakhs\n\n**⏰ EXECUTION TIMELINE:**\n• Design & approval: 1 week\n• Manufacturing: 3-4 weeks\n• Installation: 1 week\n• Total duration: 5-6 weeks\n\n**👥 RECOMMENDED PROFESSIONALS:**\n\nWould you like me to recommend specific kitchen designers and carpenters who can execute this plan within your budget?\n\nOr need more details on any specific aspect?`;
+    return currentLanguage === 'hi' ? 
+        `🪑 **बढ़ई की सेवा चाहिए? मैं सही बढ़ई खोजने में मदद करूंगा!**\n\n**प्रश्न 1/4: कैसा काम करवाना है?**\n\n🛠️ **काम का प्रकार:**\n• अलमारी/वार्डरोब\n• किचन कैबिनेट\n• बेड/फर्नीचर\n• दरवाजे/खिड़कियां\n• मरम्मत का काम\n\nबताएं कि क्या काम है?` :
+        `🪑 **Need a carpenter? I'll help you find the right one!**\n\n**Question 1/4: What type of work do you need?**\n\n🛠️ **Work Type:**\n• Cupboard/Wardrobe\n• Kitchen Cabinets\n• Bed/Furniture\n• Doors/Windows\n• Repair Work\n\nTell me what work you need?`;
 }
 
-function extractAreaFromMessage(message) {
-    const numbers = message.match(/\d+/g);
-    if (numbers && numbers.length >= 1) {
-        if (numbers.length >= 2) {
-            return `${numbers[0]}x${numbers[1]} feet (${numbers[0] * numbers[1]} sqft)`;
-        } else {
-            return `${numbers[0]} sqft`;
-        }
-    }
-    return message;
+function continueCarpenterConsultationFlow(message, step) {
+    // Implementation for carpenter consultation
+    return `🪑 Carpenter consultation continues... Step ${step + 1}`;
 }
 
-function extractNumberFromMessage(message) {
-    const numbers = message.match(/\d+/);
-    return numbers ? numbers[0] : message;
+// Plumber Consultation Flow
+function startPlumberConsultationFlow() {
+    conversationState.currentFlow = 'plumberConsultation';
+    conversationState.step = 1;
+    conversationState.userResponses = {};
+    
+    return currentLanguage === 'hi' ? 
+        `🔧 **प्लंबर चाहिए? मैं अच्छे प्लंबर खोजने में मदद करूंगा!**\n\n**प्रश्न 1/4: कैसा काम है?**\n\n💧 **काम का प्रकार:**\n• नया प्लंबिंग इंस्टॉलेशन\n• लीकेज की मरम्मत\n• बाथरूम फिटिंग\n• किचन प्लंबिंग\n• गीजर इंस्टॉलेशन\n\nबताएं कि क्या काम है?` :
+        `🔧 **Need a plumber? I'll help you find a good one!**\n\n**Question 1/4: What type of work is it?**\n\n💧 **Work Type:**\n• New plumbing installation\n• Leakage repair\n• Bathroom fitting\n• Kitchen plumbing\n• Geyser installation\n\nTell me what work you need?`;
 }
 
-function extractBudgetFromMessage(message) {
-    const lowerMessage = message.toLowerCase();
-    if (lowerMessage.includes('a') || lowerMessage.includes('8-15')) return '8-15 Lakhs';
-    if (lowerMessage.includes('b') || lowerMessage.includes('15-25')) return '15-25 Lakhs';
-    if (lowerMessage.includes('c') || lowerMessage.includes('25-40')) return '25-40 Lakhs';
-    if (lowerMessage.includes('d') || lowerMessage.includes('40+')) return '40+ Lakhs';
-    return message;
+// Painter Consultation Flow  
+function startPainterConsultationFlow() {
+    conversationState.currentFlow = 'painterConsultation';
+    conversationState.step = 1;
+    conversationState.userResponses = {};
+    
+    return currentLanguage === 'hi' ? 
+        `🎨 **पेंटर चाहिए? मैं बेस्ट पेंटर ढूंढने में मदद करूंगा!**\n\n**प्रश्न 1/4: कैसी पेंटिंग करवानी है?**\n\n🖌️ **पेंटिंग का प्रकार:**\n• पूरे घर की पेंटिंग\n• कमरे की पेंटिंग\n• एक्सटीरियर पेंटिंग\n• टेक्सचर पेंटिंग\n• वॉलपेपर लगवाना\n\nबताएं कि कैसी पेंटिंग है?` :
+        `🎨 **Need a painter? I'll help you find the best one!**\n\n**Question 1/4: What type of painting work?**\n\n🖌️ **Painting Type:**\n• Whole house painting\n• Room painting\n• Exterior painting\n• Texture painting\n• Wallpaper installation\n\nTell me what painting work you need?`;
+}
+
+// Additional flow functions would be implemented similarly...
+
+function startArchitectConsultationFlow() {
+    return `🏗️ **Architect Consultation Started!** I'll help you find the perfect architect for your project.`;
+}
+
+function startElectricianConsultationFlow() {
+    return `⚡ **Electrician Consultation Started!** I'll help you with electrical work needs.`;
+}
+
+function startConstructionAdviceFlow() {
+    return `🏗️ **Construction Guidance Started!** I'll provide expert construction advice.`;
+}
+
+function startVastuConsultationFlow() {
+    return `🧭 **Vastu Consultation Started!** I'll help you with Vastu compliance for your home.`;
+}
+
+function startMaterialAdviceFlow() {
+    return `🏗️ **Material Selection Guidance Started!** I'll help you choose the best materials.`;
+}
+
+function startHomeDesignFlow() {
+    return `🎨 **Home Design Consultation Started!** I'll help you design your dream home.`;
+}
+
+function startBedroomDesignFlow() {
+    return `🛏️ **Bedroom Design Consultation Started!** I'll help you create the perfect bedroom.`;
+}
+
+function startBathroomDesignFlow() {
+    return `🚿 **Bathroom Design Consultation Started!** I'll help you design a beautiful bathroom.`;
+}
+
+function startLivingRoomDesignFlow() {
+    return `🛋️ **Living Room Design Consultation Started!** I'll help you create an amazing living space.`;
 }
 
 function resetConversation() {
@@ -2461,442 +1690,142 @@ function resetConversation() {
     conversationState.userResponses = {};
     conversationState.projectData = {};
     
-    return "🏠 **Consultation completed!** Thank you for the detailed discussion.\n\nFeel free to start a new consultation anytime. I'm here to help with:\n\n• Complete home planning\n• Room-specific design\n• Budget estimation\n• Construction advice\n• Professional recommendations\n\nWhat would you like to discuss next?";
+    return `🔄 **Conversation Reset** - How can I help you today with your home planning and design needs?`;
 }
 
-function startCarpenterConsultationFlow() {
-    conversationState.currentFlow = 'carpenterConsultation';
-    conversationState.step = 1;
-    conversationState.userResponses = {};
+// Enhanced Professional Services
+
+// Professional Search & Recommendation System
+function findNearbyProfessionals(profession, location, requirements) {
+    let professionals = [];
     
-    const response = currentLanguage === 'hi' ? 
-        `🔨 **नमस्ते! मैं आपका मास्टर बढ़ई हूँ** 🪵\n\nमैं 20+ साल का अनुभव रखने वाला विशेषज्ञ बढ़ई हूँ। आपको जो भी फर्नीचर या लकड़ी का काम चाहिए, मैं आपको सबसे बेहतरीन सलाह और सेवा दूंगा!\n\n**बताइए, आपको क्या काम करवाना है?**\n\nA) **अलमारी/वार्डरोब** - बेडरूम, किचन के लिए\nB) **किचन कैबिनेट** - पूरा मॉड्यूलर किचन\nC) **कस्टम फर्नीचर** - टेबल, कुर्सी, बेड, सोफा\nD) **स्टोरेज सोल्यूशन** - बुकशेल्फ, दराज, वॉल यूनिट\nE) **लकड़ी की फ्लोरिंग** - हार्डवुड, लैमिनेट\nF) **दरवाजे और खिड़कियां** - लकड़ी की फिटिंग\nG) **मरम्मत का काम** - पुराने फर्नीचर की मरम्मत\n\n💡 **मैं पूछ रहा हूँ क्योंकि:** अलग-अलग काम के लिए अलग तकनीक, उपकरण और लकड़ी की जरूरत होती है।\n\nआप क्या बनवाना चाहते हैं?` :
-        `🔨 **Hello! I'm your Master Carpenter** 🪵\n\nI'm an expert carpenter with 20+ years of experience. Whatever furniture or woodwork you need, I'll give you the best advice and service!\n\n**Tell me, what work do you want to get done?**\n\nA) **Cupboard/Wardrobe** - For bedroom, kitchen storage\nB) **Kitchen Cabinets** - Complete modular kitchen setup\nC) **Custom Furniture** - Tables, chairs, beds, sofas\nD) **Storage Solutions** - Bookshelves, drawers, wall units\nE) **Wooden Flooring** - Hardwood, engineered, laminate\nF) **Doors & Windows** - Wooden installations & frames\nG) **Repair Work** - Fix existing furniture\n\n💡 **Why I'm asking:** Different work needs different techniques, tools, and wood types.\n\nWhat would you like me to make for you?`;
+    switch(profession.toLowerCase()) {
+        case 'carpenter':
+        case 'बढ़ई':
+            professionals = professionalDatabase.carpenters;
+            break;
+        case 'plumber':
+        case 'प्लंबर':
+            professionals = professionalDatabase.plumbers;
+            break;
+        case 'painter':
+        case 'पेंटर':
+            professionals = professionalDatabase.painters;
+            break;
+        case 'architect':
+        case 'आर्किटेक्ट':
+            professionals = professionalDatabase.architects;
+            break;
+        default:
+            professionals = [
+                ...professionalDatabase.carpenters,
+                ...professionalDatabase.plumbers,
+                ...professionalDatabase.painters,
+                ...professionalDatabase.architects
+            ];
+    }
     
-    return response;
+    // Filter by location if specified
+    if (location) {
+        professionals = professionals.filter(prof => 
+            prof.location.toLowerCase().includes(location.toLowerCase())
+        );
+    }
+    
+    // Sort by rating and distance
+    professionals.sort((a, b) => {
+        const ratingDiff = b.rating - a.rating;
+        if (Math.abs(ratingDiff) < 0.2) {
+            return parseFloat(a.distance) - parseFloat(b.distance);
+        }
+        return ratingDiff;
+    });
+    
+    return professionals.slice(0, 3); // Return top 3
 }
 
-function continueCarpenterConsultationFlow(message, step) {
+function generateDetailedBudgetEstimate() {
+    const projectType = conversationState.projectData.houseType || '3BHK';
+    const area = parseInt(conversationState.projectData.area) || 1000;
+    const budget = extractBudgetNumber(conversationState.projectData.budget || '₹25 Lakhs');
+    
+    const costPerSqft = budget / area;
+    
+    return `💰 **DETAILED BUDGET BREAKDOWN**\n\n📊 **Project:** ${projectType} (${area} sqft)\n💵 **Total Budget:** ₹${(budget/100000).toFixed(1)}L\n📏 **Cost per sqft:** ₹${costPerSqft.toFixed(0)}\n\n**🏗️ PHASE-WISE BREAKDOWN:**\n\n**1. STRUCTURE (40% - ₹${(budget*0.4/100000).toFixed(1)}L)**\n• Foundation & Excavation: ₹${(budget*0.12/100000).toFixed(1)}L\n• Walls & Columns: ₹${(budget*0.15/100000).toFixed(1)}L\n• Roof & Slab: ₹${(budget*0.13/100000).toFixed(1)}L\n\n**2. FINISHES (25% - ₹${(budget*0.25/100000).toFixed(1)}L)**\n• Flooring: ₹${(budget*0.10/100000).toFixed(1)}L\n• Wall Finishes: ₹${(budget*0.08/100000).toFixed(1)}L\n• Ceiling: ₹${(budget*0.07/100000).toFixed(1)}L\n\n**3. PLUMBING & ELECTRICAL (15% - ₹${(budget*0.15/100000).toFixed(1)}L)**\n• Plumbing: ₹${(budget*0.08/100000).toFixed(1)}L\n• Electrical: ₹${(budget*0.07/100000).toFixed(1)}L\n\n**4. DOORS & WINDOWS (10% - ₹${(budget*0.10/100000).toFixed(1)}L)**\n• Main Door: ₹${(budget*0.03/100000).toFixed(1)}L\n• Internal Doors: ₹${(budget*0.04/100000).toFixed(1)}L\n• Windows: ₹${(budget*0.03/100000).toFixed(1)}L\n\n**5. CONTINGENCY (10% - ₹${(budget*0.10/100000).toFixed(1)}L)**\n• Unforeseen expenses\n• Material price fluctuation\n• Design changes\n\n**⏰ PAYMENT SCHEDULE:**\n• **Foundation (25%):** ₹${(budget*0.25/100000).toFixed(1)}L\n• **Structure (35%):** ₹${(budget*0.35/100000).toFixed(1)}L\n• **Finishes (25%):** ₹${(budget*0.25/100000).toFixed(1)}L\n• **Final (15%):** ₹${(budget*0.15/100000).toFixed(1)}L`;
+}
+
+// Advanced Carpenter Services
+function handleCarpenterQuery(message) {
     const lowerMessage = message.toLowerCase();
     
-    switch (step) {
-        case 1:
-            conversationState.step = 2;
-            let workType = '';
-            if (lowerMessage.includes('a') || lowerMessage.includes('cupboard') || lowerMessage.includes('wardrobe') || lowerMessage.includes('अलमारी')) {
-                workType = currentLanguage === 'hi' ? 'अलमारी/वार्डरोब' : 'Cupboard/Wardrobe';
-            } else if (lowerMessage.includes('b') || lowerMessage.includes('kitchen') || lowerMessage.includes('किचन')) {
-                workType = currentLanguage === 'hi' ? 'किचन कैबिनेट' : 'Kitchen Cabinets';
-            } else if (lowerMessage.includes('c') || lowerMessage.includes('furniture') || lowerMessage.includes('फर्नीचर')) {
-                workType = currentLanguage === 'hi' ? 'कस्टम फर्नीचर' : 'Custom Furniture';
-            } else if (lowerMessage.includes('d') || lowerMessage.includes('storage') || lowerMessage.includes('स्टोरेज')) {
-                workType = currentLanguage === 'hi' ? 'स्टोरेज सोल्यूशन' : 'Storage Solutions';
-            } else if (lowerMessage.includes('e') || lowerMessage.includes('flooring') || lowerMessage.includes('फ्लोरिंग')) {
-                workType = currentLanguage === 'hi' ? 'लकड़ी की फ्लोरिंग' : 'Wooden Flooring';
-            } else if (lowerMessage.includes('f') || lowerMessage.includes('doors') || lowerMessage.includes('windows') || lowerMessage.includes('दरवाजे')) {
-                workType = currentLanguage === 'hi' ? 'दरवाजे और खिड़कियां' : 'Doors & Windows';
-            } else {
-                workType = currentLanguage === 'hi' ? 'कस्टम काम' : 'Custom Work';
-            }
-            
-            conversationState.projectData.workType = workType;
-            
-            return currentLanguage === 'hi' ? 
-                `🔨 **${workType}** - बहुत बढ़िया चुनाव!\n\n**अब बताइए इसकी पूरी डिटेल:**\n\n📝 **${workType} के लिए मुझे जानना चाहिए:**\n• कितने पीस/यूनिट चाहिए?\n• साइज़ क्या होगा? (लंबाई x चौड़ाई x ऊंचाई)\n• कहाँ लगाना है? (कौन सा कमरा)\n• कोई खास डिज़ाइन चाहिए?\n\n📝 **उदाहरण:**\n• "मास्टर बेडरूम के लिए 2 अलमारी, हर एक 6 फीट चौड़ी"\n• "10x8 किचन के लिए पूरा कैबिनेट"\n• "4 सीटर डाइनिंग टेबल कुर्सियों के साथ"\n\nअपनी जरूरत की पूरी डिटेल बताइए:` :
-                `🔨 **${workType}** - Excellent choice!\n\n**Tell me the complete details:**\n\n📝 **For ${workType}, I need to know:**\n• How many units/pieces do you need?\n• What are the dimensions? (length x width x height)\n• Where will this be installed? (which room)\n• Any specific design preferences?\n\n📝 **Examples:**\n• "2 wardrobes for master bedroom, 6 feet wide each"\n• "Complete kitchen cabinets for 10x8 kitchen"\n• "4-seater dining table with chairs"\n\nDescribe your exact requirement in detail:`;
-            
-        case 2:
-            conversationState.step = 3;
-            conversationState.projectData.dimensions = message;
-            
-            return currentLanguage === 'hi' ? 
-                `📐 **साइज़: ${message}** - परफेक्ट!\n\n**अब बताइए, कौन सी लकड़ी/मटेरियल पसंद करेंगे?**\n\nA) **टीक वुड** - प्रीमियम, टिकाऊ, ₹800-1200/sqft\nB) **शीशम** - अच्छी क्वालिटी, ₹400-600/sqft\nC) **पाइन वुड** - किफायती, ₹300-500/sqft\nD) **प्लाईवुड + वेनीर** - मॉडर्न, ₹200-400/sqft\nE) **MDF + लैमिनेट** - बजट फ्रेंडली, ₹150-300/sqft\nF) **बढ़ई से सुझाव लें** - बजट और इस्तेमाल के अनुसार\n\n🌳 **एक्सपर्ट टिप:** लकड़ी का चुनाव मजबूती, दिखावट और कीमत को प्रभावित करता है!` :
-                `📐 **Size: ${message}** - Perfect!\n\n**Now tell me, what type of wood/material do you prefer?**\n\nA) **Teak Wood** - Premium, durable, ₹800-1200/sqft\nB) **Sheesham** - Good quality, ₹400-600/sqft\nC) **Pine Wood** - Economical, ₹300-500/sqft\nD) **Plywood + Veneer** - Modern, ₹200-400/sqft\nE) **MDF + Laminate** - Budget-friendly, ₹150-300/sqft\nF) **Let carpenter suggest** - Based on budget & use\n\n🌳 **Expert tip:** Wood choice affects durability, appearance, and cost!`;
-            
-        case 3:
-            conversationState.step = 4;
-            conversationState.projectData.material = message;
-            
-            return currentLanguage === 'hi' ? 
-                `🌳 **मटेरियल की पसंद नोट की गई!**\n\n**आपका बजट रेंज क्या है?**\n\nA) ₹10,000 - 25,000 (बेसिक काम)\nB) ₹25,000 - 50,000 (स्टैंडर्ड क्वालिटी)\nC) ₹50,000 - 1,00,000 (प्रीमियम काम)\nD) ₹1,00,000+ (लग्जरी/कस्टम)\nE) अपना स्पेसिफिक बजट बताएं\n\n💰 **बजट में शामिल:** मटेरियल, मजदूरी, हार्डवेयर, और फिनिशिंग।` :
-                `🌳 **Material preference noted!**\n\n**What's your budget range?**\n\nA) ₹10,000 - 25,000 (Basic work)\nB) ₹25,000 - 50,000 (Standard quality)\nC) ₹50,000 - 1,00,000 (Premium work)\nD) ₹1,00,000+ (Luxury/Custom)\nE) Tell me your specific budget\n\n💰 **Budget includes:** Material, labor, hardware, and finishing.`;
-            
-        case 4:
-            conversationState.step = 5;
-            conversationState.projectData.budget = message;
-            
-            return currentLanguage === 'hi' ? 
-                `💰 **बजट कन्फर्म हुआ!**\n\n**कब तक काम पूरा करना है?**\n\nA) **जल्दी** - 1 हफ्ते में (जल्दबाजी चार्ज लगेगा)\nB) **जल्दी** - 1-2 हफ्ते में\nC) **स्टैंडर्ड** - 2-4 हफ्ते में\nD) **फ्लेक्सिबल** - 1-2 महीने में (बेहतर प्राइसिंग)\n\n⏰ **टाइमलाइन प्रभावित करती है:** मटेरियल की खरीदारी, वर्कशॉप शेड्यूलिंग, इंस्टालेशन प्लानिंग।` :
-                `💰 **Budget confirmed!**\n\n**When do you need this completed?**\n\nA) **Urgent** - Within 1 week (rush charges apply)\nB) **Soon** - 1-2 weeks\nC) **Standard** - 2-4 weeks\nD) **Flexible** - 1-2 months (better pricing)\n\n⏰ **Timeline affects:** Material procurement, workshop scheduling, installation planning.`;
-            
-        case 5:
-            conversationState.projectData.timeline = message;
-            return generateCarpenterRecommendation();
-            
-        default:
-            return resetConversation();
+    if (lowerMessage.includes('cupboard') || lowerMessage.includes('wardrobe') || 
+        lowerMessage.includes('अलमारी') || lowerMessage.includes('वार्डरोब')) {
+        return startCupboardDesignFlow();
     }
+    
+    if (lowerMessage.includes('kitchen') || lowerMessage.includes('cabinet') ||
+        lowerMessage.includes('किचन') || lowerMessage.includes('कैबिनेट')) {
+        return startKitchenCabinetFlow();
+    }
+    
+    if (lowerMessage.includes('furniture') || lowerMessage.includes('फर्नीचर')) {
+        return startFurnitureDesignFlow();
+    }
+    
+    return startGeneralCarpenterFlow();
 }
 
-function generateCarpenterRecommendation() {
-    const data = conversationState.projectData;
+function startCupboardDesignFlow() {
+    return `🗄️ **Cupboard Design Consultation**\n\n**Tell me about your cupboard needs:**\n\n📐 **Size Options:**\n• 2-door (4-5 feet width)\n• 3-door (6-7 feet width)\n• 4-door (8+ feet width)\n• Corner cupboard\n• Wall-mounted\n\n🎨 **Design Styles:**\n• Modern with sliding doors\n• Traditional with swing doors\n• Walk-in wardrobe\n• Built-in wall cupboard\n\n💰 **Price Range:**\n• Basic laminate: ₹8,000-15,000\n• Premium laminate: ₹15,000-25,000\n• Wooden finish: ₹25,000-45,000\n• Luxury design: ₹45,000+\n\n**What type and size cupboard do you need?**`;
+}
+
+function startKitchenCabinetFlow() {
+    return `🍳 **Kitchen Cabinet Design**\n\n**Let's design your perfect kitchen:**\n\n📏 **Kitchen Layout:**\n• Straight/Linear kitchen\n• L-shaped kitchen\n• U-shaped kitchen\n• Island kitchen\n• Parallel/Galley kitchen\n\n🎨 **Cabinet Styles:**\n• Modern handleless\n• Traditional with handles\n• Shaker style\n• Glass front cabinets\n• Open shelving combination\n\n💡 **Features:**\n• Soft-close hinges\n• Pull-out drawers\n• Corner solutions\n• Built-in organizers\n• Under-cabinet lighting\n\n💰 **Budget Range:**\n• Modular: ₹50,000-1,50,000\n• Semi-modular: ₹80,000-2,50,000\n• Fully customized: ₹1,50,000+\n\n**What's your kitchen size and layout preference?**`;
+}
+
+function startFurnitureDesignFlow() {
+    return `🪑 **Custom Furniture Design**\n\n**What furniture piece do you need?**\n\n🛏️ **Bedroom Furniture:**\n• Bed with storage\n• Study table\n• Dressing table\n• Night stands\n• Chest of drawers\n\n🛋️ **Living Room:**\n• TV unit/Entertainment center\n• Coffee table\n• Sofa cum bed\n• Display units\n• Shoe rack\n\n📚 **Study/Office:**\n• Computer table\n• Bookshelves\n• Office chair\n• Filing cabinets\n• Study desk\n\n🍽️ **Dining:**\n• Dining table set\n• Crockery unit\n• Bar counter\n• Serving trolley\n\n**Which furniture piece interests you most?**`;
+}
+
+function startGeneralCarpenterFlow() {
+    return `🔨 **General Carpentry Services**\n\n**I can help you find carpenters for:**\n\n🛠️ **Installation Work:**\n• Door & window fitting\n• Ceiling work\n• Partition walls\n• Staircase railing\n• Wall paneling\n\n🔧 **Repair Work:**\n• Door/window repair\n• Furniture repair\n• Loose joint fixing\n• Hardware replacement\n• Wood polishing\n\n🎨 **Finishing Work:**\n• Wood staining\n• Varnish application\n• Laminate work\n• Veneer application\n• Paint preparation\n\n💰 **Service Charges:**\n• Basic work: ₹300-500/day\n• Skilled work: ₹500-800/day\n• Expert craftsman: ₹800-1200/day\n\n**What specific carpentry work do you need?**`;
+}
+
+// Enhanced Professional Matching System
+function matchProfessionalToRequirements(requirements, location, budget) {
+    const professionals = findNearbyProfessionals('carpenter', location, requirements);
     
-    // Find matching carpenters based on work type and budget
-    let matchingCarpenters = professionalDatabase.carpenters.filter(carpenter => {
-        const workTypeMatch = carpenter.expertise.some(exp => 
-            exp.toLowerCase().includes(data.workType.toLowerCase().split('/')[0]) ||
-            data.workType.toLowerCase().includes(exp.toLowerCase())
+    let recommendations = professionals.map(prof => {
+        let matchScore = 0;
+        
+        // Rating weight (40%)
+        matchScore += (prof.rating / 5.0) * 40;
+        
+        // Experience weight (30%)
+        const expYears = parseInt(prof.experience);
+        matchScore += Math.min(expYears / 15.0, 1.0) * 30;
+        
+        // Specialization match (20%)
+        const hasMatchingSpec = prof.specializations.some(spec => 
+            requirements.toLowerCase().includes(spec.toLowerCase())
         );
-        return workTypeMatch;
+        if (hasMatchingSpec) matchScore += 20;
+        
+        // Verification weight (10%)
+        if (prof.verified) matchScore += 10;
+        
+        return {
+            ...prof,
+            matchScore: Math.round(matchScore)
+        };
     });
     
-    resetConversation();
+    recommendations.sort((a, b) => b.matchScore - a.matchScore);
     
-    let recommendation = currentLanguage === 'hi' ? 
-        `🔨 **बढ़ई की विशेषज्ञ रिपोर्ट** 🪵\n\n**═══════════════════════════════════**\n\n📋 **आपकी जरूरतें:**\n• काम का प्रकार: ${data.workType}\n• आकार: ${data.dimensions}\n• मटेरियल: ${data.material}\n• बजट: ${data.budget}\n• समय सीमा: ${data.timeline}\n\n🎯 **विशेषज्ञ सिफारिशें:**\n\n**🏗️ काम की स्पेसिफिकेशन:**\n• मटेरियल की मोटाई: मुख्य ढांचे के लिए 18-20mm\n• हार्डवेयर: सॉफ्ट-क्लोज़ हिंजेस और स्लाइड्स की सिफारिश\n• फिनिश: पॉलिश + प्रोटेक्टिव कोटिंग\n• इंस्टालेशन: प्रोफेशनल माउंटिंग जरूरी\n\n**💰 कॉस्ट ब्रेकडाउन:**\n• मटेरियल (60%): ₹${Math.round(parseFloat(data.budget.split('-')[0].replace(/[₹,]/g, '')) * 0.6).toLocaleString()}\n• मजदूरी (30%): ₹${Math.round(parseFloat(data.budget.split('-')[0].replace(/[₹,]/g, '')) * 0.3).toLocaleString()}\n• हार्डवेयर (10%): ₹${Math.round(parseFloat(data.budget.split('-')[0].replace(/[₹,]/g, '')) * 0.1).toLocaleString()}\n\n**⏰ एक्जीक्यूशन टाइमलाइन:**\n• डिज़ाइन अप्रूवल: 1-2 दिन\n• मटेरियल खरीदारी: 3-5 दिन\n• वर्कशॉप का काम: 1-2 हफ्ते\n• इंस्टालेशन: 1-2 दिन\n\n**👨‍🔧 परफेक्ट बढ़ई मैच:**\n\n` :
-        `🔨 **CARPENTER EXPERT REPORT** 🪵\n\n**═══════════════════════════════════**\n\n📋 **YOUR REQUIREMENTS:**\n• Work Type: ${data.workType}\n• Dimensions: ${data.dimensions}\n• Material: ${data.material}\n• Budget: ${data.budget}\n• Timeline: ${data.timeline}\n\n🎯 **EXPERT RECOMMENDATIONS:**\n\n**🏗️ WORK SPECIFICATIONS:**\n• Material thickness: 18-20mm for main structure\n• Hardware: Soft-close hinges and slides recommended\n• Finish: Polish + protective coating\n• Installation: Professional mounting required\n\n**💰 COST BREAKDOWN:**\n• Material (60%): ₹${Math.round(parseFloat(data.budget.split('-')[0].replace(/[₹,]/g, '')) * 0.6).toLocaleString()}\n• Labor (30%): ₹${Math.round(parseFloat(data.budget.split('-')[0].replace(/[₹,]/g, '')) * 0.3).toLocaleString()}\n• Hardware (10%): ₹${Math.round(parseFloat(data.budget.split('-')[0].replace(/[₹,]/g, '')) * 0.1).toLocaleString()}\n\n**⏰ EXECUTION TIMELINE:**\n• Design approval: 1-2 days\n• Material procurement: 3-5 days\n• Workshop work: 1-2 weeks\n• Installation: 1-2 days\n\n**👨‍🔧 PERFECT CARPENTER MATCHES:**\n\n`;
-    
-    matchingCarpenters.slice(0, 2).forEach((carpenter, index) => {
-        if (currentLanguage === 'hi') {
-            recommendation += `**${index + 1}. ${carpenter.name}** ${carpenter.verified ? '✅' : ''}\n`;
-            recommendation += `📍 ${carpenter.location} (${carpenter.distance})\n`;
-            recommendation += `⭐ ${carpenter.rating}/5 (${carpenter.reviews} रिव्यूज)\n`;
-            recommendation += `🔨 ${carpenter.experience} अनुभव\n`;
-            recommendation += `🎯 विशेषज्ञता: ${carpenter.expertise.join(', ')}\n`;
-            recommendation += `💰 बजट रेंज: ₹${carpenter.budget}\n`;
-            recommendation += `📞 संपर्क: ${carpenter.phone}\n`;
-            recommendation += `📧 ईमेल: ${carpenter.email}\n\n`;
-        } else {
-            recommendation += `**${index + 1}. ${carpenter.name}** ${carpenter.verified ? '✅' : ''}\n`;
-            recommendation += `📍 ${carpenter.location} (${carpenter.distance})\n`;
-            recommendation += `⭐ ${carpenter.rating}/5 (${carpenter.reviews} reviews)\n`;
-            recommendation += `🔨 ${carpenter.experience} experience\n`;
-            recommendation += `🎯 Expert in: ${carpenter.expertise.join(', ')}\n`;
-            recommendation += `💰 Budget range: ₹${carpenter.budget}\n`;
-            recommendation += `📞 Contact: ${carpenter.phone}\n`;
-            recommendation += `📧 Email: ${carpenter.email}\n\n`;
-        }
-    });
-    
-    recommendation += currentLanguage === 'hi' ? 
-        `💡 **विशेषज्ञ टिप्स:**\n• हमेशा पहले के काम के सैंपल देखें\n• काम शुरू करने से पहले मटेरियल की क्वालिटी कन्फर्म करें\n• डिटेल्ड लिखित कोटेशन लें\n• 10% एक्स्ट्रा बजट रखें आपातकालीन खर्चों के लिए\n• काम के दौरान सही वेंटिलेशन सुनिश्चित करें\n\n**🎯 अगले स्टेप्स:**\n1. सिफारिश किए गए बढ़ईयों से संपर्क करें\n2. अपनी जरूरतें शेयर करें\n3. डिटेल्ड कोट्स लें\n4. रेफरेंस और पुराने काम चेक करें\n5. टाइमलाइन फाइनल करके काम शुरू करें\n\nक्या आपको मटेरियल या डिज़ाइन की और कोई जानकारी चाहिए?` :
-        `💡 **EXPERT TIPS:**\n• Always see previous work samples\n• Confirm material quality before starting\n• Get detailed written quotation\n• Plan for 10% extra budget for contingencies\n• Ensure proper ventilation during work\n\n**🎯 NEXT STEPS:**\n1. Contact recommended carpenters\n2. Share your requirements\n3. Get detailed quotes\n4. Check references and past work\n5. Finalize timeline and start work\n\nWould you like more specific advice on materials or design details?`;
-    
-    return recommendation;
+    return recommendations.slice(0, 3);
 }
 
-function startArchitectConsultationFlow() {
-    conversationState.currentFlow = 'architectConsultation';
-    conversationState.step = 1;
-    conversationState.userResponses = {};
-    
-    return `🏗️ **Virtual Architect Consultation** 📐\n\nAs your expert architect, I'll understand your vision and create the perfect design solution!\n\n**Question 1/6: What type of architectural service do you need?**\n\nA) **Complete house design** - Full architectural planning\nB) **House renovation** - Modify existing structure\nC) **Interior layout** - Space planning and design\nD) **Specific room design** - Kitchen, bedroom, etc.\nE) **2D/3D drawings** - Plans and visualization\nF) **Construction supervision** - Site monitoring\nG) **Consultation only** - Expert advice\n\nWhich service matches your need?`;
-}
-
-function continueArchitectConsultationFlow(message, step) {
-    // Similar implementation for architect consultation
-    // ... (implementation would follow same pattern)
-    return "Architect consultation flow - implementation in progress...";
-}
-
-function handleLocationQuery(message) {
-    let location = '';
-    let profession = '';
-    
-    // Extract location
-    const locationWords = ['mumbai', 'pune', 'bangalore', 'delhi', 'hyderabad', 'chennai'];
-    for (const loc of locationWords) {
-        if (message.includes(loc)) {
-            location = loc.charAt(0).toUpperCase() + loc.slice(1);
-            break;
-        }
-    }
-    
-    // Extract profession
-    if (message.includes('architect')) profession = 'architects';
-    else if (message.includes('carpenter')) profession = 'carpenters';
-    else if (message.includes('plumber')) profession = 'plumbers';
-    else if (message.includes('painter')) profession = 'painters';
-    else if (message.includes('electrician')) profession = 'electricians';
-    
-    if (location && profession) {
-        const professionals = searchProfessionalsByLocation(profession, location);
-        return formatProfessionalRecommendations(professionals, `${profession} in ${location}`);
-    }
-    
-    return "I can help you find professionals in Mumbai, Pune, Bangalore, Delhi, and other major cities. Please specify both the location and type of professional you're looking for!";
-}
-
-function formatProfessionalRecommendations(professionals, title) {
-    if (professionals.length === 0) {
-        return `I couldn't find any ${title} in your specified criteria. Let me show you our best professionals who might be able to help you:\n\n${formatProfessionalRecommendations(getAllTopProfessionals(), "top-rated professionals")}`;
-    }
-    
-    let response = `🔍 **EXPERT RECOMMENDATIONS: ${title.toUpperCase()}**\n\n`;
-    
-    professionals.slice(0, 2).forEach((prof, index) => {
-        response += `**${index + 1}. ${prof.name}** ${prof.verified ? '✅' : ''}\n`;
-        response += `📍 ${prof.location} (${prof.distance})\n`;
-        response += `⭐ ${prof.rating}/5 (${prof.reviews} reviews)\n`;
-        response += `💼 ${prof.experience} experience\n`;
-        response += `🎯 Specializes in: ${prof.specializations.slice(0, 2).join(', ')}\n`;
-        response += `🔧 Expert in: ${prof.expertise.slice(0, 3).join(', ')}\n`;
-        response += `💰 Budget: ₹${prof.budget}\n`;
-        response += `📞 ${prof.phone}\n`;
-        response += `📧 ${prof.email}\n\n`;
-    });
-    
-    if (professionals.length > 2) {
-        response += `*And ${professionals.length - 2} more qualified professionals available!*\n\n`;
-    }
-    
-    response += `💡 **NEXT STEPS:**\n`;
-    response += `1. Contact them with your specific requirements\n`;
-    response += `2. Ask for detailed quotations\n`;
-    response += `3. Check their previous work portfolio\n`;
-    response += `4. Compare proposals and select best fit\n\n`;
-    response += `**Need help with requirements?** Ask me "How to brief a ${title.split(' ')[0]}" for expert tips!`;
-    
-    return response;
-}
-
-function handleCarpenterQuery(message) {
-    let carpenters = professionalDatabase.carpenters;
-    
-    if (message.includes('cupboard') || message.includes('wardrobe')) {
-        carpenters = carpenters.filter(c => 
-            c.expertise.some(exp => exp.toLowerCase().includes('cupboard') || exp.toLowerCase().includes('wardrobe'))
-        );
-        return formatProfessionalList(carpenters, "carpenters specializing in cupboards and wardrobes");
-    }
-    
-    if (message.includes('kitchen')) {
-        carpenters = carpenters.filter(c => 
-            c.expertise.some(exp => exp.toLowerCase().includes('kitchen'))
-        );
-        return formatProfessionalList(carpenters, "carpenters specializing in kitchen work");
-    }
-    
-    if (message.includes('furniture')) {
-        carpenters = carpenters.filter(c => 
-            c.expertise.some(exp => exp.toLowerCase().includes('furniture'))
-        );
-        return formatProfessionalList(carpenters, "carpenters specializing in furniture");
-    }
-    
-    return formatProfessionalList(carpenters, "carpenters");
-}
-
-function handleArchitectQuery(message) {
-    let architects = professionalDatabase.architects;
-    
-    if (message.includes('luxury') || message.includes('villa')) {
-        architects = architects.filter(a => 
-            a.specializations.some(spec => spec.toLowerCase().includes('luxury') || spec.toLowerCase().includes('villa'))
-        );
-        return formatProfessionalList(architects, "architects specializing in luxury homes and villas");
-    }
-    
-    if (message.includes('sustainable') || message.includes('eco') || message.includes('green')) {
-        architects = architects.filter(a => 
-            a.specializations.some(spec => spec.toLowerCase().includes('sustainable') || spec.toLowerCase().includes('eco'))
-        );
-        return formatProfessionalList(architects, "architects specializing in sustainable design");
-    }
-    
-    return formatProfessionalList(architects, "architects");
-}
-
-function handlePlumberQuery(message) {
-    let plumbers = professionalDatabase.plumbers;
-    
-    if (message.includes('bathroom')) {
-        plumbers = plumbers.filter(p => 
-            p.expertise.some(exp => exp.toLowerCase().includes('bathroom'))
-        );
-        return formatProfessionalList(plumbers, "plumbers specializing in bathroom work");
-    }
-    
-    if (message.includes('kitchen')) {
-        plumbers = plumbers.filter(p => 
-            p.expertise.some(exp => exp.toLowerCase().includes('kitchen'))
-        );
-        return formatProfessionalList(plumbers, "plumbers specializing in kitchen plumbing");
-    }
-    
-    if (message.includes('luxury') || message.includes('smart')) {
-        plumbers = plumbers.filter(p => 
-            p.specializations.some(spec => spec.toLowerCase().includes('luxury') || spec.toLowerCase().includes('smart'))
-        );
-        return formatProfessionalList(plumbers, "plumbers specializing in luxury and smart plumbing");
-    }
-    
-    return formatProfessionalList(plumbers, "plumbers");
-}
-
-function handlePainterQuery(message) {
-    let painters = professionalDatabase.painters;
-    
-    if (message.includes('interior')) {
-        painters = painters.filter(p => 
-            p.specializations.some(spec => spec.toLowerCase().includes('interior'))
-        );
-        return formatProfessionalList(painters, "painters specializing in interior work");
-    }
-    
-    if (message.includes('exterior')) {
-        painters = painters.filter(p => 
-            p.specializations.some(spec => spec.toLowerCase().includes('exterior'))
-        );
-        return formatProfessionalList(painters, "painters specializing in exterior work");
-    }
-    
-    if (message.includes('artistic') || message.includes('decorative')) {
-        painters = painters.filter(p => 
-            p.specializations.some(spec => spec.toLowerCase().includes('artistic') || spec.toLowerCase().includes('decorative'))
-        );
-        return formatProfessionalList(painters, "painters specializing in artistic and decorative work");
-    }
-    
-    return formatProfessionalList(painters, "painters");
-}
-
-function handleElectricianQuery(message) {
-    let electricians = professionalDatabase.electricians;
-    
-    if (message.includes('smart') || message.includes('automation')) {
-        electricians = electricians.filter(e => 
-            e.specializations.some(spec => spec.toLowerCase().includes('smart') || spec.toLowerCase().includes('automation'))
-        );
-        return formatProfessionalList(electricians, "electricians specializing in smart home systems");
-    }
-    
-    return formatProfessionalList(electricians, "electricians");
-}
-
-function handleBudgetQuery(message) {
-    return `💰 **Budget Planning Guide:**
-
-**Architects:**
-• Basic Design: ₹50k - ₹150k
-• Premium Design: ₹150k - ₹300k
-• Luxury Projects: ₹300k - ₹600k
-
-**Carpenters:**
-• Basic Furniture: ₹15k - ₹50k
-• Custom Work: ₹20k - ₹80k
-• Luxury Furniture: ₹40k - ₹120k
-
-**Plumbers:**
-• Basic Work: ₹3k - ₹15k
-• Standard Fitting: ₹5k - ₹25k
-• Luxury Installation: ₹15k - ₹60k
-
-**Painters:**
-• Standard Painting: ₹5k - ₹20k
-• Quality Work: ₹8k - ₹30k
-• Artistic/Decorative: ₹15k - ₹50k
-
-**Tips:**
-• Get multiple quotes
-• Check reviews and past work
-• Plan for 10-15% extra budget
-• Consider material costs separately
-
-Would you like specific quotes for your project?`;
-}
-
-function handleAdviceQuery(message) {
-    return `🏠 **Expert Home Construction Advice:**
-
-**Planning Phase:**
-1. Define your requirements clearly
-2. Set a realistic budget (add 15% buffer)
-3. Get necessary approvals/permits
-4. Choose professionals carefully
-
-**Design Phase:**
-1. Focus on functionality first
-2. Plan for natural light and ventilation
-3. Consider future needs
-4. Don't compromise on structural elements
-
-**Construction Tips:**
-• Quality materials save money long-term
-• Regular site visits are essential
-• Document everything with photos
-• Weather-proof your timelines
-
-**Professional Selection:**
-• Check credentials and past work
-• Get detailed written quotes
-• Verify insurance and licenses
-• Ask for client references
-
-**Common Mistakes to Avoid:**
-❌ Choosing cheapest quotes without quality check
-❌ Changing plans during construction
-❌ Skipping quality materials for structure
-❌ Not planning for storage space
-
-What specific aspect would you like more advice on?`;
-}
-
-function searchProfessionalsByLocation(profession, location) {
-    return professionalDatabase[profession].filter(professional => 
-        professional.location.toLowerCase().includes(location.toLowerCase())
-    );
-}
-
-function formatProfessionalList(professionals, title) {
-    if (professionals.length === 0) {
-        return `I couldn't find any ${title} in your specified criteria. Let me show you our best professionals who might be able to help you:\n\n${formatProfessionalList(getAllTopProfessionals(), "top-rated professionals")}`;
-    }
-    
-    let response = `🔍 **Here are the best ${title}:**\n\n`;
-    
-    professionals.slice(0, 3).forEach((prof, index) => {
-        response += `**${index + 1}. ${prof.name}** ${prof.verified ? '✅' : ''}\n`;
-        response += `📍 ${prof.location} (${prof.distance})\n`;
-        response += `⭐ ${prof.rating}/5 (${prof.reviews} reviews)\n`;
-        response += `💼 ${prof.experience} experience\n`;
-        response += `🎯 Specializes in: ${prof.specializations.slice(0, 2).join(', ')}\n`;
-        response += `💰 Budget: ₹${prof.budget}\n`;
-        response += `📞 ${prof.phone}\n\n`;
-    });
-    
-    if (professionals.length > 3) {
-        response += `And ${professionals.length - 3} more professionals available!\n\n`;
-    }
-    
-    response += `💡 **Want to:**\n`;
-    response += `• See more professionals? Ask "show more ${title}"\n`;
-    response += `• Get specific help? Ask "who can help with [specific work]"\n`;
-    response += `• Compare options? Ask "compare these professionals"\n`;
-    
-    return response;
-}
-
-function getAllTopProfessionals() {
-    const allProfessionals = [
-        ...professionalDatabase.architects,
-        ...professionalDatabase.carpenters,
-        ...professionalDatabase.plumbers,
-        ...professionalDatabase.painters,
-        ...professionalDatabase.electricians
-    ];
-    
-    return allProfessionals
-        .sort((a, b) => b.rating - a.rating)
-        .slice(0, 3);
-}
-
-function showChatbot() {
-    initializeChatbot();
-    initializeVoiceRecognition();
-    showScreen('ai-chatbot-screen');
-}
-
+// Enhanced Chat Response System
 function sendChatMessage() {
     sendMessage();
 }
@@ -2939,8 +1868,8 @@ function addMessageToChat(message, sender) {
     if (sender === 'user') {
         messageDiv.innerHTML = `
             <div class="message-content user-content">
-                <p>${message}</p>
-                <span class="message-time">${timestamp}</span>
+                <div class="message-text">${message}</div>
+                <div class="message-time">${timestamp}</div>
             </div>
             <div class="message-avatar user-avatar">👤</div>
         `;
@@ -2948,8 +1877,8 @@ function addMessageToChat(message, sender) {
         messageDiv.innerHTML = `
             <div class="message-avatar ai-avatar">🤖</div>
             <div class="message-content ai-content">
-                <p>${message}</p>
-                <span class="message-time">${timestamp}</span>
+                <div class="message-text">${message}</div>
+                <div class="message-time">${timestamp}</div>
             </div>
         `;
     }
@@ -2959,90 +1888,42 @@ function addMessageToChat(message, sender) {
 }
 
 function showTypingIndicator() {
+    isTyping = true;
     const chatMessages = document.getElementById('chat-messages');
+    
     const typingDiv = document.createElement('div');
-    typingDiv.className = 'chat-message ai-message typing-indicator';
     typingDiv.id = 'typing-indicator';
+    typingDiv.className = 'chat-message ai-message typing';
     typingDiv.innerHTML = `
         <div class="message-avatar ai-avatar">🤖</div>
         <div class="message-content ai-content">
             <div class="typing-dots">
-                <span></span><span></span><span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     `;
+    
     chatMessages.appendChild(typingDiv);
     chatMessages.scrollTop = chatMessages.scrollHeight;
 }
 
 function hideTypingIndicator() {
+    isTyping = false;
     const typingIndicator = document.getElementById('typing-indicator');
     if (typingIndicator) {
         typingIndicator.remove();
     }
 }
 
-function showChatbot() {
-    showScreen('ai-chatbot-screen');
-    
-    // Initialize chat if not done already
-    if (!chatInitialized) {
-        initializeChat();
-        chatInitialized = true;
-    }
-}
-
-function initializeChat() {
-    const welcomeMessage = currentLanguage === 'hi' ? 
-        `🙏 नमस्ते! मैं Homii AI असिस्टेंट हूं। मैं आपकी घर बनाने की यात्रा में मदद कर सकता हूं:\n\n🏗️ आर्किटेक्ट्स और इंजीनियर्स खोजना\n🪑 बढ़ई और फर्नीचर डिज़ाइन\n💰 बजट प्लानिंग\n🎨 डिज़ाइन सुझाव\n📋 प्रोजेक्ट प्लानिंग\n\nआप मुझसे कुछ भी पूछ सकते हैं!` :
-        `👋 Hi! I'm your Homii AI Assistant. I can help you with your home building journey:\n\n🏗️ Finding architects & engineers\n🪑 Carpenter & furniture design\n💰 Budget planning\n🎨 Design suggestions\n📋 Project planning\n\nFeel free to ask me anything!`;
-    
-    addMessageToChat(welcomeMessage, 'ai');
-}
-
-function handleChatInputKeyPress(event) {
-    if (event.key === 'Enter') {
-        sendMessage();
-    }
-}
-
-// Notes Functions
-window.writeNotes = writeNotes;
-window.saveNote = saveNote;
-window.loadNotesList = loadNotesList;
-window.deleteNote = deleteNote;
-window.goToDesignBrief = goToDesignBrief;
-
-// Enhanced AI Chatbot Functions - More Intelligent & Conversational
+// Enhanced AI Processing Functions
 function processUserMessage(message) {
     const lowerMessage = message.toLowerCase();
     
     // If we're in the middle of a conversation flow, continue it
     if (conversationState.currentFlow) {
         return continueConversationFlow(message);
-    }
-    
-    // Enhanced Budget Planning Flow - Ask detailed questions first
-    if (lowerMessage.includes('budget') || lowerMessage.includes('cost') || lowerMessage.includes('price') || lowerMessage.includes('estimate')) {
-        return startEnhancedBudgetFlow();
-    }
-    
-    // Enhanced Carpenter Consultation - More detailed questioning
-    if (lowerMessage.includes('carpenter') || lowerMessage.includes('cupboard') || lowerMessage.includes('furniture') || lowerMessage.includes('wood')) {
-        return startEnhancedCarpenterFlow();
-    }
-    
-    // Enhanced Professional Search - Ask requirements first
-    if (lowerMessage.includes('architect')) {
-        return startEnhancedArchitectFlow();
-    }
-    
-    if (lowerMessage.includes('plumber')) {
-        return startEnhancedPlumberFlow();
-    }
-    
-    if (lowerMessage.includes('painter') || lowerMessage.includes('paint')) {
-        return startEnhancedPainterFlow();
     }
     
     // Home planning and design flows
@@ -3052,6 +1933,11 @@ function processUserMessage(message) {
     
     if (lowerMessage.includes('design') && (lowerMessage.includes('home') || lowerMessage.includes('house') || lowerMessage.includes('interior'))) {
         return startHomeDesignFlow();
+    }
+    
+    // Budget planning flow
+    if (lowerMessage.includes('budget') || lowerMessage.includes('cost') || lowerMessage.includes('price') || lowerMessage.includes('estimate')) {
+        return startBudgetConsultationFlow();
     }
     
     // Room-specific design
@@ -3071,6 +1957,29 @@ function processUserMessage(message) {
         return startLivingRoomDesignFlow();
     }
     
+    // Professional consultation flows
+    if (lowerMessage.includes('carpenter') || lowerMessage.includes('cupboard') || lowerMessage.includes('furniture') || 
+        lowerMessage.includes('बढ़ई') || lowerMessage.includes('अलमारी') || lowerMessage.includes('फर्नीचर') ||
+        lowerMessage.includes('need carpenter') || lowerMessage.includes('बढ़ई चाहिए')) {
+        return startCarpenterConsultationFlow();
+    }
+    
+    if (lowerMessage.includes('architect')) {
+        return startArchitectConsultationFlow();
+    }
+    
+    if (lowerMessage.includes('plumber')) {
+        return startPlumberConsultationFlow();
+    }
+    
+    if (lowerMessage.includes('painter') || lowerMessage.includes('paint')) {
+        return startPainterConsultationFlow();
+    }
+    
+    if (lowerMessage.includes('electrician') || lowerMessage.includes('electrical')) {
+        return startElectricianConsultationFlow();
+    }
+    
     // Construction advice
     if (lowerMessage.includes('construction') || lowerMessage.includes('building')) {
         return startConstructionAdviceFlow();
@@ -3087,504 +1996,46 @@ function processUserMessage(message) {
     }
     
     // Greeting responses
-    if (lowerMessage.includes('hello') || lowerMessage.includes('hi') || lowerMessage.includes('hey')) {
-        return "🏠 **Welcome! I'm your AI Home Planning Expert** 🏗️\n\nI'm designed to be truly helpful by understanding your needs first, then providing expert advice and professional recommendations.\n\n🎯 **I can help you with:**\n\n💰 **Smart Budget Planning** - I'll ask about your house size, rooms, quality needs to estimate accurate costs\n🔨 **Carpenter Consultation** - Tell me about cupboards, wood types, timeline and I'll find perfect carpenters\n🏗️ **Complete Home Planning** - From design to construction\n📐 **Expert Professional Matching** - Based on your specific requirements\n\n**Just tell me what you're planning, and I'll ask the right questions to help you!**\n\n💡 Try: \"I need budget for my house\", \"I want cupboards made\", \"Find me an architect\"";
+    if (lowerMessage.includes('hello') || lowerMessage.includes('hi') || lowerMessage.includes('hey') || 
+        lowerMessage.includes('namaste') || lowerMessage.includes('नमस्ते')) {
+        return currentLanguage === 'hi' ? 
+            "🏠 **स्वागत है! मैं आपका मास्टर होम प्लानिंग और डिज़ाइन एक्सपर्ट हूँ** 🏗️\n\nमेरे पास **20+ साल का वर्चुअल एक्सपर्टीज** है:\n\n🎯 **पूरी होम प्लानिंग**\n📐 **आर्किटेक्चरल डिज़ाइन**\n🎨 **इंटीरियर डिज़ाइन**\n💰 **बजट ऑप्टिमाइज़ेशन**\n🔧 **कन्स्ट्रक्शन गाइडेंस**\n🧭 **वास्तु कंसल्टेशन**\n📏 **स्पेस प्लानिंग**\n🏗️ **मटेरियल सेलेक्शन**\n\n**आज आप क्या प्लान या डिज़ाइन करना चाहते हैं?**\n\n💡 कोशिश करें: \"मेरे 3BHK घर की योजना बनाएं\", \"मेरी किचन डिज़ाइन करें\", \"कन्स्ट्रक्शन के लिए बजट\"" :
+            "🏠 **Welcome! I'm your Master Home Planning & Design Expert** 🏗️\n\nI have **20+ years of virtual expertise** in:\n\n🎯 **Complete Home Planning**\n📐 **Architectural Design** \n🎨 **Interior Design**\n💰 **Budget Optimization**\n🔧 **Construction Guidance**\n🧭 **Vastu Consultation**\n📏 **Space Planning**\n🏗️ **Material Selection**\n\n**What would you like to plan or design today?**\n\n💡 Try: \"Plan my 3BHK home\", \"Design my kitchen\", \"Budget for construction\"";
     }
     
     // Thank you responses
     if (lowerMessage.includes('thank') || lowerMessage.includes('thanks')) {
-        return "You're very welcome! 😊 I'm designed to understand your needs first and then provide the most relevant help. Feel free to ask about any planning, design, or construction needs!";
+        return "You're very welcome! 😊 As your dedicated home design expert, I'm always here to help you create your dream home. Feel free to ask about any planning, design, or construction needs!";
     }
     
-    // Default response for unclear messages
-    return "🤔 I want to help you in the best way possible! Could you tell me more specifically about what you're planning?\n\n🏠 **I specialize in:**\n• Budget planning (I'll ask about house size, rooms, quality)\n• Finding carpenters (I'll ask about cupboard type, wood, timeline)\n• Architect recommendations (based on your project type)\n• Complete home planning and design\n\nWhat would you like help with today?";
+    // Default expert response
+    return currentLanguage === 'hi' ? 
+        `🏠 **मैं आपका मास्टर होम डिज़ाइन और प्लानिंग एक्सपर्ट हूँ!** 🏗️\n\nमैं आपको व्यापक कंसल्टेशन में मदद कर सकता हूँ:\n\n🎯 **"मेरे घर की योजना बनाएं"** - शुरुआत से पूरी होम प्लानिंग\n📐 **"मेरे [कमरे] को डिज़ाइन करें"** - विस्तृत रूम डिज़ाइन कंसल्टेशन\n💰 **"बजट प्लानिंग"** - सटीक कॉस्ट एस्टिमेशन\n🔧 **"कन्स्ट्रक्शन एडवाइस"** - चरणबद्ध बिल्डिंग गाइडेंस\n🧭 **"वास्तु कंसल्टेशन"** - दिशा और प्लेसमेंट एडवाइस\n🎨 **"इंटीरियर डिज़ाइन"** - स्टाइल और डेकोर रेकमेंडेशन\n📏 **"स्पेस प्लानिंग"** - आपका लेआउट ऑप्टिमाइज़ करें\n🏗️ **"मटेरियल एडवाइस"** - आपकी जरूरतों के लिए बेस्ट मटेरियल\n\n**बस मुझे बताएं कि आप क्या प्लान या डिज़ाइन करना चाहते हैं, और मैं आपको हर डिटेल में गाइड करूँगा!**` :
+        `🏠 **I'm your Master Home Design & Planning Expert!** 🏗️\n\nI can help you with comprehensive consultation:\n\n🎯 **"Plan my home"** - Complete house planning from scratch\n📐 **"Design my [room]"** - Detailed room design consultation  \n💰 **"Budget planning"** - Accurate cost estimation\n🔧 **"Construction advice"** - Step-by-step building guidance\n🧭 **"Vastu consultation"** - Direction and placement advice\n🎨 **"Interior design"** - Style and decor recommendations\n📏 **"Space planning"** - Optimize your layout\n🏗️ **"Material advice"** - Best materials for your needs\n\n**Just tell me what you want to plan or design, and I'll guide you through every detail!**`;
 }
 
-// Enhanced Budget Flow - Much more detailed questioning
-function startEnhancedBudgetFlow() {
-    conversationState.currentFlow = 'enhancedBudget';
-    conversationState.step = 1;
-    conversationState.userResponses = {};
-    
-    return `💰 **Smart Budget Planning Expert** 📊\n\nHello! Instead of just giving you random estimates, let me ask the RIGHT questions to give you an accurate, detailed budget breakdown.\n\n**Question 1/7: What type of project are you budgeting for?**\n\nA) **New house construction** - Building from scratch\nB) **Complete house renovation** - Full makeover of existing house\nC) **Specific rooms renovation** - Kitchen, bathrooms, bedrooms\nD) **Interior design only** - Furniture, decor, false ceiling\nE) **Extension/Addition** - Adding rooms or floors\n\n🎯 **Why this matters:** Each project type has completely different cost structures and requirements.\n\nWhich one describes your project?`;
-}
-
-// Enhanced Carpenter Flow - Detailed questioning like a real carpenter would ask
-function startEnhancedCarpenterFlow() {
-    conversationState.currentFlow = 'enhancedCarpenter';
-    conversationState.step = 1;
-    conversationState.userResponses = {};
-    
-    return `🔨 **Master Carpenter Consultation** 🪵\n\nHi! I'm your virtual carpentry expert. Instead of immediately giving you phone numbers, let me understand your needs like a real carpenter would during a site visit.\n\n**Question 1/6: What carpentry work are you planning?**\n\nA) **Bedroom cupboards/wardrobes** - Clothes storage\nB) **Kitchen cabinets** - Modular kitchen setup\nC) **Living room furniture** - TV unit, showcase, center table\nD) **Study/office furniture** - Desk, bookshelf, storage\nE) **Custom furniture** - Dining table, beds, chairs\nF) **Wooden flooring** - Hardwood, laminate installation\nG) **Repair/modification** - Fix existing furniture\n\n📝 **Different work needs different expertise and wood types.**\n\nWhat type of carpentry work do you have in mind?`;
-}
-
-// Enhanced Architect Flow
-function startEnhancedArchitectFlow() {
-    conversationState.currentFlow = 'enhancedArchitect';
-    conversationState.step = 1;
-    conversationState.userResponses = {};
-    
-    return `🏗️ **Master Architect Consultation** 📐\n\nHello! As your virtual architect, let me understand your vision first, then recommend the perfect architect for your specific needs.\n\n**Question 1/5: What architectural service do you need?**\n\nA) **Complete house design** - Full architectural planning from scratch\nB) **House renovation design** - Modify existing structure\nC) **Interior space planning** - Room layouts and design\nD) **Specific room design** - Kitchen, bathroom, bedroom layout\nE) **3D visualization** - See your design before construction\nF) **Construction supervision** - Architect to monitor building work\n\n🎯 **Different services need architects with different specializations.**\n\nWhich service best describes what you need?`;
-}
-
-// Enhanced Plumber Flow
-function startEnhancedPlumberFlow() {
-    conversationState.currentFlow = 'enhancedPlumber';
-    conversationState.step = 1;
-    conversationState.userResponses = {};
-    
-    return `🔧 **Master Plumber Consultation** 💧\n\nHi! Let me understand your plumbing needs first, then recommend the right plumber with the exact expertise you need.\n\n**Question 1/4: What plumbing work do you need?**\n\nA) **New bathroom setup** - Complete bathroom plumbing\nB) **Kitchen plumbing** - Sink, water connections, drainage\nC) **Water heater installation** - Geyser, solar heater setup\nD) **Pipe repair/replacement** - Leakage, old pipe replacement\nE) **Drainage problems** - Blockage, sewage issues\nF) **Water tank/pump installation** - Overhead tank, motor setup\nG) **Emergency repair** - Urgent leakage or blockage\n\n🔧 **Different plumbing work needs different expertise and tools.**\n\nWhat plumbing work are you planning?`;
-}
-
-// Continue conversation flows for enhanced versions
-function continueConversationFlow(message) {
-    const lowerMessage = message.toLowerCase();
-    
-    switch (conversationState.currentFlow) {
-        case 'enhancedBudget':
-            return continueEnhancedBudgetFlow(message, conversationState.step);
-        case 'enhancedCarpenter':
-            return continueEnhancedCarpenterFlow(message, conversationState.step);
-        case 'enhancedArchitect':
-            return continueEnhancedArchitectFlow(message, conversationState.step);
-        case 'enhancedPlumber':
-            return continueEnhancedPlumberFlow(message, conversationState.step);
-        case 'budgetConsultation':
-            return continueBudgetConsultationFlow(message, conversationState.step);
-        case 'carpenterConsultation':
-            return continueCarpenterConsultationFlow(message, conversationState.step);
-        case 'architectConsultation':
-            return continueArchitectConsultationFlow(message, conversationState.step);
-        default:
-            return resetConversation();
-    }
-}
-
-// Enhanced Budget Flow Implementation
-function continueEnhancedBudgetFlow(message, step) {
-    const lowerMessage = message.toLowerCase();
-    
-    switch (step) {
-        case 1:
-            conversationState.step = 2;
-            let projectType = '';
-            if (lowerMessage.includes('a') || lowerMessage.includes('new')) projectType = 'New Construction';
-            else if (lowerMessage.includes('b') || lowerMessage.includes('complete')) projectType = 'Complete Renovation';
-            else if (lowerMessage.includes('c') || lowerMessage.includes('specific')) projectType = 'Specific Rooms';
-            else if (lowerMessage.includes('d') || lowerMessage.includes('interior')) projectType = 'Interior Design';
-            else if (lowerMessage.includes('e') || lowerMessage.includes('extension')) projectType = 'Extension/Addition';
-            
-            conversationState.projectData.projectType = projectType;
-            
-            return `✅ **${projectType}** - Perfect!\n\n**Question 2/7: How big is your house/project area?**\n\n📏 **I need specific measurements for accurate costing:**\n\n🏠 **Please tell me:**\n• Total area in square feet (like \"1200 sqft\")\n• OR room-wise details (like \"10x12 kitchen + 2 bedrooms\")\n• Built-up area vs carpet area (if you know)\n\n📝 **Examples:**\n• \"1500 sqft independent house\"\n• \"900 sqft 2BHK apartment\"\n• \"Kitchen 8x10 + 2 bathrooms 6x8 each\"\n\nWhat's the size of your project?`;
-            
-        case 2:
-            conversationState.step = 3;
-            conversationState.projectData.area = message;
-            
-            return `📐 **Area: ${message}** - Got it!\n\n**Question 3/7: How many rooms does your house have?**\n\n🏠 **Room configuration affects costs significantly:**\n\nA) **1 BHK** - 1 bedroom, 1 bathroom, kitchen, living\nB) **2 BHK** - 2 bedrooms, 2 bathrooms, kitchen, living\nC) **3 BHK** - 3 bedrooms, 2-3 bathrooms, kitchen, living\nD) **4+ BHK** - 4+ bedrooms, multiple bathrooms\nE) **Villa/Independent** - Multiple floors, special rooms\nF) **Custom configuration** - Tell me your room details\n\n💡 **Why this matters:** Kitchens cost ₹2000-3000/sqft, bathrooms cost ₹2500-4000/sqft, while bedrooms cost ₹1200-2000/sqft.\n\nWhat's your house configuration?`;
-            
-        case 3:
-            conversationState.step = 4;
-            conversationState.projectData.rooms = message;
-            
-            return `🏠 **Configuration noted!**\n\n**Question 4/7: What quality/finish level do you want?**\n\n⭐ **This is crucial for accurate budgeting:**\n\nA) **Basic** (₹1,200-1,500/sqft) - Standard materials, simple finishes\nB) **Standard** (₹1,800-2,200/sqft) - Good quality materials, decent finishes\nC) **Premium** (₹2,500-3,000/sqft) - High-quality materials, premium finishes\nD) **Luxury** (₹3,500-5,000/sqft) - Top materials, designer finishes\nE) **Mixed** - Different quality for different rooms\n\n🎯 **What's included at each level:**\n• **Basic:** Vitrified tiles, basic fixtures, standard paint\n• **Premium:** Marble/granite, modular fittings, texture paint\n• **Luxury:** Imported materials, designer elements\n\nWhich quality level suits your vision and budget?`;
-            
-        case 4:
-            conversationState.step = 5;
-            conversationState.projectData.quality = message;
-            
-            return `⭐ **Quality level set!**\n\n**Question 5/7: Any special features or requirements?**\n\n✨ **Special additions that affect budget:**\n\n🏠 **Common extras:**\n• Modular kitchen (₹1-3 lakhs extra)\n• Designer bathrooms (₹50K-2L extra each)\n• False ceiling (₹100-300/sqft)\n• Wooden flooring (₹200-800/sqft)\n• Smart home features (₹50K-2L)\n• Solar panels (₹1-2L)\n• Landscaping/garden (₹50K-3L)\n• Swimming pool (₹3-8L)\n\n📝 **List any special features you want, or type \"standard\" for basic work.**\n\nWhat special features do you have in mind?`;
-            
-        case 5:
-            conversationState.step = 6;
-            conversationState.projectData.specialFeatures = message;
-            
-            return `✨ **Special features noted!**\n\n**Question 6/7: What's your target timeline?**\n\n⏰ **Timeline affects costs and planning:**\n\nA) **Fast track** (6-8 months) - 15-20% extra cost but quick completion\nB) **Normal** (8-12 months) - Standard timeline, balanced costs\nC) **Relaxed** (12-18 months) - Potential cost savings, better planning\nD) **Specific deadline** - Tell me when you need it completed\n\n📅 **Timeline factors:**\n• Material availability and pricing\n• Labor costs (rush work costs more)\n• Weather considerations (monsoon delays)\n• Permit processing time\n\nWhat timeline works for you?`;
-            
-        case 6:
-            conversationState.step = 7;
-            conversationState.projectData.timeline = message;
-            
-            return `⏰ **Timeline set!**\n\n**Final Question 7/7: What's your budget range or budget preference?**\n\n💰 **This helps me tailor recommendations:**\n\nA) **Tell me my total cost first** - Calculate based on my requirements\nB) **I have a fixed budget** - Tell me your budget limit\nC) **Show me options** - Different budget scenarios\nD) **Focus on value** - Best quality within reasonable cost\n\n💡 **I'll provide:**\n• Detailed cost breakdown\n• Phase-wise payment plan\n• Cost-saving recommendations\n• Professional recommendations within budget\n\nHow would you like me to approach your budget?`;
-            
-        case 7:
-            conversationState.projectData.budgetPreference = message;
-            return generateDetailedBudgetReport();
-            
-        default:
-            return resetConversation();
-    }
-}
-
-// Enhanced Carpenter Flow Implementation  
-function continueEnhancedCarpenterFlow(message, step) {
-    const lowerMessage = message.toLowerCase();
-    
-    switch (step) {
-        case 1:
-            conversationState.step = 2;
-            let workType = '';
-            if (lowerMessage.includes('a') || lowerMessage.includes('bedroom') || lowerMessage.includes('cupboard')) {
-                workType = 'Bedroom Cupboards/Wardrobes';
-            } else if (lowerMessage.includes('b') || lowerMessage.includes('kitchen')) {
-                workType = 'Kitchen Cabinets';
-            } else if (lowerMessage.includes('c') || lowerMessage.includes('living')) {
-                workType = 'Living Room Furniture';
-            } else if (lowerMessage.includes('d') || lowerMessage.includes('study') || lowerMessage.includes('office')) {
-                workType = 'Study/Office Furniture';
-            } else if (lowerMessage.includes('e') || lowerMessage.includes('custom')) {
-                workType = 'Custom Furniture';
-            } else if (lowerMessage.includes('f') || lowerMessage.includes('flooring')) {
-                workType = 'Wooden Flooring';
-            } else {
-                workType = 'Repair/Modification Work';
-            }
-            
-            conversationState.projectData.workType = workType;
-            
-            return `🔨 **${workType}** - Great choice!\n\n**Question 2/6: Tell me the exact details of what you need:**\n\n📝 **For ${workType}, I need to know:**\n\n📏 **Specific requirements:**\n• How many units/pieces? (like \"2 wardrobes\", \"complete kitchen\")\n• What size/dimensions? (like \"6 feet wardrobe\", \"10x8 kitchen\")\n• Which rooms? (master bedroom, kitchen, etc.)\n• Any specific design ideas?\n\n💡 **Example:** \"2 sliding door wardrobes for master bedroom, 7 feet wide each, with mirror on one door\"\n\nDescribe exactly what you want made:`;
-            
-        case 2:
-            conversationState.step = 3;
-            conversationState.projectData.details = message;
-            
-            return `📝 **Requirements: ${message}** - Perfect details!\n\n**Question 3/6: What type of wood/material do you prefer?**\n\n🌳 **As your carpenter expert, here's what I recommend for ${conversationState.projectData.workType}:**\n\nA) **Teak Wood** - Premium, 50+ year life, beautiful grain, ₹800-1200/sqft\nB) **Sheesham/Rosewood** - Excellent choice, 25+ years, ₹400-600/sqft\nC) **Mango Wood** - Good quality, nice finish, ₹300-500/sqft\nD) **Commercial Plywood + Veneer** - Modern, practical, ₹200-400/sqft\nE) **MDF + Laminate** - Budget-friendly, smooth finish, ₹150-300/sqft\nF) **Ask me to recommend** - I'll suggest best for your use\n\n🎯 **My expert opinion:** For ${conversationState.projectData.workType}, I usually recommend specific woods based on usage, moisture exposure, and budget.\n\nWhich material sounds right for you?`;
-            
-        case 3:
-            conversationState.step = 4;
-            conversationState.projectData.material = message;
-            
-            return `🌳 **Material choice noted!**\n\n**Question 4/6: What's your budget range for this work?**\n\n💰 **Honest carpenter advice on pricing:**\n\nA) **₹15,000 - 30,000** - Basic work, simple designs\nB) **₹30,000 - 60,000** - Good quality, standard features\nC) **₹60,000 - 1,20,000** - Premium work, custom designs\nD) **₹1,20,000+** - High-end, luxury carpentry\nE) **Tell me your exact budget** - I'll work within it\nF) **Calculate cost for me** - Based on my requirements\n\n📊 **Budget includes:** Material cost (60%) + Labor (30%) + Hardware/fittings (10%)\n\n💡 **Pro tip:** Quality hardware (hinges, slides) makes a huge difference in longevity!\n\nWhat budget range works for you?`;
-            
-        case 4:
-            conversationState.step = 5;
-            conversationState.projectData.budget = message;
-            
-            return `💰 **Budget noted!**\n\n**Question 5/6: When do you need this completed?**\n\n⏰ **Timeline planning (affects cost and carpenter availability):**\n\nA) **Urgent (1-2 weeks)** - Rush job, 20-30% extra cost but quick delivery\nB) **Soon (2-4 weeks)** - Normal priority, standard pricing\nC) **Standard (1-2 months)** - Good planning time, better pricing\nD) **Flexible (2+ months)** - Best pricing, can work around other jobs\nE) **Specific date needed** - Tell me your deadline\n\n🔨 **What affects timeline:**\n• Material procurement (2-7 days)\n• Workshop/manufacturing time\n• Installation and finishing\n• Other ongoing projects\n\nWhat timeline suits you?`;
-            
-        case 5:
-            conversationState.step = 6;
-            conversationState.projectData.timeline = message;
-            
-            return `⏰ **Timeline set!**\n\n**Final Question 6/6: Any specific design preferences or special requirements?**\n\n🎨 **Design elements that matter:**\n\n✨ **Popular options:**\n• Soft-close hinges and drawers\n• LED lighting inside cupboards\n• Mirror or glass panels\n• Specific color/finish preferences\n• Handles and hardware style\n• Internal organization (shelves, hangers, drawers)\n\n🏠 **Installation considerations:**\n• Wall mounting requirements\n• Electrical work needed (for lights)\n• Room access and size constraints\n\n📝 **Tell me any specific design ideas, or type \"standard design\" for regular carpentry work.**\n\nAny special design requirements?`;
-            
-        case 6:
-            conversationState.projectData.designPrefs = message;
-            return generateCarpenterRecommendationReport();
-            
-        default:
-            return resetConversation();
-    }
-}
-
-// Generate detailed budget report
+// Advanced Budget Calculator
 function generateDetailedBudgetReport() {
-    const data = conversationState.projectData;
-    resetConversation();
+    const area = parseInt(conversationState.projectData.area) || 1000;
+    const houseType = conversationState.projectData.houseType || '3BHK';
     
-    return `💰 **COMPREHENSIVE BUDGET ANALYSIS REPORT** 📊\n\n**═══════════════════════════════════**\n\n📋 **YOUR PROJECT PROFILE:**\n• Project Type: ${data.projectType}\n• Area: ${data.area}\n• Configuration: ${data.rooms}\n• Quality Level: ${data.quality}\n• Special Features: ${data.specialFeatures}\n• Timeline: ${data.timeline}\n• Budget Approach: ${data.budgetPreference}\n\n🎯 **DETAILED COST BREAKDOWN:**\n\n**🏗️ MAJOR COMPONENTS:**\n• **Structure & Civil Work (40%):** Foundation, walls, roof\n• **Electrical & Plumbing (20%):** Complete MEP work\n• **Flooring & Tiling (15%):** All floor and wall finishes\n• **Painting & Finishing (10%):** Paint, polish, final touches\n• **Doors & Windows (8%):** All openings and fittings\n• **Miscellaneous (7%):** Permits, supervision, extras\n\n**💡 EXPERT RECOMMENDATIONS:**\n\n1. **Phase your project** for better cash flow management\n2. **Buy materials in bulk** for 10-15% savings\n3. **Plan for 10% contingency** for unexpected costs\n4. **Focus budget on structural quality** first\n\n**📞 NEXT STEPS:**\nBased on your detailed requirements, I can now recommend the perfect professionals who specialize in your type of project and budget range.\n\nWould you like me to find architects, contractors, or other professionals who can execute this project within your requirements?`;
+    const basicRate = 1200;
+    const standardRate = 1800;
+    const premiumRate = 2500;
+    const luxuryRate = 3500;
+    
+    return `💰 **COMPREHENSIVE BUDGET CALCULATOR** 🏗️\n\n📏 **Project Details:**\n• Type: ${houseType}\n• Area: ${area} sqft\n\n**💵 BUDGET OPTIONS:**\n\n**🥉 BASIC QUALITY (₹${basicRate}/sqft)**\n• Total: ₹${(area * basicRate / 100000).toFixed(1)}L\n• Basic materials, simple finishes\n• Standard fixtures\n• Basic electrical & plumbing\n\n**🥈 STANDARD QUALITY (₹${standardRate}/sqft)**\n• Total: ₹${(area * standardRate / 100000).toFixed(1)}L\n• Good quality materials\n• Better finishes & fixtures\n• Improved electrical layout\n\n**🥇 PREMIUM QUALITY (₹${premiumRate}/sqft)**\n• Total: ₹${(area * premiumRate / 100000).toFixed(1)}L\n• High-quality materials\n• Premium finishes\n• Advanced electrical & smart features\n\n**💎 LUXURY QUALITY (₹${luxuryRate}/sqft)**\n• Total: ₹${(area * luxuryRate / 100000).toFixed(1)}L\n• Luxury materials & finishes\n• Designer fixtures\n• Complete smart home integration\n\n**📊 COST BREAKDOWN (Standard Quality):**\n• Structure: ₹${(area * standardRate * 0.4 / 100000).toFixed(1)}L (40%)\n• Finishes: ₹${(area * standardRate * 0.25 / 100000).toFixed(1)}L (25%)\n• Electrical & Plumbing: ₹${(area * standardRate * 0.15 / 100000).toFixed(1)}L (15%)\n• Doors & Windows: ₹${(area * standardRate * 0.10 / 100000).toFixed(1)}L (10%)\n• Contingency: ₹${(area * standardRate * 0.10 / 100000).toFixed(1)}L (10%)\n\n**⚠️ Additional Costs (Not Included):**\n• Land cost\n• Furniture & appliances\n• Landscaping\n• Solar panels (if required)\n• Swimming pool (if planned)\n\n💡 **Expert Tip:** Always keep 10-15% extra budget for unforeseen expenses!`;
 }
 
-// Generate detailed carpenter recommendation report
-function generateCarpenterRecommendationReport() {
-    const data = conversationState.projectData;
-    
-    // Find matching carpenters
-    let matchingCarpenters = professionalDatabase.carpenters.filter(carpenter => {
-        return carpenter.expertise.some(exp => 
-            data.workType.toLowerCase().includes(exp.toLowerCase()) ||
-            exp.toLowerCase().includes(data.workType.toLowerCase().split(' ')[0])
-        );
-    });
-    
-    resetConversation();
-    
-    let report = `🔨 **MASTER CARPENTER CONSULTATION REPORT** 🪵\n\n**═══════════════════════════════════**\n\n📋 **YOUR CARPENTRY PROJECT:**\n• Work Type: ${data.workType}\n• Details: ${data.details}\n• Material: ${data.material}\n• Budget: ${data.budget}\n• Timeline: ${data.timeline}\n• Design Preferences: ${data.designPrefs}\n\n🎯 **EXPERT CARPENTRY RECOMMENDATIONS:**\n\n**🔧 TECHNICAL SPECIFICATIONS:**\n• Material thickness: 18-20mm for structure, 12mm for backs\n• Hardware: Soft-close hinges and drawer slides recommended\n• Finish: 3-coat polish + protective coating\n• Installation: Professional wall mounting with L-brackets\n\n**💰 ACCURATE COST BREAKDOWN:**\n• Material Cost (60%): High-quality wood and boards\n• Labor Cost (30%): Skilled carpentry work\n• Hardware & Fittings (10%): Hinges, handles, slides\n\n**⏰ REALISTIC TIMELINE:**\n• Design finalization: 1-2 days\n• Material procurement: 3-5 days\n• Workshop manufacturing: 1-2 weeks\n• Site installation: 1-2 days\n• Total duration: 2-3 weeks\n\n**👨‍🔧 PERFECT CARPENTER MATCHES FOR YOUR PROJECT:**\n\n`;
-    
-    matchingCarpenters.slice(0, 3).forEach((carpenter, index) => {
-        report += `**${index + 1}. ${carpenter.name}** ${carpenter.verified ? '✅ Verified' : ''}\n`;
-        report += `📍 Location: ${carpenter.location} (${carpenter.distance} away)\n`;
-        report += `⭐ Rating: ${carpenter.rating}/5 (${carpenter.reviews} reviews)\n`;
-        report += `🔨 Experience: ${carpenter.experience}\n`;
-        report += `🎯 Specializes in: ${carpenter.expertise.join(', ')}\n`;
-        report += `💰 Budget range: ₹${carpenter.budget}\n`;
-        report += `📞 Contact: ${carpenter.phone}\n`;
-        report += `📧 Email: ${carpenter.email}\n\n`;
-    });
-    
-    report += `💡 **PROFESSIONAL ADVICE:**\n• Always see portfolio/previous work samples\n• Get detailed written quotation with material specifications\n• Confirm timeline and payment schedule\n• Plan for 5-10% extra budget for modifications\n• Ensure proper ventilation during polishing work\n\n🎯 **RECOMMENDED NEXT STEPS:**\n1. Contact 2-3 recommended carpenters\n2. Share your detailed requirements\n3. Ask for site visit and quotation\n4. Compare quotes and check references\n5. Finalize carpenter and start work\n\nWould you like more specific advice on wood selection or design details?`;
-    
-    return report;
-}
-
-// Enhanced Architect Flow Implementation
-function continueEnhancedArchitectFlow(message, step) {
-    const lowerMessage = message.toLowerCase();
-    
-    switch (step) {
-        case 1:
-            conversationState.step = 2;
-            let serviceType = '';
-            if (lowerMessage.includes('a') || lowerMessage.includes('complete')) serviceType = 'Complete House Design';
-            else if (lowerMessage.includes('b') || lowerMessage.includes('renovation')) serviceType = 'Renovation Design';
-            else if (lowerMessage.includes('c') || lowerMessage.includes('interior')) serviceType = 'Interior Space Planning';
-            else if (lowerMessage.includes('d') || lowerMessage.includes('specific')) serviceType = 'Specific Room Design';
-            else if (lowerMessage.includes('e') || lowerMessage.includes('3d')) serviceType = '3D Visualization';
-            else serviceType = 'Construction Supervision';
-            
-            conversationState.projectData.serviceType = serviceType;
-            
-            return `🏗️ **${serviceType}** - Excellent choice!\n\n**Question 2/5: What's the size and type of your project?**\n\n🏠 **Project details I need:**\n• House/area size (like "1200 sqft", "3BHK")\n• Project location (city/area)\n• New construction or existing house?\n• Any specific architectural style preference?\n\n📝 **Example:** "1500 sqft 3BHK house in Mumbai, new construction, modern style"\n\nTell me about your project:`;
-            
-        case 2:
-            conversationState.step = 3;
-            conversationState.projectData.projectDetails = message;
-            
-            return `📋 **Project details noted!**\n\n**Question 3/5: What's your budget range for architectural services?**\n\n💰 **Architect fees typically:**\n\nA) **₹50,000 - 1,50,000** - Basic design, standard plans\nB) **₹1,50,000 - 3,00,000** - Detailed design, 3D views\nC) **₹3,00,000 - 6,00,000** - Premium design, full service\nD) **₹6,00,000+** - Luxury, custom architectural design\nE) **Calculate for me** - Based on my project scope\n\n📐 **What's typically included:** Floor plans, elevations, structural guidance, permit drawings\n\nWhat budget range works for you?`;
-            
-        case 3:
-            conversationState.step = 4;
-            conversationState.projectData.budget = message;
-            
-            return `💰 **Budget range set!**\n\n**Question 4/5: What's your timeline for this architectural work?**\n\n⏰ **Typical architectural timelines:**\n\nA) **Urgent (2-4 weeks)** - Rush project, premium charges\nB) **Standard (1-2 months)** - Normal timeline, good planning\nC) **Detailed (2-3 months)** - Comprehensive design process\nD) **Flexible** - Take time for best results\n\nWhat timeline suits your project?`;
-            
-        case 4:
-            conversationState.step = 5;
-            conversationState.projectData.timeline = message;
-            
-            return `⏰ **Timeline confirmed!**\n\n**Final Question 5/5: Any specific architectural preferences or requirements?**\n\n🎨 **Design considerations:**\n• Architectural style (modern, traditional, contemporary)\n• Vastu compliance requirements\n• Energy efficiency/green building features\n• Special rooms or features needed\n• Structural preferences\n\n📝 **Tell me your specific preferences, or type "standard design" for conventional architecture.**\n\nAny special architectural requirements?`;
-            
-        case 5:
-            conversationState.projectData.preferences = message;
-            return generateArchitectRecommendationReport();
-            
-        default:
-            return resetConversation();
-    }
-}
-
-// Enhanced Plumber Flow Implementation
-function continueEnhancedPlumberFlow(message, step) {
-    const lowerMessage = message.toLowerCase();
-    
-    switch (step) {
-        case 1:
-            conversationState.step = 2;
-            let workType = '';
-            if (lowerMessage.includes('a') || lowerMessage.includes('bathroom')) workType = 'New Bathroom Setup';
-            else if (lowerMessage.includes('b') || lowerMessage.includes('kitchen')) workType = 'Kitchen Plumbing';
-            else if (lowerMessage.includes('c') || lowerMessage.includes('heater')) workType = 'Water Heater Installation';
-            else if (lowerMessage.includes('d') || lowerMessage.includes('repair')) workType = 'Pipe Repair/Replacement';
-            else if (lowerMessage.includes('e') || lowerMessage.includes('drainage')) workType = 'Drainage Problems';
-            else if (lowerMessage.includes('f') || lowerMessage.includes('tank')) workType = 'Water Tank/Pump Installation';
-            else workType = 'Emergency Repair';
-            
-            conversationState.projectData.workType = workType;
-            
-            return `🔧 **${workType}** - I understand!\n\n**Question 2/4: Tell me the specific details of your plumbing work:**\n\n💧 **For ${workType}, I need to know:**\n• Exact location (which room/area)\n• Current problem or new installation details\n• Any urgency level\n• Access to main water line\n\n📝 **Example:** "Master bathroom complete plumbing, new construction, need geyser point and drainage"\n\nDescribe your plumbing requirement:`;
-            
-        case 2:
-            conversationState.step = 3;
-            conversationState.projectData.details = message;
-            
-            return `💧 **Requirements: ${message}** - Clear!\n\n**Question 3/4: What's your budget for this plumbing work?**\n\n💰 **Typical plumbing costs:**\n\nA) **₹3,000 - 8,000** - Basic repairs, small installations\nB) **₹8,000 - 20,000** - Standard bathroom/kitchen work\nC) **₹20,000 - 50,000** - Complete bathroom setup, major work\nD) **₹50,000+** - Premium fixtures, complex installations\nE) **Emergency rate** - Urgent work, immediate attention\n\n🔧 **Includes:** Labor, basic fittings, pipes (premium fixtures extra)\n\nWhat's your budget range?`;
-            
-        case 3:
-            conversationState.step = 4;
-            conversationState.projectData.budget = message;
-            
-            return `💰 **Budget noted!**\n\n**Final Question 4/4: When do you need this plumbing work completed?**\n\n⏰ **Plumbing timeline options:**\n\nA) **Emergency (same day)** - Urgent issues, premium charges\nB) **ASAP (1-2 days)** - Quick turnaround\nC) **This week (3-5 days)** - Standard scheduling\nD) **Flexible (1-2 weeks)** - Better planning, cost optimization\n\n💡 **Timeline affects:** Plumber availability, material procurement, cost\n\nWhat timeline works for you?`;
-            
-        case 4:
-            conversationState.projectData.timeline = message;
-            return generatePlumberRecommendationReport();
-            
-        default:
-            return resetConversation();
-    }
-}
-
-// Generate architect recommendation report
-function generateArchitectRecommendationReport() {
-    const data = conversationState.projectData;
-    
-    // Find matching architects
-    let matchingArchitects = professionalDatabase.architects.filter(architect => {
-        return architect.specializations.some(spec => 
-            data.serviceType.toLowerCase().includes(spec.toLowerCase()) ||
-            spec.toLowerCase().includes('residential')
-        );
-    });
-    
-    resetConversation();
-    
-    let report = `🏗️ **MASTER ARCHITECT CONSULTATION REPORT** 📐\n\n**═══════════════════════════════════**\n\n📋 **YOUR ARCHITECTURAL PROJECT:**\n• Service Type: ${data.serviceType}\n• Project Details: ${data.projectDetails}\n• Budget Range: ${data.budget}\n• Timeline: ${data.timeline}\n• Preferences: ${data.preferences}\n\n🎯 **ARCHITECTURAL RECOMMENDATIONS:**\n\n**📐 SCOPE OF WORK:**\n• Detailed floor plans and elevations\n• Structural layout and specifications\n• 3D visualization and walkthroughs\n• Building permit drawings\n• Construction supervision (if opted)\n\n**⏰ TYPICAL PROJECT PHASES:**\n• Concept design: 1-2 weeks\n• Detailed drawings: 3-4 weeks\n• Permit submissions: 2-3 weeks\n• Construction guidance: Ongoing\n\n**👨‍💼 PERFECT ARCHITECT MATCHES:**\n\n`;
-    
-    matchingArchitects.slice(0, 3).forEach((architect, index) => {
-        report += `**${index + 1}. ${architect.name}** ${architect.verified ? '✅ Verified' : ''}\n`;
-        report += `📍 Location: ${architect.location} (${architect.distance} away)\n`;
-        report += `⭐ Rating: ${architect.rating}/5 (${architect.reviews} reviews)\n`;
-        report += `🏗️ Experience: ${architect.experience}\n`;
-        report += `🎯 Specializes in: ${architect.specializations.join(', ')}\n`;
-        report += `💰 Fee range: ₹${architect.budget}\n`;
-        report += `📞 Contact: ${architect.phone}\n`;
-        report += `📧 Email: ${architect.email}\n\n`;
-    });
-    
-    report += `💡 **EXPERT ADVICE:**\n• Review portfolio and previous projects\n• Discuss timeline and deliverables clearly\n• Understand fee structure and payment terms\n• Ensure architect is registered with local authorities\n• Check references from past clients\n\nWould you like specific guidance on architectural planning or design elements?`;
-    
-    return report;
-}
-
-// Generate plumber recommendation report
-function generatePlumberRecommendationReport() {
-    const data = conversationState.projectData;
-    
-    // Find matching plumbers
-    let matchingPlumbers = professionalDatabase.plumbers.filter(plumber => {
-        return plumber.expertise.some(exp => 
-            data.workType.toLowerCase().includes(exp.toLowerCase()) ||
-            exp.toLowerCase().includes(data.workType.toLowerCase().split(' ')[0])
-        );
-    });
-    
-    resetConversation();
-    
-    let report = `🔧 **MASTER PLUMBER CONSULTATION REPORT** 💧\n\n**═══════════════════════════════════**\n\n📋 **YOUR PLUMBING PROJECT:**\n• Work Type: ${data.workType}\n• Details: ${data.details}\n• Budget Range: ${data.budget}\n• Timeline: ${data.timeline}\n\n🎯 **PLUMBING RECOMMENDATIONS:**\n\n**💧 TECHNICAL SPECIFICATIONS:**\n• Use ISI marked pipes and fittings\n• Proper slope for drainage (1:100 ratio)\n• Hot/cold water separate lines\n• Isolation valves for easy maintenance\n\n**🔧 WORK SCOPE:**\n• Material procurement and installation\n• Testing for leaks and pressure\n• Proper pipe insulation where needed\n• Clean-up and debris removal\n\n**👨‍🔧 PERFECT PLUMBER MATCHES:**\n\n`;
-    
-    matchingPlumbers.slice(0, 3).forEach((plumber, index) => {
-        report += `**${index + 1}. ${plumber.name}** ${plumber.verified ? '✅ Verified' : ''}\n`;
-        report += `📍 Location: ${plumber.location} (${plumber.distance} away)\n`;
-        report += `⭐ Rating: ${plumber.rating}/5 (${plumber.reviews} reviews)\n`;
-        report += `🔧 Experience: ${plumber.experience}\n`;
-        report += `🎯 Specializes in: ${plumber.expertise.join(', ')}\n`;
-        report += `💰 Rate range: ₹${plumber.budget}\n`;
-        report += `📞 Contact: ${plumber.phone}\n`;
-        report += `📧 Email: ${plumber.email}\n\n`;
-    });
-    
-    report += `💡 **PROFESSIONAL TIPS:**\n• Always test all connections before final payment\n• Keep warranty receipts for materials\n• Ensure proper ventilation in bathroom work\n• Check water pressure after installation\n• Get written quotation with material details\n\nNeed more specific advice on plumbing materials or installation?`;
-    
-    return report;
-}
-
-function resetConversation() {
-    conversationState.currentFlow = null;
-    conversationState.step = 0;
-    conversationState.userResponses = {};
-    conversationState.projectData = {};
-    return "How else can I help you with your home planning needs?";
-}
-
-// Enhanced AI Consultation Flow Functions
-function startEnhancedBudgetFlow() {
-    conversationState.currentFlow = 'budget';
-    conversationState.step = 1;
-    
-    return currentLanguage === 'hi' ? 
-        `💰 **बजट प्लानिंग में आपकी सहायता करूंगा!**\n\n**प्रश्न 1/4: आपका प्रोजेक्ट कैसा है?**\n\n🏗️ **चुनें:**\n• नया घर निर्माण\n• रेनोवेशन/मरम्मत\n• इंटीरियर डिजाइन\n• कमरा एडिशन\n\nबताएं कि आप क्या बना रहे हैं?` :
-        `💰 **I'll help you plan your budget!**\n\n**Question 1/4: What type of project is this?**\n\n🏗️ **Choose from:**\n• New home construction\n• Renovation/repair\n• Interior design\n• Room addition\n\nTell me what you're building?`;
-}
-
+// Enhanced Professional Services
 function startEnhancedCarpenterFlow() {
-    conversationState.currentFlow = 'carpenter';
-    conversationState.step = 1;
-    
-    return currentLanguage === 'hi' ? 
-        `🪑 **बढ़ई की सेवा चाहिए? मैं सही बढ़ई खोजने में मदद करूंगा!**\n\n**प्रश्न 1/4: कैसा काम करवाना है?**\n\n🛠️ **काम का प्रकार:**\n• अलमारी/वार्डरोब\n• किचन कैबिनेट\n• बेड/फर्नीचर\n• दरवाजे/खिड़कियां\n• मरम्मत का काम\n\nबताएं कि क्या काम है?` :
-        `🪑 **Need a carpenter? I'll help you find the right one!**\n\n**Question 1/4: What type of work do you need?**\n\n🛠️ **Work type:**\n• Cupboard/wardrobe\n• Kitchen cabinets\n• Bed/furniture\n• Doors/windows\n• Repair work\n\nTell me what work you need?`;
-}
-
-function startEnhancedArchitectFlow() {
-    conversationState.currentFlow = 'architect';
-    conversationState.step = 1;
-    
-    return currentLanguage === 'hi' ? 
-        `🏗️ **आर्किटेक्ट खोज रहे हैं? मैं बेहतरीन आर्किटेक्ट ढूंढने में मदद करूंगा!**\n\n**प्रश्न 1/4: कैसा प्रोजेक्ट है?**\n\n🏠 **प्रोजेक्ट का प्रकार:**\n• नया घर डिजाइन\n• रेसिडेंशियल प्लान\n• कमर्शियल बिल्डिंग\n• रेनोवेशन प्लान\n• लैंडस्केप डिजाइन\n\nबताएं कि कैसा प्रोजेक्ट है?` :
-        `🏗️ **Looking for an architect? I'll help you find the perfect one!**\n\n**Question 1/4: What type of project is this?**\n\n🏠 **Project type:**\n• New home design\n• Residential planning\n• Commercial building\n• Renovation planning\n• Landscape design\n\nTell me about your project?`;
+    return `🪑 **प्रोफेशनल कार्पेंटर सर्विसेज** 🛠️\n\n**मैं आपको बेस्ट कार्पेंटर कनेक्ट करवाऊंगा:**\n\n**🔧 सर्विसेज अवेलेबल:**\n• **कस्टम फर्नीचर डिज़ाइन**\n• **किचन कैबिनेट्स** (मॉड्यूलर/कस्टम)\n• **वार्डरोब/अलमारी** (सभी साइज़)\n• **बेड डिज़ाइन** (स्टोरेज के साथ)\n• **TV यूनिट/एंटरटेनमेंट सेंटर**\n• **स्टडी टेबल** (कस्टम साइज़)\n• **डाइनिंग टेबल सेट**\n\n**💰 प्राइस रेंज:**\n• बेसिक क्वालिटी: ₹8,000-20,000\n• स्टैंडर्ड क्वालिटी: ₹20,000-50,000\n• प्रीमियम क्वालिटी: ₹50,000-1,00,000\n• लक्जरी डिज़ाइन: ₹1,00,000+\n\n**📱 कॉन्टैक्ट प्रोसेस:**\n1. आपकी रिक्वायरमेंट बताएं\n2. फ्री कोटेशन & डिज़ाइन मिलेगा\n3. वेरिफाइड कार्पेंटर कनेक्ट करवाएंगे\n4. वर्क कंप्लीट होने तक सपोर्ट मिलेगा\n\n**कौन सा काम करवाना है? डिटेल में बताएं।**`;
 }
 
 function startEnhancedPlumberFlow() {
-    conversationState.currentFlow = 'plumber';
-    conversationState.step = 1;
-    
-    return currentLanguage === 'hi' ? 
-        `🔧 **प्लंबर चाहिए? मैं अच्छे प्लंबर खोजने में मदद करूंगा!**\n\n**प्रश्न 1/4: कैसा काम है?**\n\n💧 **काम का प्रकार:**\n• नया प्लंबिंग इंस्टॉलेशन\n• लीकेज की मरम्मत\n• बाथरूम फिटिंग\n• किचन प्लंबिंग\n• गीजर इंस्टॉलेशन\n\nबताएं कि क्या काम है?` :
-        `🔧 **Need a plumber? I'll help you find a skilled one!**\n\n**Question 1/4: What type of work is needed?**\n\n💧 **Work type:**\n• New plumbing installation\n• Leak repair\n• Bathroom fitting\n• Kitchen plumbing\n• Geyser installation\n\nTell me what work you need?`;
+    return `🔧 **प्रोफेशनल प्लंबिंग सर्विसेज** 💧\n\n**सभी प्रकार के प्लंबिंग वर्क के लिए एक्सपर्ट प्लंबर्स:**\n\n**🚿 सर्विसेज अवेलेबल:**\n• **नया प्लंबिंग इंस्टॉलेशन** (पूरा घर)\n• **बाथरूम कंप्लीट सेटअप**\n• **किचन प्लंबिंग** (सिंक, RO, वॉशर)\n• **गीजर इंस्टॉलेशन** (सभी ब्रांड्स)\n• **पाइप लीकेज रिपेयर**\n• **टॉयलेट सीट रिप्लेसमेंट**\n• **वॉटर प्रेशर सोल्यूशन**\n• **ड्रेनेज सिस्टम क्लीनिंग**\n\n**💰 सर्विस चार्जेस:**\n• एमरजेंसी रिपेयर: ₹300-800\n• नया इंस्टॉलेशन: ₹500-1500/पॉइंट\n• बाथरूम कंप्लीट: ₹15,000-40,000\n• किचन प्लंबिंग: ₹8,000-25,000\n\n**⚡ स्पेशल फीचर्स:**\n• 24x7 एमरजेंसी सर्विस\n• 1 साल की वारंटी\n• क्वालिटी मटेरियल गारंटी\n• फ्री साइट विजिट & एस्टिमेशन\n\n**आपको कौन सा प्लंबिंग वर्क करवाना है? एरिया और प्रॉब्लम बताएं।**`;
 }
 
 function startEnhancedPainterFlow() {
-    conversationState.currentFlow = 'painter';
-    conversationState.step = 1;
-    
-    return currentLanguage === 'hi' ? 
-        `🎨 **पेंटर चाहिए? मैं बेस्ट पेंटर ढूंढने में मदद करूंगा!**\n\n**प्रश्न 1/4: कैसी पेंटिंग करवानी है?**\n\n🖌️ **पेंटिंग का प्रकार:**\n• पूरे घर की पेंटिंग\n• कमरे की पेंटिंग\n• एक्सटीरियर पेंटिंग\n• टेक्सचर पेंटिंग\n• वॉलपेपर लगवाना\n\nबताएं कि कैसी पेंटिंग है?` :
-        `🎨 **Need a painter? I'll help you find an expert painter!**\n\n**Question 1/4: What type of painting work?**\n\n🖌️ **Painting type:**\n• Whole house painting\n• Room painting\n• Exterior painting\n• Texture painting\n• Wallpaper installation\n\nTell me what painting work you need?`;
+    return `🎨 **प्रोफेशनल पेंटिंग सर्विसेज** 🖌️\n\n**बेस्ट क्वालिटी पेंटिंग वर्क के लिए एक्सपर्ट पेंटर्स:**\n\n**🏠 पेंटिंग सर्विसेज:**\n• **इंटीरियर पेंटिंग** (कमरे, हॉल, किचन)\n• **एक्सटीरियर पेंटिंग** (बाहरी दीवारें)\n• **टेक्सचर पेंटिंग** (3D इफेक्ट)\n• **वुड पॉलिशिंग** (दरवाजे, खिड़कियां)\n• **वॉलपेपर इंस्टॉलेशन**\n• **वॉटरप्रूफिंग** (छत, बाथरूम)\n• **रस्ट ट्रीटमेंट** (मेटल सरफेस)\n\n**🎨 पेंट ब्रांड्स अवेलेबल:**\n• Asian Paints (रॉयल/एपेक्स)\n• Berger Paints (सिल्क/वेदर कोट)\n• Nerolac (एक्सेल/इम्प्रेशन)\n• Dulux (वेदरशील्ड)\n\n**💰 पेंटिंग रेट्स (Material + Labor):**\n• बेसिक पेंट: ₹12-18/sqft\n• प्रीमियम पेंट: ₹18-28/sqft\n• टेक्सचर पेंट: ₹25-45/sqft\n• वॉटरप्रूफिंग: ₹35-60/sqft\n\n**🔧 सर्विस इन्क्लूड्स:**\n• फ्री कलर कंसल्टेशन\n• वॉल प्रिपरेशन (पुट्टी, सैंडिंग)\n• 2 कोट्स एप्लिकेशन\n• क्लीनअप आफ्टर वर्क\n• 2 साल की वारंटी\n\n**कितना एरिया पेंट करवाना है और कौन सा टाइप चाहिए?**`;
 }
-
-// Continue conversation flows
-function continueConversationFlow(message) {
-    if (!conversationState.currentFlow) {
-        return "I'm not sure what you're referring to. Could you please start a new question?";
-    }
-    
-    const flow = conversationState.currentFlow;
-    const step = conversationState.step;
-    
-    // Store user response
-    conversationState.userResponses[`step_${step}`] = message;
-    
-    switch (flow) {
-        case 'budget':
-            return continueBudgetFlow(message, step);
-        case 'carpenter':
-            return continueCarpenterFlow(message, step);
-        case 'architect':
-            return continueArchitectFlow(message, step);
-        case 'plumber':
-            return continuePlumberFlow(message, step);
-        case 'painter':
-            return continuePainterFlow(message, step);
-        default:
-            return resetConversation();
-    }
-}
-
-function continueBudgetFlow(message, step) {
-    conversationState.step = step + 1;
-    
-    switch (step) {
-        case 1:
-            conversationState.projectData.projectType = message;
-            return `💰 **Great! ${message} project noted.**\n\n**Question 2/4: What's your location?**\n\n📍 **This helps me suggest:**\n• Local material costs\n• Labor rates in your area\n• Nearby suppliers\n\nExample: "Mumbai, Andheri" or "Pune, Kothrud"`;
-            
-        case 2:
-            conversationState.projectData.location = message;
-            return `📍 **Location: ${message}**\n\n**Question 3/4: What's your approximate budget range?**\n\n💰 **Budget range:**\n• Under ₹5 Lakhs\n• ₹5-15 Lakhs\n• ₹15-30 Lakhs\n• ₹30+ Lakhs\n\nOr tell me your specific budget amount:`;
-            
-        case 3:
-            conversationState.projectData.budget = message;
-            return `💰 **Budget: ${message}**\n\n**Final Question 4/4: Any specific requirements?**\n\n📝 **Optional details:**\n• Timeline (when to start)\n• Special materials needed\n• Specific design preferences\n• Any constraints\n\nOr type "done" to get your budget plan:`;
-            
-        case 4:
-            conversationState.projectData.requirements = message;
-            return generateBudgetPlan(conversationState.projectData);
-            
-        default:
-            return resetConversation();
-    }
-}
-
-function generateBudgetPlan(data) {
-    resetConversation();
-    
-    return `💰 **PERSONALIZED BUDGET PLAN**\n\n🏠 **Project:** ${data.projectType}\n📍 **Location:** ${data.location}\n💳 **Budget:** ${data.budget}\n\n**📊 BUDGET BREAKDOWN:**\n• Material costs (50-60%)\n• Labor charges (25-35%)\n• Design & permits (5-10%)\n• Contingency (10-15%)\n\n**🔍 NEXT STEPS:**\n1. Get 3 quotes from contractors\n2. Visit material suppliers nearby\n3. Factor in 15% extra for changes\n\n**👥 RECOMMENDED PROFESSIONALS:**\nWould you like me to suggest contractors and suppliers in ${data.location}?`;
-}
-
-// AI Chatbot Functions
-window.showChatbot = showChatbot;
-window.sendChatMessage = sendChatMessage;
-window.handleChatInputKeyPress = handleChatInputKeyPress;
-window.toggleVoiceRecognition = toggleVoiceRecognition;
-window.toggleLanguage = toggleLanguage;
